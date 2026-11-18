@@ -235,8 +235,7 @@ a{color:var(--accent)}
     <div class="share-doc" id="sharedoc"></div>
     <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe"></div>
     <div class="share-actions">
-      <a class="btn" id="sendmain" target="_blank" rel="noopener" aria-disabled="true" href="#">Open in Gmail</a>
-      <a class="btn ghost" id="sendapp" aria-disabled="true" href="#">Use my default mail app</a>
+      <a class="btn" id="sendapp" aria-disabled="true" href="#">Submit to Office Email</a>
     </div>
     <p class="share-to" id="shareto"></p>
   </div>
@@ -557,28 +556,23 @@ function shareLinks(){
   const subject="Referral Details for "+(pn||"");
   const body=shareBody(shareCtx.d,shareCtx.l);
   const to=(SHARE&&SHARE.officeEmail)||"";
-  const prov=(SHARE&&SHARE.provider)||"gmail";
-  const main=$("#sendmain"), app=$("#sendapp");
-  main.textContent=prov==="outlook"?"Open in Outlook":"Open in Gmail";
-  main.href=prov==="outlook"
-    ?"https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body)
-    :"https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(to)+"&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+  const app=$("#sendapp");
   app.href="mailto:"+to+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body.replace(/\n/g,"\r\n"));
-  [main,app].forEach(a=>a.setAttribute("aria-disabled",pn?"false":"true"));
+  app.setAttribute("aria-disabled",pn?"false":"true");
 }
 function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
   const l=d.locations.find(x=>Math.abs(x.lat-lat)<1e-6&&Math.abs(x.lng-lng)<1e-6)||d.locations[0];
   shareCtx={d,l};
   $("#sharedoc").innerHTML=`<b>${esc(d.name)}</b>${l.clinic?esc(l.clinic)+"<br>":""}${esc(l.address)}`;
-  $("#shareto").textContent="The email opens addressed to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
+  $("#shareto").textContent="Your mail app opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
   $("#pname").value="";shareLinks();
   $("#share").hidden=false;setTimeout(()=>$("#pname").focus(),50);
 }
 function closeShare(){$("#share").hidden=true;shareCtx=null;}
 $("#pname").addEventListener("input",shareLinks);
-$("#pname").addEventListener("keydown",e=>{if(e.key==="Enter"&&$("#pname").value.trim()){e.preventDefault();$("#sendmain").click();}});
-["#sendmain","#sendapp"].forEach(s=>$(s).addEventListener("click",e=>{
+$("#pname").addEventListener("keydown",e=>{if(e.key==="Enter"&&$("#pname").value.trim()){e.preventDefault();$("#sendapp").click();}});
+["#sendapp"].forEach(s=>$(s).addEventListener("click",e=>{
   if($(s).getAttribute("aria-disabled")==="true"){e.preventDefault();$("#pname").focus();return;}
   if(shareCtx){const l=shareCtx.l;logRemote({mode:"share",q:shareCtx.d.name,label:shareCtx.d.name+" · "+(l.city||""),user:userName()||"",device:deviceType()});}
   setTimeout(closeShare,300);
