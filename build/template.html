@@ -650,7 +650,7 @@ function shareBody(d,l,pn){
   const nf="Not found";
   const addr=[l.clinic,l.address||nf].filter(Boolean).join("\n");
   const contact=["Phone: "+(l.phone||nf),"Fax: "+(l.fax||nf),"Email: "+(l.email||nf)].join("\n");
-  return ["Hi!","Can you please submit a referral for patient "+(pn||"")+" to the following physician:",d.name,addr,contact,"Thanks!\nTaS"].join("\n\n");
+  return ["Hi!","Can you please submit a referral for patient "+(pn||"")+" to the following physician:",d.name,addr,contact,"Thanks!"+(userName()?"\n"+userName():"")].join("\n\n");
 }
 function shareLinks(){
   if(!shareCtx)return;
