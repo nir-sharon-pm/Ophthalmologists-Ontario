@@ -1164,7 +1164,7 @@ function addHistory(mode,q,label){
   logRemote(e);
 }
 /* shared log for the site owner (Google Form). Disabled until LOG is configured. */
-const LOG=null;
+const LOG={"action": "https://docs.google.com/forms/d/e/1FAIpQLSdRIxBu7Hrw2l93W-1EMEu7txrE9uq0849Ky1uogKbR2xCcXQ/formResponse", "fields": {"name": "entry.1684936500", "kind": "entry.1871057015", "search": "entry.968348557", "device": "entry.1756592965", "site": "entry.1716605679"}};
 function logRemote(e){
   try{
     if(!LOG||!LOG.action||!LOG.fields)return;
