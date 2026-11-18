@@ -1,5 +1,30 @@
 [
  {
+  "id": "abdelghaffar-walid",
+  "name": "Dr. Walid Abdelghaffar",
+  "legal": "Walid Abdelghaffar Youssef Abdelghaffar",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=144753"
+  ],
+  "note": "",
+  "cpso": "144753",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "2065 Finch Avenue West, Toronto, ON M3N 1W8",
+    "city": "Toronto",
+    "lat": 43.75602,
+    "lng": -79.52428,
+    "phone": "416-748-2020",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "abel-selwyn",
   "name": "Dr. Selwyn Abel",
   "legal": "Selwyn Leigh Abel",
@@ -908,6 +933,31 @@
   ]
  },
  {
+  "id": "alshaker-sara",
+  "name": "Dr. Sara Alshaker",
+  "legal": "Sara Mohammed M Alshaker",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=106015"
+  ],
+  "note": "",
+  "cpso": "106015",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "790 Bay Street, Suite 340, Toronto, ON M5G 1N8",
+    "city": "Toronto",
+    "lat": 43.66002,
+    "lng": -79.3856,
+    "phone": "416-979-9993",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "altomare-filiberto",
   "name": "Dr. Filiberto Altomare",
   "legal": "Filiberto Altomare",
@@ -1803,6 +1853,51 @@
     "lng": -79.87122,
     "phone": "905-527-5559",
     "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "ballios-brian",
+  "name": "Dr. Brian Ballios",
+  "legal": "Brian George Ballios",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=106701"
+  ],
+  "note": "",
+  "cpso": "106701",
+  "locations": [
+   {
+    "clinic": "Kensington Eye Institute",
+    "address": "340 College Street, Suite 501, Toronto, ON M5T 3A9",
+    "city": "Toronto",
+    "lat": 43.65739,
+    "lng": -79.40298,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "Sunnybrook Health Sciences Centre; Department of Ophthalmology and Vision Sciences",
+    "address": "2075 Bayview Avenue, Toronto, ON M4N 3M5",
+    "city": "Toronto",
+    "lat": 43.72029,
+    "lng": -79.37875,
+    "phone": "416-480-5280",
+    "fax": "844-222-4579",
+    "email": ""
+   },
+   {
+    "clinic": "Toronto Western Hospital; Department of Ophthalmology",
+    "address": "399 Bathurst St, 6th Floor, Room 423, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.65278,
+    "lng": -79.40619,
+    "phone": "416-603-5444",
+    "fax": "416-603-5903",
     "email": ""
    }
   ]
@@ -5663,6 +5758,51 @@
   ]
  },
  {
+  "id": "emami-seema",
+  "name": "Dr. Seema Emami",
+  "legal": "Seema Emami",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=115869"
+  ],
+  "note": "",
+  "cpso": "115869",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "18 Wynford Drive, Suite 108, Toronto, ON M3C 3S2",
+    "city": "Toronto",
+    "lat": 43.72304,
+    "lng": -79.33919,
+    "phone": "416-494-7455",
+    "fax": "416-494-4833",
+    "email": ""
+   },
+   {
+    "clinic": "Toronto Western Hospital; Dept of Ophthalmology",
+    "address": "399 Bathurst Street, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.65278,
+    "lng": -79.40619,
+    "phone": "416-603-5444",
+    "fax": "416-603-5903",
+    "email": ""
+   },
+   {
+    "clinic": "",
+    "address": "60 Murray Street, Toronto, ON M5T 3L9",
+    "city": "Toronto",
+    "lat": 43.65741,
+    "lng": -79.39115,
+    "phone": "416-586-4800 ext. 5151",
+    "fax": "416-586-8789",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "emara-barry",
   "name": "Dr. Barry Emara",
   "legal": "Barry Yehia Emara",
@@ -7134,6 +7274,41 @@
   ]
  },
  {
+  "id": "graef-sybille",
+  "name": "Dr. Sybille Graef",
+  "legal": "Sybille Graef",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=114056"
+  ],
+  "note": "",
+  "cpso": "114056",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "555 University Avenue, Toronto, ON M5G 1X8",
+    "city": "Toronto",
+    "lat": 43.65751,
+    "lng": -79.38931,
+    "phone": "416-813-1500",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "Kensington Vision and Research Center",
+    "address": "600-340 College St, Toronto, ON M5T 3A9",
+    "city": "Toronto",
+    "lat": 43.65739,
+    "lng": -79.40298,
+    "phone": "416-928-2132",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "gray-dale",
   "name": "Dr. Dale Gray",
   "legal": "Dale Ellen Gray",
@@ -7942,6 +8117,31 @@
   ]
  },
  {
+  "id": "hazari-hassan",
+  "name": "Dr. Hassan Hazari",
+  "legal": "Hassan Hazari",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=121051"
+  ],
+  "note": "",
+  "cpso": "121051",
+  "locations": [
+   {
+    "clinic": "The Hospital for Sick Children; Department of Ophthalmology",
+    "address": "170 Elizabeth Street, Toronto, ON M5G 1E8",
+    "city": "Toronto",
+    "lat": 43.65738,
+    "lng": -79.38611,
+    "phone": "416-813-6838",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "hebert-melanie",
   "name": "Dr. Mélanie Hébert",
   "legal": "Mélanie Hébert",
@@ -8441,6 +8641,31 @@
   "cpso": "68179"
  },
  {
+  "id": "ibrahim-fahim",
+  "name": "Dr. Fahim Ibrahim",
+  "legal": "Fahim Kamal Fahim Ibrahim",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=68723"
+  ],
+  "note": "",
+  "cpso": "68723",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "Suite 115, 704 Mara Street, Point Edward, ON N7V 1X4",
+    "city": "Point Edward",
+    "lat": 42.98965,
+    "lng": -82.40047,
+    "phone": "519-336-9988",
+    "fax": "519-336-8069",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "iizuka-megumi",
   "name": "Dr. Megumi Iizuka",
   "legal": "Megumi Iizuka",
@@ -8491,6 +8716,31 @@
     "lng": -79.37652,
     "phone": "416-867-7422",
     "fax": "416-864-6012",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "im-jacob",
+  "name": "Dr. Jacob Im",
+  "legal": "Jacob Junhyuk Im",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=282793"
+  ],
+  "note": "",
+  "cpso": "282793",
+  "locations": [
+   {
+    "clinic": "St. Michael's Hospital; Retina Unit",
+    "address": "30 Bond Street, 8th Floor Donnelly Wing, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.65322,
+    "lng": -79.37702,
+    "phone": "416-360-4000",
+    "fax": "",
     "email": ""
    }
   ]
@@ -8705,6 +8955,31 @@
   ]
  },
  {
+  "id": "javadian-farnaz",
+  "name": "Dr. Farnaz Javadian",
+  "legal": "Farnaz Javadian",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=131473"
+  ],
+  "note": "",
+  "cpso": "131473",
+  "locations": [
+   {
+    "clinic": "The Hospital for Sick Children",
+    "address": "170 Elizabeth Street, Toronto, ON M5G 1E8",
+    "city": "Toronto",
+    "lat": 43.65738,
+    "lng": -79.38611,
+    "phone": "416-813-1500",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "javed-ahmed",
   "name": "Dr. Ahmed Javed",
   "legal": "Ahmed Javed",
@@ -8767,6 +9042,34 @@
     "lat": 45.53635,
     "lng": -73.61018,
     "phone": "514-890-8000",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "jiang-shangjun",
+  "name": "Dr. Shangjun Jiang",
+  "legal": "Shangjun Jiang",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=144675",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
+  ],
+  "note": "",
+  "cpso": "144675",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "3280 Bloor Street West, Suite 310, Toronto, ON M8X 2X3",
+    "city": "Toronto",
+    "lat": 43.64508,
+    "lng": -79.52216,
+    "phone": "",
     "fax": "",
     "email": ""
    }
@@ -10461,6 +10764,31 @@
   ]
  },
  {
+  "id": "lam-wai-ching",
+  "name": "Dr. Wai-Ching Lam",
+  "legal": "Wai-Ching Lam",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=63438"
+  ],
+  "note": "",
+  "cpso": "63438",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "Unit 2807, 825 Church Street, Toronto, ON M4W 3Z4",
+    "city": "Toronto",
+    "lat": 43.67216,
+    "lng": -79.3849,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "lane-david",
   "name": "Dr. David Lane",
   "legal": "David Peter Pasco Lane",
@@ -11167,6 +11495,31 @@
     "lat": 45.37109,
     "lng": -75.7683,
     "phone": "613-596-0300",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "liu-jiayi",
+  "name": "Dr. Jiayi Liu",
+  "legal": "Jiayi Liu",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=153142"
+  ],
+  "note": "",
+  "cpso": "153142",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "60 Murray Street, Toronto, ON M5T 3L9",
+    "city": "Toronto",
+    "lat": 43.65741,
+    "lng": -79.39115,
+    "phone": "416-586-4800 ext. 5151",
     "fax": "",
     "email": ""
    }
@@ -12060,6 +12413,41 @@
   ]
  },
  {
+  "id": "martins-melo-isabela",
+  "name": "Dr. Isabela Martins Melo",
+  "legal": "Isabela Martins Melo",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=146859"
+  ],
+  "note": "",
+  "cpso": "146859",
+  "locations": [
+   {
+    "clinic": "St. Michael's Hospital",
+    "address": "30 Bond Street, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.65322,
+    "lng": -79.37702,
+    "phone": "416-360-4000",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "The Hospital For Sick Children",
+    "address": "170 Elizabeth Street, Toronto, ON M5G 1E8",
+    "city": "Toronto",
+    "lat": 43.65738,
+    "lng": -79.38611,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "martow-jeffrey",
   "name": "Dr. Jeffrey Martow",
   "focus": "Glaucoma (U of T glaucoma fellowship)",
@@ -12087,6 +12475,31 @@
    "Glaucoma"
   ],
   "cpso": "61607"
+ },
+ {
+  "id": "mason-ryan",
+  "name": "Dr. Ryan Mason",
+  "legal": "Ryan Huntley Mason",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=121908"
+  ],
+  "note": "",
+  "cpso": "121908",
+  "locations": [
+   {
+    "clinic": "UHN Toronto Western Hospital; Department of Ophthalmology",
+    "address": "399 Bathurst Street, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.65278,
+    "lng": -79.40619,
+    "phone": "416-603-6470",
+    "fax": "416-603-5488",
+    "email": ""
+   }
+  ]
  },
  {
   "id": "mather-rookaya",
@@ -12670,6 +13083,31 @@
     "lng": -75.58758,
     "phone": "613-741-4342",
     "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "mednick-edward",
+  "name": "Dr. Edward Mednick",
+  "legal": "Edward Bernard Mednick",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=22740"
+  ],
+  "note": "",
+  "cpso": "22740",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "385 The West Mall, 385 THE WEST MALL, Toronto, ON M9C 1E7",
+    "city": "Toronto",
+    "lat": 43.64214,
+    "lng": -79.56577,
+    "phone": "416-622-1864",
+    "fax": "416-622-1865",
     "email": ""
    }
   ]
@@ -13712,6 +14150,31 @@
   ]
  },
  {
+  "id": "nanji-keean",
+  "name": "Dr. Keean Nanji",
+  "legal": "Keean Nanji",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=121129"
+  ],
+  "note": "",
+  "cpso": "121129",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "30 Bond Street, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.65322,
+    "lng": -79.37702,
+    "phone": "416-867-7422",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "nassrallah-georges",
   "name": "Dr. Georges Nassrallah",
   "legal": "Georges Bassam Nassrallah",
@@ -14158,6 +14621,31 @@
     "lat": 43.8313,
     "lng": -79.03259,
     "phone": "905-721-1211",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "niknam-sasan",
+  "name": "Dr. Sasan Niknam",
+  "legal": "Sasan Niknam",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=272248"
+  ],
+  "note": "",
+  "cpso": "272248",
+  "locations": [
+   {
+    "clinic": "Goldberg Centre Vision",
+    "address": "2235 Kennedy Road, Toronto, ON M1T 3G8",
+    "city": "Toronto",
+    "lat": 43.7805,
+    "lng": -79.28688,
+    "phone": "416-412-4441",
     "fax": "",
     "email": ""
    }
@@ -14713,6 +15201,34 @@
   ]
  },
  {
+  "id": "owji-naser",
+  "name": "Dr. Naser Owji",
+  "legal": "Naser Owji",
+  "focus": "Oculoplastics & orbit",
+  "subs": [
+   "Oculoplastics & orbit"
+  ],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=288325",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
+  ],
+  "note": "",
+  "cpso": "288325",
+  "locations": [
+   {
+    "clinic": "Toronto Eyelid Surgery",
+    "address": "309-1033 Bay Street, Toronto, ON M5S 3A5",
+    "city": "Toronto",
+    "lat": 43.66656,
+    "lng": -79.38806,
+    "phone": "416-962-5005",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "park-jong",
   "name": "Dr. Jong Park",
   "legal": "Jong Geol Park",
@@ -14957,6 +15473,31 @@
   ]
  },
  {
+  "id": "pereira-austin",
+  "name": "Dr. Austin Pereira",
+  "legal": "Austin Michael Pereira",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=121072"
+  ],
+  "note": "",
+  "cpso": "121072",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "2425 Bloor Street West, Suite 513, Toronto, ON M6S 1P9",
+    "city": "Toronto",
+    "lat": 43.64967,
+    "lng": -79.48303,
+    "phone": "416-760-8763",
+    "fax": "647-689-2276",
+    "email": ""
+   }
+  ]
+ },
+ {
   "id": "perreault-christian",
   "name": "Dr. Christian Perreault",
   "focus": "Ophthalmology",
@@ -15014,6 +15555,31 @@
     "phone": "416-928-2132",
     "fax": "416-928-6607",
     "email": ""
+   }
+  ]
+ },
+ {
+  "id": "pichi-francesco",
+  "name": "Dr. Francesco Pichi",
+  "legal": "Francesco Pichi",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=157159"
+  ],
+  "note": "",
+  "cpso": "157159",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "340 College Street, Toronto, ON M5T 3A9",
+    "city": "Toronto",
+    "lat": 43.65739,
+    "lng": -79.40298,
+    "phone": "416-928-1335",
+    "fax": "416-928-5075",
+    "email": "fpichi@kensigtonhealth.org"
    }
   ]
  },
@@ -15353,6 +15919,74 @@
     "lng": -75.64061,
     "phone": "613-745-7844",
     "fax": "613-745-5957",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "popovic-marko",
+  "name": "Dr. Marko Popovic",
+  "legal": "Marko Popovic",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=118709",
+   "https://ophthalmology.utoronto.ca/faculty/marko-popovic"
+  ],
+  "note": "",
+  "cpso": "118709",
+  "locations": [
+   {
+    "clinic": "St. Michael's Hospital, Unity Health Toronto; Department of Ophthalmology",
+    "address": "30 Bond Street, 8th Floor, Donnelly Wing, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.65322,
+    "lng": -79.37702,
+    "phone": "416-867-7410",
+    "fax": "416-867-7406",
+    "email": ""
+   },
+   {
+    "clinic": "Retina Consultants of Toronto",
+    "address": "4100 Yonge Street, Suite 110D, Toronto, ON M2P 2B5",
+    "city": "Toronto",
+    "lat": 43.74539,
+    "lng": -79.40701,
+    "phone": "416-867-7410",
+    "fax": "416-639-9482",
+    "email": ""
+   },
+   {
+    "clinic": "Kensington Eye Institute",
+    "address": "340 College Street, Suite 501, Toronto, ON M5T 3A9",
+    "city": "Toronto",
+    "lat": 43.65739,
+    "lng": -79.40298,
+    "phone": "416-928-1335",
+    "fax": "416-928-5075",
+    "email": ""
+   },
+   {
+    "clinic": "",
+    "address": "1849 Yonge Street, Suite 705, Toronto, ON M4S 1Y2",
+    "city": "Toronto",
+    "lat": 43.69703,
+    "lng": -79.39632,
+    "phone": "416-663-3937",
+    "fax": "416-663-3731",
+    "email": ""
+   },
+   {
+    "clinic": "",
+    "address": "2238 Dundas Street West, Suite 308, Toronto, ON M6R 3A9",
+    "city": "Toronto",
+    "lat": 43.65472,
+    "lng": -79.45201,
+    "phone": "416-663-3937",
+    "fax": "416-663-3731",
     "email": ""
    }
   ]
@@ -17022,6 +17656,34 @@
     "lng": -79.50414,
     "phone": "289-963-1717",
     "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "shah-parth",
+  "name": "Dr. Parth Shah",
+  "legal": "Parth Shah",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=157070",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
+  ],
+  "note": "",
+  "cpso": "157070",
+  "locations": [
+   {
+    "clinic": "Toronto Retina Institute",
+    "address": "6 Maginn Mews, Toronto, ON M3C 0G6",
+    "city": "Toronto",
+    "lat": 43.72123,
+    "lng": -79.35096,
+    "phone": "416-449-3937",
+    "fax": "416-449-0874",
     "email": ""
    }
   ]
@@ -19519,6 +20181,41 @@
     "lat": 45.53391,
     "lng": -73.71629,
     "phone": "514-338-2222",
+    "fax": "",
+    "email": ""
+   }
+  ]
+ },
+ {
+  "id": "waldie-anna",
+  "name": "Dr. Anna Waldie",
+  "legal": "Anna Michelle Waldie",
+  "focus": "Ophthalmology",
+  "subs": [],
+  "tier": "",
+  "sources": [
+   "https://register.cpso.on.ca/physician-info/?cpsonum=284804"
+  ],
+  "note": "",
+  "cpso": "284804",
+  "locations": [
+   {
+    "clinic": "",
+    "address": "399 Bathurst Street, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.65278,
+    "lng": -79.40619,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "Sunnybrook Hospital; Ophthalmology",
+    "address": "2075 Bayview Avenue, Toronto, ON M4G 1R7",
+    "city": "Toronto",
+    "lat": 43.71763,
+    "lng": -79.37162,
+    "phone": "",
     "fax": "",
     "email": ""
    }

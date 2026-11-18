@@ -6076,5 +6076,278 @@
   "cities": [
    "healthdoc"
   ]
+ },
+ {
+  "cpso": "272248",
+  "name": "Niknam, Sasan",
+  "specialties": "Ophthalmology +1",
+  "location": "2235 Kennedy Road Goldberg Centre Vision Toronto Ontario M1T 3G8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=272248",
+  "cities": [
+   "pc:M1T"
+  ]
+ },
+ {
+  "cpso": "118709",
+  "name": "Popovic, Marko",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond Street St. Michael's Hospital, Unity Health Toronto Department of Ophthalmology 8th Floor, Donnelly Wing Toronto Ontario M5B 1W8 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=118709",
+  "cities": [
+   "pc:M2P",
+   "pc:M4S",
+   "pc:M5B",
+   "pc:M5T",
+   "pc:M6R"
+  ]
+ },
+ {
+  "cpso": "115869",
+  "name": "Emami, Seema",
+  "specialties": "Ophthalmology",
+  "location": "18 Wynford Drive Suite 108 Toronto Ontario M3C 3S2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115869",
+  "cities": [
+   "pc:M3C",
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "157070",
+  "name": "Shah, Parth",
+  "specialties": "Ophthalmology",
+  "location": "6 Maginn Mews Toronto Retina Institute Toronto Ontario M3C 0G6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=157070",
+  "cities": [
+   "pc:M3C"
+  ]
+ },
+ {
+  "cpso": "144753",
+  "name": "Abdelghaffar, Walid Abdelghaffar Youssef",
+  "specialties": "Ophthalmology",
+  "location": "2065 Finch Avenue West Toronto Ontario M3N 1W8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=144753",
+  "cities": [
+   "pc:M3N"
+  ]
+ },
+ {
+  "cpso": "284804",
+  "name": "Waldie, Anna Michelle",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst Street Toronto Ontario M5T 2S8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=284804",
+  "cities": [
+   "pc:M4G",
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "106701",
+  "name": "Ballios, Brian George",
+  "specialties": "Ophthalmology",
+  "location": "Kensington Eye Institute 340 College Street, Suite 501 Toronto Ontario M5T 3A9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106701",
+  "cities": [
+   "pc:M4N",
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "63438",
+  "name": "Lam, Wai-Ching",
+  "specialties": "Ophthalmology",
+  "location": "Unit 2807 825 Church Street Toronto Ontario M4W 3Z4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=63438",
+  "cities": [
+   "pc:M4W"
+  ]
+ },
+ {
+  "cpso": "282793",
+  "name": "Im, Jacob Junhyuk",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond Street St. Michael's Hospital Retina Unit 8th Floor Donnelly Wing Toronto Ontario M5B 1W8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=282793",
+  "cities": [
+   "pc:M5B"
+  ]
+ },
+ {
+  "cpso": "146859",
+  "name": "Martins Melo, Isabela",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond Street St. Michael's Hospital Toronto Ontario M5B 1W8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=146859",
+  "cities": [
+   "pc:M5B",
+   "pc:M5G"
+  ]
+ },
+ {
+  "cpso": "121129",
+  "name": "Nanji, Keean",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond Street Toronto Ontario M5B 1W8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121129",
+  "cities": [
+   "pc:M5B"
+  ]
+ },
+ {
+  "cpso": "106015",
+  "name": "Alshaker, Sara Mohammed M",
+  "specialties": "Ophthalmology",
+  "location": "790 Bay Street Suite 340 Toronto Ontario M5G 1N8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106015",
+  "cities": [
+   "pc:M5G"
+  ]
+ },
+ {
+  "cpso": "114056",
+  "name": "Graef, Sybille",
+  "specialties": "Ophthalmology",
+  "location": "555 University Avenue Toronto Ontario M5G 1X8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=114056",
+  "cities": [
+   "pc:M5G",
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "121051",
+  "name": "Hazari, Hassan",
+  "specialties": "Ophthalmology",
+  "location": "170 Elizabeth Street The Hospital for Sick Children Department of Ophthalmology Toronto Ontario M5G 1E8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121051",
+  "cities": [
+   "pc:M5G"
+  ]
+ },
+ {
+  "cpso": "131473",
+  "name": "Javadian, Farnaz",
+  "specialties": "Ophthalmology",
+  "location": "170 Elizabeth Street The Hospital for Sick Children Toronto Ontario M5G 1E8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131473",
+  "cities": [
+   "pc:M5G"
+  ]
+ },
+ {
+  "cpso": "288325",
+  "name": "Owji, Naser",
+  "specialties": "Ophthalmology",
+  "location": "309-1033 Bay Street Toronto Eyelid Surgery Toronto Ontario M5S 3A5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=288325",
+  "cities": [
+   "pc:M5S"
+  ]
+ },
+ {
+  "cpso": "153142",
+  "name": "Liu, Jiayi",
+  "specialties": "Ophthalmology",
+  "location": "60 Murray Street Toronto Ontario M5T 3L9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=153142",
+  "cities": [
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "121908",
+  "name": "Mason, Ryan Huntley",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst Street UHN Toronto Western Hospital Department of Ophthalmology East Wing 7- 472 Toronto Ontario M5T 2S8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121908",
+  "cities": [
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "157159",
+  "name": "Pichi, Francesco",
+  "specialties": "Ophthalmology",
+  "location": "340 College Street Toronto Ontario M5T 3A9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=157159",
+  "cities": [
+   "pc:M5T"
+  ]
+ },
+ {
+  "cpso": "131450",
+  "name": "Lo, Cody",
+  "specialties": "Ophthalmology",
+  "location": "120-100 King Street West Toronto Ontario M5X 1C0",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131450",
+  "cities": [
+   "pc:M5X"
+  ]
+ },
+ {
+  "cpso": "121072",
+  "name": "Pereira, Austin Michael",
+  "specialties": "Ophthalmology",
+  "location": "2425 Bloor Street West Suite 513 Toronto Ontario M6S 1P9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121072",
+  "cities": [
+   "pc:M6S"
+  ]
+ },
+ {
+  "cpso": "144675",
+  "name": "Jiang, Shangjun",
+  "specialties": "Ophthalmology",
+  "location": "3280 Bloor Street West Suite 310 Toronto Ontario M8X 2X3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=144675",
+  "cities": [
+   "pc:M8X"
+  ]
+ },
+ {
+  "cpso": "22740",
+  "name": "Mednick, Edward Bernard",
+  "specialties": "Ophthalmology +1",
+  "location": "385 The West Mall 385 THE WEST MALL Toronto Ontario M9C 1E7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=22740",
+  "cities": [
+   "pc:M9C"
+  ]
+ },
+ {
+  "cpso": "68723",
+  "name": "Ibrahim, Fahim Kamal Fahim",
+  "specialties": "Ophthalmology Phone: (519) 336-9988 Fax: (519) 336-8069",
+  "location": "Suite 115704 Mara StreetPoint Edward Ontario N7V 1X4",
+  "status": "Active",
+  "url": "javascript:///physician-info/?cpsonum=68723",
+  "cities": [
+   "pc:N7V"
+  ]
  }
 ]
