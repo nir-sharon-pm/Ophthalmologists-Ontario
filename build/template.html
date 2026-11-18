@@ -123,6 +123,7 @@ a{color:var(--accent)}
   .app{height:auto}
   main{grid-template-columns:1fr;grid-template-rows:auto auto}
   .mapwrap{order:-1;height:34vh;min-height:220px;max-height:340px}
+  #map{min-height:0}
   .legend{display:none}
   aside{border-right:0;padding-right:max(16px,env(safe-area-inset-right,0px));overflow:visible}
   .status{order:3}
@@ -151,6 +152,7 @@ a{color:var(--accent)}
 .drawer li .q{font-weight:600}
 .drawer li .m{font-size:12px;color:var(--muted)}
 .link.danger{color:var(--danger)}
+.mapempty{position:absolute;z-index:600;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--panel);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.15);pointer-events:none}
 .noresult{margin:0 0 12px;background:var(--warn-soft);color:var(--ink);border:1px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:14px}
 .noresult p{margin:0 0 8px}
 .noresult .sugs{display:flex;flex-wrap:wrap;gap:6px}
@@ -239,6 +241,7 @@ a{color:var(--accent)}
   <div class="mapwrap">
     <div id="map" role="application" aria-label="Map of ophthalmologists"></div>
     <div class="regions" id="regions"></div>
+    <div class="mapempty" id="mapempty" hidden>No results</div>
     <div class="legend"><span><i class="lg-pin"></i>Clinic (number = doctors)</span><span><i class="lg-top"></i>Top 3 nearest</span><span><i class="lg-pt"></i>Patient</span></div>
   </div>
 </main>
@@ -366,6 +369,8 @@ function siteBestRank(s){let b=0;if(!ranking)return 0;s.docs.forEach(x=>{const r
 function shortClinic(c){return String(c||"").replace(/,.*$/,"").slice(0,40);}
 function drawSites(){
   siteLayer.clearLayers();
+  $("#mapempty").hidden=!noRes;
+  if(noRes)return;
   const sites=buildSites(), z=map.getZoom();
   const pts=sites.map(s=>({s,p:map.latLngToLayerPoint([s.lat,s.lng]),r:siteBestRank(s)}));
   const R=z>=12?30:44, clusters=[];
@@ -455,11 +460,11 @@ function renderList(){
   </div>`;
   let body="",head;
   if(noRes){
-    el.innerHTML=noResHtml()+filters+aboutHtml();return;
+    el.innerHTML=filters+`<div class="cards">${noResHtml()}</div>`+aboutHtml();return;
   }
   if(searchMode==="name"&&nameQuery){
     const hits=visibleDoctors();
-    if(!hits.length&&nameSet&&nameSet.size){noRes={type:"filtered",q:nameQuery,count:nameSet.size};el.innerHTML=noResHtml()+filters+aboutHtml();return;}
+    if(!hits.length&&nameSet&&nameSet.size){noRes={type:"filtered",q:nameQuery,count:nameSet.size};el.innerHTML=filters+`<div class="cards">${noResHtml()}</div>`+aboutHtml();drawSites();return;}
     const rows=[];hits.forEach(d=>{const ls=d.locations.filter(locVisible);(ls.length?ls:d.locations).forEach(l=>rows.push({d,l}));});
     head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. ${filterLabel()?`Showing matches under the current filters (${esc(filterLabel())})`:"Showing matches in every city and subspecialty"}; clear the search to go back.</p></div>`;
     body=rows.slice(0,MAXCARDS).map(r=>card(r.d,r.l,0,null)).join("")||`<p class="msg">No doctor found. Check the spelling or try the last name only.</p>`;
@@ -584,6 +589,7 @@ function noResHtml(){
 function showNoRes(state){
   noRes=state;searchMode="loc";nameQuery="";nameSet=null;patient=null;ranking=null;altHits=[];geoMsg="";
   $("#clear").hidden=false;refresh();
+  map.flyToBounds(VIEW_ALL,{duration:.6});
   $("#list").scrollTop=0;
   if(matchMedia("(max-width:820px)").matches)$("#list").scrollIntoView({behavior:"smooth",block:"start"});
 }
