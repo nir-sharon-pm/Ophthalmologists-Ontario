@@ -124,6 +124,12 @@ a{color:var(--accent)}
   .mapwrap{order:-1;height:56vh}
   aside{border-right:0;padding-right:max(16px,env(safe-area-inset-right,0px));overflow:visible}
   .status{order:3}
+  header{gap:10px 12px}
+  .brand{flex:1 1 0;order:0}
+  .userbox{order:1}
+  form.search{order:2;flex:1 1 100%}
+  .brand h1{font-size:18px}
+  .status{font-size:11.5px}
 }
 .modebar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;width:100%}
 .modelabel{font-size:12.5px;color:var(--muted);font-weight:500}
@@ -143,9 +149,18 @@ a{color:var(--accent)}
 .drawer li .q{font-weight:600}
 .drawer li .m{font-size:12px;color:var(--muted)}
 .link.danger{color:var(--danger)}
-.userbox{display:flex;align-items:center;gap:8px}
-.who-chip{font-size:12.5px;color:var(--muted);white-space:nowrap;max-width:180px;overflow:hidden;text-overflow:ellipsis}
-.who-chip button{font-size:12.5px}
+.userbox{position:relative;margin-left:auto}
+.avatar-btn{border:0;background:none;padding:0;cursor:pointer;border-radius:50%;display:block}
+.av{display:block;width:44px;height:44px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 2px var(--panel),0 0 0 3.5px var(--line)}
+.av svg{width:100%;height:100%;display:block}
+.av.lg{width:52px;height:52px;flex:none}
+.avatar-btn:hover .av,.avatar-btn[aria-expanded="true"] .av{box-shadow:0 0 0 2px var(--panel),0 0 0 3.5px var(--accent)}
+.umenu{position:absolute;right:0;top:calc(100% + 8px);z-index:2500;background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 28px rgba(0,0,0,.18);min-width:240px;padding:8px;display:flex;flex-direction:column;gap:2px}
+.umenu-head{display:flex;align-items:center;gap:12px;padding:8px 8px 12px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.umenu-label{font-size:12px;color:var(--muted)}
+.umenu-name{font-weight:600;font-size:15px;overflow-wrap:anywhere}
+.umenu button[role=menuitem]{text-align:left;border:0;background:none;padding:11px 10px;border-radius:8px;font-size:15px;cursor:pointer;color:var(--ink)}
+.umenu button[role=menuitem]:hover,.umenu button[role=menuitem]:focus-visible{background:var(--bg)}
 .welcome{position:fixed;inset:0;z-index:3000;background:var(--bg);display:flex;align-items:center;justify-content:center;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px;overflow:auto}
 .wcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px;max-width:440px;width:100%;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
 .wcard h2{margin:0;font-size:21px;text-wrap:balance}
@@ -172,7 +187,14 @@ a{color:var(--accent)}
     <button class="btn ghost" type="button" id="clear" hidden>Clear</button>
   </form>
   <div class="status" id="status"><span class="dot"></span><span>Loading data…</span></div>
-  <div class="userbox histbtn"><span class="who-chip" id="whochip" hidden></span><button class="btn ghost" type="button" id="histbtn" aria-haspopup="dialog">History</button></div>
+  <div class="userbox">
+    <button type="button" class="avatar-btn" id="avbtn" aria-haspopup="menu" aria-expanded="false" aria-label="Account menu"><span class="av" id="avimg"></span></button>
+    <div class="umenu" id="umenu" role="menu" hidden>
+      <div class="umenu-head"><span class="av lg" id="avimg2"></span><div><div class="umenu-label">Signed in as</div><div class="umenu-name" id="uname"></div></div></div>
+      <button type="button" role="menuitem" id="m-change">Change name</button>
+      <button type="button" role="menuitem" id="histbtn">View history</button>
+    </div>
+  </div>
 </header>
 <main>
   <aside id="list" aria-live="polite"></aside>
@@ -526,8 +548,8 @@ function renderHistory(){
   $("#histlist").innerHTML=h.length?h.map((x,i)=>`<li><button type="button" data-h="${i}"><span class="q">${esc(x.q)}</span><span class="m">${x.mode==="name"?"Doctor name":"Location"}${x.mode==="loc"&&x.label!==x.q?" · "+esc(x.label):""} · ${esc(new Date(x.t).toLocaleString())}</span><span class="m">${esc(x.user||"Unknown user")} · ${esc(x.device||"")}</span></button></li>`).join(""):`<li class="m">No searches yet. Your location and doctor-name searches will appear here.</li>`;
 }
 function openHistory(){renderHistory();$("#histconfirm").hidden=true;$("#hist").hidden=false;$("#histclose").focus();}
-function closeHistory(){$("#hist").hidden=true;$("#histbtn").focus();}
-$("#histbtn").addEventListener("click",openHistory);
+function closeHistory(){$("#hist").hidden=true;$("#avbtn").focus();}
+$("#histbtn").addEventListener("click",()=>{closeMenu();openHistory();});
 $("#histclose").addEventListener("click",closeHistory);
 $("#hist").addEventListener("click",e=>{if(e.target.id==="hist")closeHistory();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#hist").hidden)closeHistory();});
@@ -556,12 +578,48 @@ if(![...SUBS,NOT_LISTED,"All"].includes(filterSub))filterSub="Glaucoma";
 fillLists();updateLabels();refresh();
 setTimeout(()=>map.invalidateSize(),50);
 if(window.claude)connect();else setTimeout(connect,300);
-/* ---------- welcome / name ---------- */
+/* ---------- welcome / name / avatar ---------- */
 function userName(){try{return localStorage.getItem("oph.user")||"";}catch{return "";}}
-function showUser(){const n=userName();const c=$("#whochip");if(n){c.hidden=false;c.innerHTML=`${esc(n)} · <button class="link" type="button" id="changeuser">Change</button>`;}else c.hidden=true;}
+const ANIMALS=["cat","dog","bear","bunny","fox","panda","koala","raccoon"];
+function avatarIndex(){
+  let i=null;try{i=localStorage.getItem("oph.avatar");}catch{}
+  if(i===null||isNaN(+i)||+i<0||+i>=ANIMALS.length){i=Math.floor(Math.random()*ANIMALS.length);try{localStorage.setItem("oph.avatar",String(i));}catch{}}
+  return +i;
+}
+function avatarSVG(kind){
+  const P={cat:{f:"#f2b46d",d:"#d98c3a",in:"#ffd9e1",bg:"#ffe9cc"},dog:{f:"#c99a6b",d:"#8a5a35",in:"#e8c39e",bg:"#e6f0ff"},bear:{f:"#a8703f",d:"#7a4c25",in:"#d9a877",bg:"#e8f6ec"},bunny:{f:"#f4f1ee",d:"#d8cfc8",in:"#ffc7d6",bg:"#ffe6f0"},fox:{f:"#f08a3c",d:"#c85f1a",in:"#fff4ea",bg:"#fff1df"},panda:{f:"#ffffff",d:"#2b2b2b",in:"#2b2b2b",bg:"#e7f3ea"},koala:{f:"#a9b2bd",d:"#7c8692",in:"#f1d7dc",bg:"#e8eefc"},raccoon:{f:"#9aa0a6",d:"#3d4248",in:"#e6e8ea",bg:"#efe9ff"}}[kind];
+  const ink="#2b2b2b";
+  const coat=`<path d="M10 64 Q12 48 32 46 Q52 48 54 64 Z" fill="#ffffff" stroke="#cfd8e3" stroke-width="1.2"/><path d="M32 47 L27 55 L32 64 L37 55 Z" fill="#7fb8e6"/><path d="M24 49 Q21 57 26 60 M40 49 Q43 57 38 60" stroke="#3a4654" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="26.5" cy="60.5" r="2.2" fill="#c9d3dd" stroke="#3a4654" stroke-width="1"/>`;
+  let ears="",face="",extra="";
+  switch(kind){
+    case "cat":ears=`<path d="M17 22 L20 8 L29 17 Z M47 22 L44 8 L35 17 Z" fill="${P.f}"/><path d="M19.5 19 L21 12 L26 17 Z M44.5 19 L43 12 L38 17 Z" fill="${P.in}"/>`;extra=`<path d="M14 32 L22 33 M14 36 L22 35 M50 32 L42 33 M50 36 L42 35" stroke="${ink}" stroke-width="1" stroke-linecap="round"/>`;break;
+    case "dog":ears=`<ellipse cx="16" cy="25" rx="5.5" ry="10" fill="${P.d}" transform="rotate(18 16 25)"/><ellipse cx="48" cy="25" rx="5.5" ry="10" fill="${P.d}" transform="rotate(-18 48 25)"/>`;extra=`<ellipse cx="32" cy="35" rx="7.5" ry="6" fill="${P.in}"/>`;break;
+    case "bear":ears=`<circle cx="18" cy="15" r="6" fill="${P.f}"/><circle cx="46" cy="15" r="6" fill="${P.f}"/><circle cx="18" cy="15" r="3" fill="${P.in}"/><circle cx="46" cy="15" r="3" fill="${P.in}"/>`;extra=`<ellipse cx="32" cy="35" rx="7.5" ry="6" fill="${P.in}"/>`;break;
+    case "bunny":ears=`<ellipse cx="24" cy="9" rx="4.5" ry="12" fill="${P.f}" stroke="${P.d}" stroke-width="1"/><ellipse cx="40" cy="9" rx="4.5" ry="12" fill="${P.f}" stroke="${P.d}" stroke-width="1"/><ellipse cx="24" cy="10" rx="2.2" ry="8" fill="${P.in}"/><ellipse cx="40" cy="10" rx="2.2" ry="8" fill="${P.in}"/>`;extra=`<circle cx="22" cy="35" r="3" fill="#ffc7d6" opacity=".8"/><circle cx="42" cy="35" r="3" fill="#ffc7d6" opacity=".8"/>`;break;
+    case "fox":ears=`<path d="M16 24 L18 7 L29 17 Z M48 24 L46 7 L35 17 Z" fill="${P.f}"/><path d="M19 19 L20 11 L25 16 Z M45 19 L44 11 L39 16 Z" fill="${P.in}"/>`;extra=`<path d="M17 30 Q32 48 47 30 Q40 40 32 40 Q24 40 17 30 Z" fill="${P.in}"/>`;break;
+    case "panda":ears=`<circle cx="18" cy="15" r="6" fill="${P.d}"/><circle cx="46" cy="15" r="6" fill="${P.d}"/>`;extra=`<ellipse cx="25" cy="28" rx="4.5" ry="5.5" fill="${P.d}" transform="rotate(-20 25 28)"/><ellipse cx="39" cy="28" rx="4.5" ry="5.5" fill="${P.d}" transform="rotate(20 39 28)"/>`;break;
+    case "koala":ears=`<circle cx="15" cy="20" r="8" fill="${P.f}"/><circle cx="49" cy="20" r="8" fill="${P.f}"/><circle cx="15" cy="20" r="4.5" fill="${P.in}"/><circle cx="49" cy="20" r="4.5" fill="${P.in}"/>`;break;
+    case "raccoon":ears=`<path d="M18 21 L19 10 L27 16 Z M46 21 L45 10 L37 16 Z" fill="${P.f}"/>`;extra=`<path d="M17 27 Q24 22 30 28 Q24 33 17 30 Z M47 27 Q40 22 34 28 Q40 33 47 30 Z" fill="${P.d}"/>`;break;
+  }
+  const eyeFill=kind==="panda"||kind==="raccoon"?"#ffffff":ink;
+  const nose=kind==="koala"?`<ellipse cx="32" cy="33" rx="4" ry="5" fill="${ink}"/>`:`<ellipse cx="32" cy="33" rx="2.4" ry="1.8" fill="${ink}"/>`;
+  face=`<ellipse cx="32" cy="29" rx="15" ry="14" fill="${P.f}" ${kind==="bunny"||kind==="panda"?`stroke="${P.d}" stroke-width="1"`:""}/>${extra}<circle cx="26" cy="28" r="2" fill="${eyeFill}"/><circle cx="38" cy="28" r="2" fill="${eyeFill}"/><circle cx="26.6" cy="27.3" r=".6" fill="#fff"/><circle cx="38.6" cy="27.3" r=".6" fill="#fff"/>${nose}<path d="M29 37 Q32 39.5 35 37" stroke="${ink}" stroke-width="1.2" fill="none" stroke-linecap="round"/>`;
+  return `<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${kind} doctor avatar"><rect width="64" height="64" fill="${P.bg}"/>${coat}${ears}${face}</svg>`;
+}
+function showUser(){
+  const svg=avatarSVG(ANIMALS[avatarIndex()]);
+  $("#avimg").innerHTML=svg;$("#avimg2").innerHTML=svg;
+  $("#uname").textContent=userName()||"Guest";
+  $("#avbtn").setAttribute("aria-label","Account menu"+(userName()?" for "+userName():""));
+}
+function openMenu(){$("#umenu").hidden=false;$("#avbtn").setAttribute("aria-expanded","true");$("#m-change").focus();}
+function closeMenu(){$("#umenu").hidden=true;$("#avbtn").setAttribute("aria-expanded","false");}
+$("#avbtn").addEventListener("click",e=>{e.stopPropagation();$("#umenu").hidden?openMenu():closeMenu();});
+document.addEventListener("click",e=>{if(!$("#umenu").hidden&&!e.target.closest("#umenu"))closeMenu();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#umenu").hidden){closeMenu();$("#avbtn").focus();}});
+$("#m-change").addEventListener("click",()=>{closeMenu();askName();});
 function askName(){$("#welcome").hidden=false;$("#wname").value=userName();setTimeout(()=>$("#wname").focus(),50);}
-$("#wform").addEventListener("submit",e=>{e.preventDefault();const n=$("#wname").value.trim().slice(0,60);if(!n)return;try{localStorage.setItem("oph.user",n);}catch{}$("#welcome").hidden=true;showUser();map.invalidateSize();$("#q").focus();});
-document.addEventListener("click",e=>{if(e.target.id==="changeuser")askName();});
+$("#wform").addEventListener("submit",e=>{e.preventDefault();const n=$("#wname").value.trim().slice(0,60);if(!n)return;try{localStorage.setItem("oph.user",n);}catch{}$("#welcome").hidden=true;showUser();map.invalidateSize();});
 showUser();if(!userName())askName();
 })();
 </script>
