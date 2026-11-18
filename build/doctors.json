@@ -1,0 +1,1330 @@
+[
+ {
+  "id": "abtahi-maryam",
+  "name": "Dr. Maryam Abtahi",
+  "focus": "Glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.uottawa.ca/faculty-medicine/directory/dr-maryam-abtahi",
+   "https://www.ottawahospital.on.ca/wp-content/uploads/2020/09/Ophthalmology-staff-profiles-Revised-Sept18-2020-En-WCAG.pdf"
+  ],
+  "note": "Primary office confirmed on CPSO register; Carling Ave office is from a 2020 profile.",
+  "locations": [
+   {
+    "clinic": "Precision Glaucoma Centre",
+    "address": "1730 St. Laurent Blvd, Suite 100, Ottawa, ON K1G 5L1",
+    "city": "Ottawa",
+    "lat": 45.4062,
+    "lng": -75.6274,
+    "phone": "613-746-2244",
+    "fax": "613-739-2733",
+    "email": ""
+   },
+   {
+    "clinic": "Carling Ave office",
+    "address": "2148 Carling Ave, Suite 205, Ottawa, ON K2A 1H1",
+    "city": "Ottawa",
+    "lat": 45.3711,
+    "lng": -75.7683,
+    "phone": "613-596-0300",
+    "fax": "613-596-0848",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "agoumi-younes",
+  "name": "Dr. Younes Agoumi",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.noovo.info/nouvelle/un-ophtalmologiste-invite-la-population-a-se-faire-depister-concernant-le-glaucome.html"
+  ],
+  "note": "Phone is the CHUM main line.",
+  "locations": [
+   {
+    "clinic": "CHUM – Ophthalmology",
+    "address": "1051 rue Sanguinet, Montréal, QC H2X 3E4",
+    "city": "Montréal",
+    "lat": 45.5112,
+    "lng": -73.5578,
+    "phone": "514-890-8000",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "ahmed-ike",
+  "name": "Dr. Iqbal Ike K. Ahmed",
+  "focus": "Glaucoma, advanced anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.utoronto.ca/faculty/ike-ahmed",
+   "https://mississaugahaltonhealthline.ca/printService.aspx?id=173767",
+   "https://www.mississaugahaltonhealthline.ca/pdfs/Prism%20Eye%20Institute%20Referral%20Form.pdf"
+  ],
+  "note": "Director, U of T GAASS fellowship. Direct line ext. 161. Prism also lists fax 905-459-5085.",
+  "locations": [
+   {
+    "clinic": "Prism Eye Institute (Oakville)",
+    "address": "2201 Bristol Circle, Suite 100, Oakville, ON L6H 0J8",
+    "city": "Oakville",
+    "lat": 43.4774,
+    "lng": -79.7028,
+    "phone": "905-456-3937",
+    "fax": "905-820-0111",
+    "email": ""
+   },
+   {
+    "clinic": "Prism Eye Institute (Brampton)",
+    "address": "7700 Hurontario St, Suite 605, Brampton, ON L6Y 4M3",
+    "city": "Brampton",
+    "lat": 43.6594,
+    "lng": -79.724,
+    "phone": "905-456-3937",
+    "fax": "905-459-5085",
+    "email": ""
+   },
+   {
+    "clinic": "Credit Valley Eyecare",
+    "address": "3200 Erin Mills Pkwy, Unit 1, Mississauga, ON L5L 1W8",
+    "city": "Mississauga",
+    "lat": 43.5377,
+    "lng": -79.6674,
+    "phone": "905-820-3937",
+    "fax": "",
+    "email": "ikeahmed@mac.com"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "behki-rama",
+  "name": "Dr. Rama Behki",
+  "focus": "Glaucoma, cataract and anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles",
+   "https://www.healthdoc.ca/listing/dr-rama-behki-16addf"
+  ],
+  "note": "uOttawa faculty (glaucoma). Office is in Gatineau, across the river from Ottawa.",
+  "locations": [
+   {
+    "clinic": "Clinique ophtalmologie de l'Outaouais",
+    "address": "29 rue Ducharme, Gatineau, QC J8Y 3P7",
+    "city": "Gatineau",
+    "lat": 45.4377,
+    "lng": -75.7315,
+    "phone": "819-770-3663",
+    "fax": "819-770-1066",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "birt-catherine",
+  "name": "Dr. Catherine Birt",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://research.sunnybrook.ca/researchers/catherine-birt/",
+   "https://ophthalmology.utoronto.ca/faculty/catherine-birt"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Sunnybrook Health Sciences Centre, Ophthalmology",
+    "address": "2075 Bayview Ave, Suite M1-302a, Toronto, ON M4N 3M5",
+    "city": "North York",
+    "lat": 43.7203,
+    "lng": -79.3788,
+    "phone": "416-480-5882",
+    "fax": "844-222-4518",
+    "email": "catherine.birt@sunnybrook.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "brazel-sheila",
+  "name": "Dr. Sheila Brazel",
+  "focus": "Glaucoma, cataract, comprehensive",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://unityhealth.to/physician-directory/dr-sheila-brazel/"
+  ],
+  "note": "Glaucoma fellowships (Amsterdam; UHN Toronto). Office phone/fax from CPSO register.",
+  "locations": [
+   {
+    "clinic": "Dundas St W office (St. Joseph's Health Centre privileges)",
+    "address": "2238 Dundas St W, Suite 308, Toronto, ON M6R 3A9",
+    "city": "Toronto",
+    "lat": 43.6547,
+    "lng": -79.452,
+    "phone": "416-663-3937",
+    "fax": "416-663-3731",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "britton-robert",
+  "name": "Dr. Robert Britton",
+  "focus": "Cataract and glaucoma surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles",
+   "https://www.healthdoc.ca/listing/dr-john-robert-britton-0b4ba7"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Centrepointe office",
+    "address": "1 Centrepointe Dr, Suite 206, Nepean, ON K2G 6E2",
+    "city": "Ottawa",
+    "lat": 45.3488,
+    "lng": -75.7692,
+    "phone": "613-226-3335",
+    "fax": "613-226-3337",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "buhrmann-ralf",
+  "name": "Dr. Ralf Buhrmann",
+  "focus": "Glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.ottawahospital.on.ca/wp-content/uploads/2020/09/Ophthalmology-staff-profiles-Revised-Sept18-2020-En-WCAG.pdf"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "University of Ottawa Eye Institute, The Ottawa Hospital – General Campus",
+    "address": "501 Smyth Rd, Critical Care Wing 3rd Floor, Ottawa, ON K1H 8L6",
+    "city": "Ottawa",
+    "lat": 45.3993,
+    "lng": -75.6487,
+    "phone": "613-737-8706",
+    "fax": "613-739-6981",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "butty-ziad",
+  "name": "Dr. Ziad Butty",
+  "focus": "Medical and surgical glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://unityhealth.to/physician-directory/ziad-butty",
+   "https://unityhealth.to/clinics-services/glaucoma-unit/"
+  ],
+  "note": "Listed on the St. Michael's Glaucoma Unit page; private office at Vista Eye Centre.",
+  "locations": [
+   {
+    "clinic": "Vista Eye Centre",
+    "address": "2425 Bloor St W, Suite 513, Toronto, ON M6S 4W4",
+    "city": "Toronto",
+    "lat": 43.6495,
+    "lng": -79.4837,
+    "phone": "416-760-8763",
+    "fax": "647-689-2276",
+    "email": ""
+   },
+   {
+    "clinic": "Glaucoma Unit, St. Michael's Hospital (Unity Health)",
+    "address": "30 Bond St, 8th Floor, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.6532,
+    "lng": -79.377,
+    "phone": "416-867-7422",
+    "fax": "416-867-3688",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "calafati-jennifer",
+  "name": "Dr. Jennifer Calafati",
+  "focus": "Comprehensive ophthalmology with interest in cataract and glaucoma",
+  "tier": "care",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.utoronto.ca/faculty/jennifer-calafati"
+  ],
+  "note": "Comprehensive ophthalmologist; also at Toronto Western Hospital.",
+  "locations": [
+   {
+    "clinic": "Kensington Vision and Research Centre",
+    "address": "340 College St, Suite 501, Toronto, ON M5T 3A9",
+    "city": "Toronto",
+    "lat": 43.6574,
+    "lng": -79.403,
+    "phone": "416-928-1335",
+    "fax": "416-928-5075",
+    "email": ""
+   }
+  ],
+  "subs": []
+ },
+ {
+  "id": "calotti-fadi",
+  "name": "Dr. Fadi Calotti",
+  "focus": "Glaucoma management listed (subspecialty training not confirmed)",
+  "tier": "care",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://kerbsidehealth.com/provider/fadi-calotti"
+  ],
+  "note": "Lists glaucoma management as an area of expertise; no glaucoma fellowship found.",
+  "locations": [
+   {
+    "clinic": "Brantford office",
+    "address": "99 Wayne Gretzky Pkwy, Suite 116, Brantford, ON N3S 6T6",
+    "city": "Brantford",
+    "lat": 43.1472,
+    "lng": -80.2366,
+    "phone": "519-752-3200",
+    "fax": "519-752-3277",
+    "email": ""
+   }
+  ],
+  "subs": []
+ },
+ {
+  "id": "campbell-robert",
+  "name": "Dr. Robert Campbell",
+  "focus": "Glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://ophthalmology.queensu.ca/clinic/referrals",
+   "https://kingstonhsc.ca/node/3281",
+   "https://kingstonhsc.ca/node/4601"
+  ],
+  "note": "Glaucoma specialist, KHSC. Queen's routes glaucoma surgical referrals to him while Galen Eye Centre is not taking surgical referrals.",
+  "locations": [
+   {
+    "clinic": "Kingston Health Sciences Centre – Hotel Dieu site",
+    "address": "166 Brock St, Kingston, ON K7L 5G2",
+    "city": "Kingston",
+    "lat": 44.231,
+    "lng": -76.4845,
+    "phone": "613-544-3400 ext. 2171",
+    "fax": "613-544-8330",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "chevrier-robert",
+  "name": "Dr. Robert Chevrier",
+  "focus": "Glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.uottawa.ca/faculty-medicine/directory/dr-robert-chevrier",
+   "https://www.ottawahospital.on.ca/wp-content/uploads/2020/09/Ophthalmology-staff-profiles-Revised-Sept18-2020-En-WCAG.pdf"
+  ],
+  "note": "Glaucoma fellowship, Université de Montréal. Licence active on CPSO register.",
+  "locations": [
+   {
+    "clinic": "Shefford Rd office",
+    "address": "879 Shefford Rd, Ottawa, ON K1J 8H9",
+    "city": "Ottawa",
+    "lat": 45.4552,
+    "lng": -75.5909,
+    "phone": "613-741-4342",
+    "fax": "613-741-0021",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Comprehensive"
+  ]
+ },
+ {
+  "id": "cohen-shawn",
+  "name": "Dr. Shawn Cohen",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Drummond Street office",
+    "address": "1414 rue Drummond, Suite 322, Montréal, QC H3G 1W1",
+    "city": "Montréal",
+    "lat": 45.4989,
+    "lng": -73.5747,
+    "phone": "514-842-6510",
+    "fax": "514-842-0777",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "duarte-newton",
+  "name": "Dr. Newton Duarte",
+  "focus": "Medical glaucoma, comprehensive",
+  "tier": "specialist",
+  "sources": [
+   "https://ophthalmology.queensu.ca/clinic/referrals"
+  ],
+  "note": "Joined the Queen's glaucoma service.",
+  "locations": [
+   {
+    "clinic": "Kingston Ophthalmology & Vision Sciences Centre (KOVSC)",
+    "address": "725 Arlington Park Pl, Kingston, ON K7M 7E4",
+    "city": "Kingston",
+    "lat": 44.2492,
+    "lng": -76.5695,
+    "phone": "613-417-3451",
+    "fax": "613-417-3452",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "dubinsky-pertzov-biana",
+  "name": "Dr. Biana Dubinsky-Pertzov",
+  "focus": "Glaucoma, cataract and complex anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html"
+  ],
+  "note": "CPSO register lists University Hospital as primary location plus two others.",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-646-6100 ext. 66083",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "London Health Sciences Centre – University Hospital",
+    "address": "339 Windermere Rd, London, ON N6A 5A5",
+    "city": "London",
+    "lat": 42.9796,
+    "lng": -81.2506,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "durr-georges",
+  "name": "Dr. Georges Durr",
+  "focus": "Glaucoma, complex anterior segment",
+  "tier": "specialist",
+  "sources": [
+   "https://www.ted.com/talks/georges_durr_comment_combattre_le_glaucome"
+  ],
+  "note": "Directs the Université de Montréal glaucoma fellowship. Phone is the CHUM main line.",
+  "locations": [
+   {
+    "clinic": "CHUM – Ophthalmology",
+    "address": "1051 rue Sanguinet, Montréal, QC H2X 3E4",
+    "city": "Montréal",
+    "lat": 45.5112,
+    "lng": -73.5578,
+    "phone": "514-890-8000",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "gupta-neeru",
+  "name": "Dr. Neeru Gupta",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://lmp.utoronto.ca/faculty/neeru-gupta",
+   "https://unityhealth.to/clinics-services/eye-clinic-2"
+  ],
+  "note": "Director, Glaucoma Unit, St. Michael's. Direct phone/fax from CPSO register.",
+  "locations": [
+   {
+    "clinic": "Glaucoma Unit, St. Michael's Hospital (Unity Health)",
+    "address": "30 Bond St, Suite 8-072, Donnelly Wing, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.6532,
+    "lng": -79.377,
+    "phone": "416-864-5444",
+    "fax": "416-864-5208",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "hafez-ali",
+  "name": "Dr. Ali Hafez",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "McGill Academic Eye Centre (MUHC)",
+    "address": "5252 boul. de Maisonneuve O, 4th Floor, Montréal, QC H4A 3S5",
+    "city": "Montréal",
+    "lat": 45.4717,
+    "lng": -73.6031,
+    "phone": "514-934-8488",
+    "fax": "514-843-1618",
+    "email": "ali.hafez@mcgill.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "harasymowycz-paul",
+  "name": "Dr. Paul Harasymowycz",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
+   "https://www.doctr.ca/app/clinics/109318/clinique-dophtalmologie-bellevue-et-institut-du-glaucome-de-montreal",
+   "https://sites.grenadine.co/sites/cos-sco/en/2022-cos-annual-meeting-and-exhibition/person/77"
+  ],
+  "note": "Medical director, Montréal Glaucoma Institute; also at McGill Academic Eye Centre and Maisonneuve-Rosemont. Bellevue clinic phone not found.",
+  "locations": [
+   {
+    "clinic": "Clinique d'ophtalmologie Bellevue & Institut du glaucome de Montréal",
+    "address": "4135 rue de Rouen, Montréal, QC H1V 1G5",
+    "city": "Montréal",
+    "lat": 45.5522,
+    "lng": -73.5443,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   },
+   {
+    "clinic": "McGill Academic Eye Centre (MUHC)",
+    "address": "5252 boul. de Maisonneuve O, 4th Floor, Montréal, QC H4A 3S5",
+    "city": "Montréal",
+    "lat": 45.4717,
+    "lng": -73.6031,
+    "phone": "514-934-8488",
+    "fax": "514-843-1618",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "hutnik-cindy",
+  "name": "Dr. Cindy Hutnik",
+  "focus": "Glaucoma, comprehensive ophthalmology",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://schulich.uwo.ca/ophthalmology/people/faculty/cindy_hutnik.html"
+  ],
+  "note": "Chair, Dept. of Ophthalmology, Western; Ophthalmologist-in-Chief, Ivey.",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-646-6272",
+    "fax": "519-646-6410",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Comprehensive"
+  ]
+ },
+ {
+  "id": "jinapriya-delan",
+  "name": "Dr. Delan Jinapriya",
+  "focus": "Surgical glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.queensu.ca/clinic/referrals"
+  ],
+  "note": "Queen's affiliated community clinic. As of Jan 2025 Galen was not accepting surgical referrals; Queen's directs glaucoma surgical referrals to Dr. Robert Campbell.",
+  "locations": [
+   {
+    "clinic": "Galen Eye Centre",
+    "address": "27 Place d'Armes, Suite 100, Kingston, ON K7K 6Z6",
+    "city": "Kingston",
+    "lat": 44.2339,
+    "lng": -76.4804,
+    "phone": "613-507-4800",
+    "fax": "613-507-4801",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "kasner-oscar",
+  "name": "Dr. Oscar Kasner",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
+   "https://www.jgh.ca/care-services/ophthalmology/"
+  ],
+  "note": "Director, Glaucoma Service, JGH. New referrals: JGH Central Booking, fax 514-340-8035 or the email shown.",
+  "locations": [
+   {
+    "clinic": "Jewish General Hospital – Ophthalmology (Glaucoma & Cataracts)",
+    "address": "3755 ch. de la Côte-Sainte-Catherine, Room E-008, Montréal, QC H3T 1E2",
+    "city": "Montréal",
+    "lat": 45.4964,
+    "lng": -73.6295,
+    "phone": "514-340-8222 ext. 8219",
+    "fax": "514-340-8215",
+    "email": "centralbooking@jgh.mcgill.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "kherani-irfan",
+  "name": "Dr. Irfan N. Kherani",
+  "focus": "Surgical glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://uhnfoundation.ca/stories/an-eye-on-the-future/",
+   "https://www.healthdoc.ca/listing/dr-irfan-nizarali-kherani-13818c"
+  ],
+  "note": "Also part-time at Trillium Health Partners and Prism Eye Institute.",
+  "locations": [
+   {
+    "clinic": "Glaucoma Clinic, Donald K. Johnson Eye Institute, Toronto Western Hospital",
+    "address": "399 Bathurst St, East Wing 6th Floor, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.6528,
+    "lng": -79.4062,
+    "phone": "416-603-5317",
+    "fax": "416-603-5333",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "kranemann-christoph",
+  "name": "Dr. Christoph Kranemann",
+  "focus": "Glaucoma and anterior segment",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.utoronto.ca/faculty/christoph-kranemann",
+   "https://unityhealth.to/clinics-services/glaucoma-unit/",
+   "https://ophthalmology.utoronto.ca/glaucoma-and-anterior-segment-fellowship",
+   "https://www.healthdoc.ca/listing/dr-christoph-kranemann-ophthalmologist-0f466e"
+  ],
+  "note": "Director, U of T Glaucoma & Anterior Segment Fellowship. U of T also lists 416-289-1743.",
+  "locations": [
+   {
+    "clinic": "Glaucoma Unit, St. Michael's Hospital (Unity Health)",
+    "address": "30 Bond St, 8th Floor, Toronto, ON M5B 1W8",
+    "city": "Toronto",
+    "lat": 43.6532,
+    "lng": -79.377,
+    "phone": "416-867-7422",
+    "fax": "416-867-3688",
+    "email": ""
+   },
+   {
+    "clinic": "Private office (North York)",
+    "address": "4100 Yonge St, Suite 110, Toronto, ON M2P 2B7",
+    "city": "North York",
+    "lat": 43.7456,
+    "lng": -79.4071,
+    "phone": "416-289-4000",
+    "fax": "416-289-2318",
+    "email": "christophkranemann@rogers.com"
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "lesk-mark",
+  "name": "Dr. Mark Lesk",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://crhmr.ciusss-estmtl.gouv.qc.ca/en/researcher/mark-lesk",
+   "https://sante.gouv.qc.ca/en/repertoire-ressources/ressource/?nofiche=341"
+  ],
+  "note": "Head, Centre universitaire d'ophtalmologie (CUO) at HMR. Phone is the ophthalmology department.",
+  "locations": [
+   {
+    "clinic": "Hôpital Maisonneuve-Rosemont – Centre universitaire d'ophtalmologie",
+    "address": "5415 boul. de l'Assomption, Montréal, QC H1T 2M4",
+    "city": "Montréal",
+    "lat": 45.5733,
+    "lng": -73.5588,
+    "phone": "514-252-3878",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "marshall-david",
+  "name": "Dr. David H. Marshall",
+  "focus": "Glaucoma, cataract and anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles",
+   "https://www.uottawa.ca/faculty-medicine/directory/dr-david-h-marshall"
+  ],
+  "note": "Fax not found.",
+  "locations": [
+   {
+    "clinic": "Centrepointe office",
+    "address": "1 Centrepointe Dr, Nepean, ON K2G 6E2",
+    "city": "Ottawa",
+    "lat": 45.3488,
+    "lng": -75.7692,
+    "phone": "613-226-8777",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "martow-jeffrey",
+  "name": "Dr. Jeffrey Martow",
+  "focus": "Glaucoma (U of T glaucoma fellowship)",
+  "tier": "specialist",
+  "sources": [
+   "https://ophthalmology.utoronto.ca/faculty/jeff-martow",
+   "https://oakvalleyhealth.ca/staff/dr-jeff-martow",
+   "https://www.healthdoc.ca/listing/dr-jeffrey-martow-1ae490"
+  ],
+  "note": "Phone/fax from a directory listing; email from U of T faculty page.",
+  "locations": [
+   {
+    "clinic": "Martow Eye Clinic",
+    "address": "377 Church St, Suite 304, Markham, ON L6B 1A1",
+    "city": "Markham",
+    "lat": 43.8847,
+    "lng": -79.2337,
+    "phone": "905-472-7360",
+    "fax": "905-472-7148",
+    "email": "reception@martowclinic.com"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "mcilraith-ian",
+  "name": "Dr. Ian McIlraith",
+  "focus": "Glaucoma, cataract surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://schulich.uwo.ca/ophthalmology/people/faculty/ian_mcilraith.html"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-646-6208",
+    "fax": "519-646-6412",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "miller-garfield",
+  "name": "Dr. Garfield (Gary) Miller",
+  "focus": "Glaucoma, cataract, anterior segment",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles",
+   "https://www.uottawa.ca/faculty-medicine/directory/dr-garfield-miller"
+  ],
+  "note": "Phone/fax confirmed on CPSO register. Eye Institute line is the main reception.",
+  "locations": [
+   {
+    "clinic": "Precision Glaucoma Centre",
+    "address": "1730 St. Laurent Blvd, Suite 100, Ottawa, ON K1G 5L1",
+    "city": "Ottawa",
+    "lat": 45.4062,
+    "lng": -75.6274,
+    "phone": "613-746-2244",
+    "fax": "613-739-2733",
+    "email": ""
+   },
+   {
+    "clinic": "University of Ottawa Eye Institute, The Ottawa Hospital – General Campus",
+    "address": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+    "city": "Ottawa",
+    "lat": 45.3993,
+    "lng": -75.6487,
+    "phone": "613-737-8575",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "mydlarski-marc",
+  "name": "Dr. Marc Mydlarski",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
+   "https://www.jgh.ca/care-services/ophthalmology/"
+  ],
+  "note": "New referrals: JGH Central Booking, fax 514-340-8035 or the email shown.",
+  "locations": [
+   {
+    "clinic": "Jewish General Hospital – Ophthalmology (Glaucoma & Cataracts)",
+    "address": "3755 ch. de la Côte-Sainte-Catherine, Room E-008, Montréal, QC H3T 1E2",
+    "city": "Montréal",
+    "lat": 45.4964,
+    "lng": -73.6295,
+    "phone": "514-340-8222 ext. 5211",
+    "fax": "514-340-8215",
+    "email": "centralbooking@jgh.mcgill.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "paulo-danilo",
+  "name": "Dr. Danilo Paulo",
+  "focus": "Neuro-ophthalmology, glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-646-6266",
+    "fax": "519-646-6267",
+    "email": "paulo.iveyeye@sjhc.london.on.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Neuro-ophthalmology"
+  ]
+ },
+ {
+  "id": "podbielski-dominik",
+  "name": "Dr. Dominik Podbielski",
+  "focus": "Glaucoma and anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.healthdoc.ca/listing/dr-dominik-waclaw-podbielski-07db45",
+   "https://medicine.usask.ca/profiles/ophthalmology/dominik-podbielski.php"
+  ],
+  "note": "Windsor practice confirmed on the CPSO register.",
+  "locations": [
+   {
+    "clinic": "Walker Rd office (Windsor Regional Hospital privileges)",
+    "address": "2224 Walker Rd, Suite 200, Windsor, ON N8W 5L7",
+    "city": "Windsor",
+    "lat": 42.3017,
+    "lng": -82.994,
+    "phone": "519-904-1414",
+    "fax": "519-253-0801",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "podury-soumya",
+  "name": "Dr. Soumya Podury",
+  "focus": "Glaucoma, cataract and anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles"
+  ],
+  "note": "Phone is the Eye Institute main reception.",
+  "locations": [
+   {
+    "clinic": "University of Ottawa Eye Institute, The Ottawa Hospital – General Campus",
+    "address": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+    "city": "Ottawa",
+    "lat": 45.3993,
+    "lng": -75.6487,
+    "phone": "613-737-8575",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "rao-krishna",
+  "name": "Dr. Krishna Rao",
+  "focus": "Medical glaucoma, comprehensive",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.queensu.ca/clinic/referrals",
+   "https://www.healthdoc.ca/listing/dr-krishna-beejady-gururaja-rao-005045"
+  ],
+  "note": "Queen's affiliated community clinic. As of Jan 2025 Galen was not accepting surgical referrals; Queen's directs glaucoma surgical referrals to Dr. Robert Campbell.",
+  "locations": [
+   {
+    "clinic": "Galen Eye Centre",
+    "address": "27 Place d'Armes, Suite 100, Kingston, ON K7K 6Z6",
+    "city": "Kingston",
+    "lat": 44.2339,
+    "lng": -76.4804,
+    "phone": "613-507-4800",
+    "fax": "613-507-4801",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "saheb-hady",
+  "name": "Dr. Hady Saheb",
+  "focus": "Glaucoma (McGill glaucoma fellowship director)",
+  "tier": "specialist",
+  "sources": [
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
+   "https://muhc.ca/mcgill-academic-eye-centre",
+   "https://www.healthdoc.ca/listing/dr-hady-nabil-el-saheb-179c66"
+  ],
+  "note": "McGill lists him as Dr. Hady El-Saheb. MUHC takes first appointments through its Referral Portal.",
+  "locations": [
+   {
+    "clinic": "McGill Academic Eye Centre (MUHC)",
+    "address": "5252 boul. de Maisonneuve O, 4th Floor, Montréal, QC H4A 3S5",
+    "city": "Montréal",
+    "lat": 45.4717,
+    "lng": -73.6031,
+    "phone": "514-934-8488",
+    "fax": "514-843-1618",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "schlenker-matthew",
+  "name": "Dr. Matthew Schlenker",
+  "focus": "Glaucoma, cataract, anterior segment",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.utoronto.ca/faculty/matthew-schlenker",
+   "https://mississaugahaltonhealthline.ca/printService.aspx?id=191025",
+   "https://www.prismeyeinstitute.com/about/our-doctors/dr-matt-schlenker/"
+  ],
+  "note": "Also at Trillium Health Partners, Kensington Eye Institute, Toronto Western.",
+  "locations": [
+   {
+    "clinic": "Prism Eye Institute (Oakville)",
+    "address": "2201 Bristol Circle, Suite 100, Oakville, ON L6H 0J8",
+    "city": "Oakville",
+    "lat": 43.4774,
+    "lng": -79.7028,
+    "phone": "905-456-3937",
+    "fax": "905-459-5085",
+    "email": ""
+   },
+   {
+    "clinic": "Toronto Western Hospital (UHN), Eye clinic",
+    "address": "399 Bathurst St, EW 6-405, Toronto, ON M5T 2S8",
+    "city": "Toronto",
+    "lat": 43.6528,
+    "lng": -79.4062,
+    "phone": "416-603-5727",
+    "fax": "416-603-5682",
+    "email": "eFax-SchlenkerReferrals@uhn.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "sharon-tal",
+  "name": "Dr. Tal Sharon",
+  "focus": "Glaucoma (medical, laser, surgical)",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html",
+   "https://expertise.uwo.ca/2184-tal-sharon-priel"
+  ],
+  "note": "Western University glaucoma faculty; privileges at St. Joseph's (Ivey). Phone from CPSO register; Ivey main line 519-646-6100.",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, B1-050, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-645-8250",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "sim-mark",
+  "name": "Dr. Mark Sim",
+  "focus": "Glaucoma, cataract and anterior segment surgery",
+  "tier": "specialist",
+  "sources": [
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles",
+   "https://ottawahospital.on.ca/en/departments-and-services/ophthalmology/eye-care-centre/team"
+  ],
+  "note": "Listed on The Ottawa Hospital Eye Care Centre team. Clinic phone/fax not found.",
+  "locations": [
+   {
+    "clinic": "The Ottawa Hospital Eye Care Centre – Riverside Campus",
+    "address": "1967 Riverside Dr, Ottawa, ON K1H 7W9",
+    "city": "Ottawa",
+    "lat": 45.3951,
+    "lng": -75.6707,
+    "phone": "",
+    "fax": "",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "singh-harmanjit",
+  "name": "Dr. Harmanjit Singh",
+  "focus": "Surgical glaucoma, complex cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.queensu.ca/clinic/referrals"
+  ],
+  "note": "Queen's affiliated community clinic. As of Jan 2025 Galen was not accepting surgical referrals; Queen's directs glaucoma surgical referrals to Dr. Robert Campbell.",
+  "locations": [
+   {
+    "clinic": "Galen Eye Centre",
+    "address": "27 Place d'Armes, Suite 100, Kingston, ON K7K 6Z6",
+    "city": "Kingston",
+    "lat": 44.2339,
+    "lng": -76.4804,
+    "phone": "613-507-4800",
+    "fax": "613-507-4801",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "sogbesan-enitan",
+  "name": "Dr. Enitan Sogbesan",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.stjoes.ca/our-stories/~1355-St-Joseph-s-Healthcare-Hamilton-Saved-Sandy-s-Sight",
+   "https://hnhbhealthline.ca/printService.aspx?id=179465"
+  ],
+  "note": "Direct phone/fax from CPSO register. Institute general referral line 905-573-4848, fax 905-573-4841.",
+  "locations": [
+   {
+    "clinic": "Hamilton Regional Eye Institute, St. Joseph's Healthcare King Campus",
+    "address": "2757 King St E, Hamilton, ON L8G 5E4",
+    "city": "Hamilton",
+    "lat": 43.221,
+    "lng": -79.7769,
+    "phone": "905-573-7777 ext. 38311",
+    "fax": "905-573-4810",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "tingey-david",
+  "name": "Dr. David P. Tingey",
+  "focus": "Glaucoma",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/david_tingey.html",
+   "https://www.healthdoc.ca/listing/dr-david-paul-tingey-176b53"
+  ],
+  "note": "",
+  "locations": [
+   {
+    "clinic": "Ivey Eye Institute, St. Joseph's Hospital",
+    "address": "268 Grosvenor St, London, ON N6A 4V2",
+    "city": "London",
+    "lat": 42.9815,
+    "lng": -81.2377,
+    "phone": "519-685-8351",
+    "fax": "519-646-6076",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "varma-devesh",
+  "name": "Dr. Devesh Varma",
+  "focus": "Glaucoma, cataract, anterior segment",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://mississaugahaltonhealthline.ca/printService.aspx?id=172609",
+   "https://ophthalmology.utoronto.ca/glaucoma-and-advanced-anterior-segment-surgery-gaass"
+  ],
+  "note": "Also operates at Trillium Health Partners (Mississauga) and Kensington Eye Institute.",
+  "locations": [
+   {
+    "clinic": "Prism Eye Institute (Oakville)",
+    "address": "2201 Bristol Circle, Suite 100, Oakville, ON L6H 0J8",
+    "city": "Oakville",
+    "lat": 43.4774,
+    "lng": -79.7028,
+    "phone": "905-456-3937",
+    "fax": "905-820-0111",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ },
+ {
+  "id": "wood-stephanie",
+  "name": "Dr. Stephanie Wood",
+  "focus": "Medical glaucoma, comprehensive",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.queensu.ca/clinic/referrals",
+   "https://www.healthdoc.ca/listing/dr-stephanie-anne-wood-01b752"
+  ],
+  "note": "Queen's affiliated community clinic. As of Jan 2025 Galen was not accepting surgical referrals; Queen's directs glaucoma surgical referrals to Dr. Robert Campbell.",
+  "locations": [
+   {
+    "clinic": "Galen Eye Centre",
+    "address": "27 Place d'Armes, Suite 100, Kingston, ON K7K 6Z6",
+    "city": "Kingston",
+    "lat": 44.2339,
+    "lng": -76.4804,
+    "phone": "613-507-4800",
+    "fax": "613-507-4801",
+    "email": ""
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Comprehensive"
+  ]
+ },
+ {
+  "id": "yan-david",
+  "name": "Dr. David Yan",
+  "focus": "Glaucoma, cataract",
+  "tier": "specialist",
+  "sources": [
+   "https://www.sinaihealth.ca/areas-of-care/ophthalmology-referrals",
+   "https://www.sinaihealth.ca/areas-of-care/ophthalmology/ophthalmology-clinic"
+  ],
+  "note": "Director of Glaucoma Service, Mount Sinai and Kensington Eye Institute. Email is the Sinai eye clinic inbox (for referral questions).",
+  "locations": [
+   {
+    "clinic": "Mount Sinai Hospital Eye Clinic / Kensington Eye Institute",
+    "address": "60 Murray St, Suite 400, Toronto, ON M5G 1X5",
+    "city": "Toronto",
+    "lat": 43.6586,
+    "lng": -79.3902,
+    "phone": "416-586-4800 ext. 5151",
+    "fax": "416-586-8789",
+    "email": "eye.clinic@sinaihealth.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma"
+  ]
+ },
+ {
+  "id": "yuen-darana",
+  "name": "Dr. Darana Yuen",
+  "focus": "Glaucoma, glaucoma lasers, MIGS, cataract (U of T glaucoma fellowship)",
+  "tier": "specialist",
+  "sources": [
+   "https://register.cpso.on.ca/",
+   "https://ophthalmology.utoronto.ca/faculty/darana-yuen"
+  ],
+  "note": "Brampton is her primary office on the CPSO register; U of T lists the Vaughan office.",
+  "locations": [
+   {
+    "clinic": "Uptown Eye Specialists (Brampton)",
+    "address": "7900 Hurontario St, Suite 401, Brampton, ON L6Y 0P6",
+    "city": "Brampton",
+    "lat": 43.6644,
+    "lng": -79.7312,
+    "phone": "416-292-0330",
+    "fax": "416-292-0331",
+    "email": "info@uptowneye.ca"
+   },
+   {
+    "clinic": "Uptown Eye Specialists",
+    "address": "2180 Steeles Ave W, Suite 221, Vaughan, ON L4K 2Z5",
+    "city": "Vaughan",
+    "lat": 43.7873,
+    "lng": -79.4702,
+    "phone": "416-292-0330",
+    "fax": "416-292-0331",
+    "email": "info@uptowneye.ca"
+   }
+  ],
+  "subs": [
+   "Glaucoma",
+   "Cataract & refractive"
+  ]
+ }
+]
