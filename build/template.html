@@ -352,8 +352,9 @@ function renderList(){
   let body="",head;
   if(searchMode==="name"&&nameQuery){
     const hits=visibleDoctors();
-    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”</h2><p class="sub">Name search covers every city and subspecialty. Clear the search to go back.</p></div>`;
-    body=hits.slice(0,MAXCARDS).map(d=>{const l=d.locations.find(locVisible)||d.locations[0];return card(d,l,0,null);}).join("")||`<p class="msg">No doctor found. Check the spelling or try the last name only.</p>`;
+    const rows=[];hits.forEach(d=>{const ls=d.locations.filter(locVisible);(ls.length?ls:d.locations).forEach(l=>rows.push({d,l}));});
+    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. Name search covers every city and subspecialty; clear the search to go back.</p></div>`;
+    body=rows.slice(0,MAXCARDS).map(r=>card(r.d,r.l,0,null)).join("")||`<p class="msg">No doctor found. Check the spelling or try the last name only.</p>`;
   }else if(ranking){
     head=`<div class="listhead"><h2>Nearest to ${esc(patient.label)}</h2><p class="sub">${esc(filterSub==="All"?"All subspecialties":filterSub)} · straight-line distance. Top 3 are highlighted on the map.</p></div>`;
     body=ranking.slice(0,MAXCARDS).map((r,i)=>card(r.d,r.loc,i+1,r.km)).join("");
