@@ -154,6 +154,8 @@ def postals(d):
 details = load(A.cpso_details, {})
 listed = {d['cpso']: d for d in load(A.cpso_list, [])}
 for cpso, det in details.items():
+    if listed and cpso not in listed:
+        continue  # no longer found in the register sweep
     if not str(det.get('status', '')).startswith('ACTIVE') and 'ACTIVE' not in str(listed.get(cpso, {}).get('status', '')):
         continue
     first, last, display = title_name(det.get('name') or listed.get(cpso, {}).get('name', ''))
@@ -167,7 +169,7 @@ for cpso, det in details.items():
             continue
         city = city.title() if city.isupper() else city
         addr = ', '.join(x for x in [street, f'{city}, {prov} {pc}'.strip(', ')] if x)
-        locs.append(dict(clinic=clinic or street or city, address=addr, city=city or '', lat=round(c[0], 5), lng=round(c[1], 5),
+        locs.append(dict(clinic=clinic, address=addr, city=city or '', lat=round(c[0], 5), lng=round(c[1], 5),
                          phone=phone_fmt(L.get('phone')), fax=phone_fmt(L.get('fax')), email=(L.get('email') or '').strip()))
     if not locs:
         continue

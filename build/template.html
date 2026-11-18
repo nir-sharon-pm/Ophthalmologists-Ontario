@@ -284,7 +284,7 @@ function drawSites(){
     const best=Math.min(...c.items.map(s=>siteBestRank(s)||99));
     const color=cityColor(cities[0]);
     const single=c.items.length===1;
-    const label=single?(z>=10.5?shortClinic(c.items[0].clinic):c.items[0].city):(cities.length===1?cities[0]:cities.slice(0,2).join(" · ")+(cities.length>2?" +":""));
+    const label=single?(z>=10.5?shortClinic(c.items[0].clinic||c.items[0].address):c.items[0].city):(cities.length===1?cities[0]:cities.slice(0,2).join(" · ")+(cities.length>2?" +":""));
     const html=`<div class="pin${single?"":" cl"}${best<99?" top":""}" style="--c:${color}"><span class="b" style="background:${color}">${n}</span><span class="t">${esc(label)}</span>${best<99?`<span class="r">#${best}</span>`:""}</div>`;
     const ll=single?[c.items[0].lat,c.items[0].lng]:L.latLngBounds(c.items.map(s=>[s.lat,s.lng])).getCenter();
     const mk=L.marker(ll,{icon:L.divIcon({className:"",html,iconSize:null}),zIndexOffset:best<99?1000-best:0,title:label+" – "+n+" doctor"+(n>1?"s":""),keyboard:true});
@@ -294,7 +294,7 @@ function drawSites(){
   });
 }
 function popupHtml(s){
-  return `<div class="pop"><h3>${esc(s.clinic)}</h3><p class="addr">${esc(s.address)}</p><ul>${s.docs.map(({d,l})=>{const r=rankOf(d.id);
+  return `<div class="pop"><h3>${esc(s.clinic||s.address)}</h3>${s.clinic?`<p class="addr">${esc(s.address)}</p>`:""}<ul>${s.docs.map(({d,l})=>{const r=rankOf(d.id);
     return `<li><b>${r?"#"+r+" · ":""}${esc(d.name)}</b><span class="ph">${esc(subsOf(d).join(", "))}</span><br><span class="ph">${l.phone?"T "+esc(l.phone):"Phone: call clinic"}${l.fax?" · F "+esc(l.fax):""}</span>${l.email?`<br><span class="ph">${esc(l.email)}</span>`:""}</li>`;}).join("")}</ul></div>`;
 }
 map.on("zoomend",()=>{drawSites();updateLabels();});
@@ -333,7 +333,7 @@ function card(d,loc,rank,distKm){
   return `<article class="card${top?" top":""}${selected===d.id?" sel":""}" data-id="${esc(d.id)}">
     <span class="rank${rank?"":" none"}">${rank||""}</span>
     <div class="who"><p class="name">${esc(d.name)}</p><div class="subs">${subsOf(d).map(s=>`<span class="subtag${s===filterSub?" hl":""}">${esc(s)}</span>`).join("")}</div>${d.focus&&d.focus!==subsOf(d).join(", ")?`<p class="focus">${esc(d.focus)}</p>`:""}</div>
-    <div class="where"><b>${esc(loc.clinic)}</b><br>${esc(loc.address)}
+    <div class="where">${loc.clinic?`<b>${esc(loc.clinic)}</b><br>`:""}${esc(loc.address)}
       <div class="meta"><span class="citytag"><span class="sw" style="background:${cityColor(loc.city)}"></span>${esc(loc.city)}</span>${distKm!=null?`<span class="dist">${distKm<10?distKm.toFixed(1):Math.round(distKm)} km away</span>`:""}${d.tier==="care"?`<span class="tier">Glaucoma care · subspecialty unconfirmed</span>`:""}</div></div>
     <dl class="contacts">${contactRow("Phone",loc.phone)}${contactRow("Fax",loc.fax)}${contactRow("Email",loc.email,"email")}</dl>
     ${others.length?`<p class="alt">Also sees patients at: ${others.map(o=>esc((o.clinic?o.clinic+", ":"")+o.city)).join("; ")}</p>`:""}
