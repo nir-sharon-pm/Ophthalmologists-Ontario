@@ -815,7 +815,8 @@ a{color:var(--accent)}
 .card .who{padding-right:40px}
 .sharebtn{position:absolute;top:8px;right:8px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--accent);display:grid;place-items:center;cursor:pointer}
 .sharebtn:hover{border-color:var(--accent);background:var(--bg)}
-.share-dlg .drawer{max-width:440px}
+.overlay.share-dlg{justify-content:center;align-items:center;padding:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.share-dlg .drawer{width:min(460px,100%);height:auto;max-height:calc(100% - 32px);border-radius:14px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.3)}
 .share-doc{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;margin:0 0 14px}
 .share-doc b{display:block;font-size:15px}
 .fld{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
@@ -826,11 +827,16 @@ a{color:var(--accent)}
 .share-actions a{text-align:center;text-decoration:none}
 
 .share-to{font-size:12.5px;color:var(--muted);margin:10px 0 0}
-.share-alt{font-size:13.5px;margin:12px 0 0;line-height:1.9}
-.share-alt a[aria-disabled="true"],.share-alt.off button{color:var(--muted);text-decoration-style:dotted}
+.share-alt{margin:14px 0 0;padding:10px 0 0;border-top:1px solid var(--line)}
+.alt-q{margin:0 0 8px;font-size:13.5px;font-weight:600}
+.alt-btns{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.alt-btns .btn{padding:9px 8px;font-size:13.5px;text-align:center;text-decoration:none;white-space:normal}
+.share-alt.off .btn{opacity:.55}
+@media (max-width:480px){.alt-btns{grid-template-columns:1fr}}
 .share-actions a[aria-disabled="true"]{opacity:.55}
 .share-need{color:var(--danger);font-size:13px;margin:6px 0 0}
-.share-alt.hl{background:var(--top-soft);border-radius:8px;padding:6px 10px}
+.share-alt.hl .alt-q{color:var(--top-ink)}
+.share-alt.hl{background:var(--top-soft);border-radius:10px;padding:10px;border-top:0}
 .share-done{font-size:13px;color:var(--muted);margin:8px 0 0}
 .userbox{position:relative;margin-left:auto}
 .avatar-btn{border:0;background:none;padding:0;cursor:pointer;border-radius:50%;display:block}
@@ -906,7 +912,14 @@ a{color:var(--accent)}
     <div class="share-actions">
       <a class="btn" id="sendapp" aria-disabled="true" href="#">Submit to Office Email</a>
     </div>
-    <p class="share-alt" id="sharealt">Nothing opened? <a id="altgmail" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Gmail</a> · <a id="altoutlook" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Outlook</a> · <button class="link" type="button" id="altcopy">Copy email text</button></p>
+    <div class="share-alt" id="sharealt">
+      <p class="alt-q">Nothing opened?</p>
+      <div class="alt-btns">
+        <a class="btn ghost" id="altgmail" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Gmail</a>
+        <a class="btn ghost" id="altoutlook" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Outlook</a>
+        <button class="btn ghost" type="button" id="altcopy">Copy email text</button>
+      </div>
+    </div>
     <p class="share-done" id="sharedone" role="status" hidden></p>
     <p class="share-to" id="shareto"></p>
   </div>
