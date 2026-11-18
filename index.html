@@ -807,6 +807,17 @@ a{color:var(--accent)}
 .drawer li .q{font-weight:600}
 .drawer li .m{font-size:12px;color:var(--muted)}
 .link.danger{color:var(--danger)}
+.userbox{display:flex;align-items:center;gap:8px}
+.who-chip{font-size:12.5px;color:var(--muted);white-space:nowrap;max-width:180px;overflow:hidden;text-overflow:ellipsis}
+.who-chip button{font-size:12.5px}
+.welcome{position:fixed;inset:0;z-index:3000;background:var(--bg);display:flex;align-items:center;justify-content:center;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px;overflow:auto}
+.wcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px;max-width:440px;width:100%;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.wcard h2{margin:0;font-size:21px;text-wrap:balance}
+.wcard p{margin:0;color:var(--muted)}
+.wcard label{font-weight:600;font-size:14px}
+.wcard input{font-size:16px;padding:11px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg)}
+.wcard input:focus{border-color:var(--accent);outline:none}
+.wcard .wnote{font-size:12.5px}
 .btn.danger{background:var(--danger);color:#fff}
 .confirm{margin-top:12px;border:1.5px solid var(--danger);border-radius:10px;padding:12px;background:var(--danger-soft)}
 .confirm p{margin:0 0 10px;font-size:13.5px}
@@ -825,7 +836,7 @@ a{color:var(--accent)}
     <button class="btn ghost" type="button" id="clear" hidden>Clear</button>
   </form>
   <div class="status" id="status"><span class="dot"></span><span>Loading data…</span></div>
-  <button class="btn ghost histbtn" type="button" id="histbtn" aria-haspopup="dialog">History</button>
+  <div class="userbox histbtn"><span class="who-chip" id="whochip" hidden></span><button class="btn ghost" type="button" id="histbtn" aria-haspopup="dialog">History</button></div>
 </header>
 <main>
   <aside id="list" aria-live="polite"></aside>
@@ -835,6 +846,17 @@ a{color:var(--accent)}
     <div class="legend"><span><i class="lg-pin"></i>Clinic (number = doctors)</span><span><i class="lg-top"></i>Top 3 nearest</span><span><i class="lg-pt"></i>Patient</span></div>
   </div>
 </main>
+</div>
+<div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="wtitle">
+  <form class="wcard" id="wform" autocomplete="on">
+    <div class="wicon" aria-hidden="true"><svg viewBox="0 0 64 64" width="44" height="44"><circle cx="26" cy="26" r="17" fill="#ffe3f0" stroke="#e0408a" stroke-width="7"/><path d="M39 39 L57 57" stroke="#e0408a" stroke-width="9" stroke-linecap="round"/></svg></div>
+    <h2 id="wtitle">Welcome to the Ontario Ophthalmologists Referral Map</h2>
+    <p>Find the ophthalmologists closest to a patient's new address, from Windsor to Montréal.</p>
+    <label for="wname">Your name</label>
+    <input id="wname" name="name" autocomplete="name" required maxlength="60" placeholder="e.g. Dr. Jane Smith">
+    <button class="btn" type="submit">Continue</button>
+    <p class="wnote">Your name is remembered in this browser, so you'll only see this page once. Each search you make is recorded with your name, device type and the town searched, and shared with the site owner. Street addresses are never recorded; please don't type patient names.</p>
+  </form>
 </div>
 <div class="overlay" id="hist" hidden role="dialog" aria-modal="true" aria-labelledby="histtitle">
   <div class="drawer">
@@ -1115,7 +1137,16 @@ async function runSearch(q,record){
   else kind="loc";
   if(kind==="name"){runName(q);if(record)addHistory("name",q,q);return;}
   altHits=hits;
-  const g=await runLocation(q);if(g&&record)addHistory("loc",q,g.label);
+  const g=await runLocation(q);if(g&&record){const s=safeQuery(q,g);addHistory("loc",s.q,s.label);}
+}
+/* never keep street addresses or full postal codes: keep the town (and the first 3 postal characters) */
+function safeQuery(q,g){
+  const town=String(g.label||"").replace(/^[A-Z]\d[A-Z](\s\d[A-Z]\d)?\s*\((.*)\)$/i,"$2")||"unknown town";
+  const pc=String(q).toUpperCase().match(/\b([A-Z]\d[A-Z])\s?(\d[A-Z]\d)?\b/);
+  const hasStreet=/\d+\s*[A-Za-zÀ-ÿ]/.test(String(q).replace(/\b[A-Z]\d[A-Z](\s?\d[A-Z]\d)?\b/i,""))&&/\d/.test(String(q).replace(/\b[A-Z]\d[A-Z](\s?\d[A-Z]\d)?\b/i,""));
+  if(hasStreet)return {q:town,label:"Street address · "+town};
+  if(pc)return {q:pc[1],label:pc[1]+" ("+town+")"+(pc[2]?" · full postal code entered":"")};
+  return {q:q,label:town};
 }
 $("#f").addEventListener("submit",e=>{e.preventDefault();runSearch($("#q").value,true);});
 $("#clear").addEventListener("click",()=>{altHits=[];patient=null;ranking=null;nameQuery="";searchMode="loc";geoMsg="";$("#q").value="";$("#clear").hidden=true;refresh();map.flyToBounds(VIEW_ALL,{duration:.6});});
@@ -1128,10 +1159,36 @@ function fillLists(){
 /* ---------- history (this browser only) ---------- */
 const HKEY="oph.history";
 function getHistory(){try{const v=JSON.parse(localStorage.getItem(HKEY)||"[]");return Array.isArray(v)?v:[];}catch{return [];}}
-function addHistory(mode,q,label){const h=getHistory().filter(x=>!(x.mode===mode&&x.q===q));h.unshift({mode,q:String(q).slice(0,120),label:String(label).slice(0,80),t:Date.now()});try{localStorage.setItem(HKEY,JSON.stringify(h.slice(0,30)));}catch{}}
+function addHistory(mode,q,label){
+  const e={mode,q:String(q).slice(0,120),label:String(label).slice(0,80),t:Date.now(),user:userName()||"",device:deviceType()};
+  const h=getHistory().filter(x=>!(x.mode===mode&&x.q===e.q));h.unshift(e);
+  try{localStorage.setItem(HKEY,JSON.stringify(h.slice(0,30)));}catch{}
+  logRemote(e);
+}
+/* shared log for the site owner (Google Form). Disabled until LOG is configured. */
+const LOG=null;
+function logRemote(e){
+  try{
+    if(!LOG||!LOG.action||!LOG.fields)return;
+    const f=LOG.fields,body=new URLSearchParams();
+    if(f.name)body.append(f.name,e.user||"(no name)");
+    if(f.kind)body.append(f.kind,e.mode==="name"?"Doctor name":"Location");
+    if(f.search)body.append(f.search,e.mode==="name"?e.q:e.label);
+    if(f.device)body.append(f.device,e.device);
+    if(f.site)body.append(f.site,location.hostname||"local");
+    fetch(LOG.action,{method:"POST",mode:"no-cors",body}).catch(()=>{});
+  }catch{}
+}
+function deviceType(){
+  const ua=navigator.userAgent||"";
+  const kind=/iPad|Tablet|PlayBook|Silk/i.test(ua)||(/Android/i.test(ua)&&!/Mobile/i.test(ua))||(navigator.maxTouchPoints>1&&/Macintosh/.test(ua))?"Tablet":/Mobi|iPhone|Android/i.test(ua)?"Mobile":"Computer";
+  const os=/iPhone|iPad|iPod/.test(ua)||(navigator.maxTouchPoints>1&&/Macintosh/.test(ua))?"iOS":/Android/.test(ua)?"Android":/Windows/.test(ua)?"Windows":/Mac OS X/.test(ua)?"macOS":/Linux/.test(ua)?"Linux":"";
+  const br=/Edg\//.test(ua)?"Edge":/OPR\//.test(ua)?"Opera":/Chrome\//.test(ua)?"Chrome":/Firefox\//.test(ua)?"Firefox":/Safari\//.test(ua)?"Safari":"";
+  return [kind,os,br].filter(Boolean).join(" · ");
+}
 function renderHistory(){
   const h=getHistory();
-  $("#histlist").innerHTML=h.length?h.map((x,i)=>`<li><button type="button" data-h="${i}"><span class="q">${esc(x.q)}</span><span class="m">${x.mode==="name"?"Doctor name":"Location"}${x.mode==="loc"&&x.label!==x.q?" · "+esc(x.label):""} · ${esc(new Date(x.t).toLocaleString())}</span></button></li>`).join(""):`<li class="m">No searches yet. Your location and doctor-name searches will appear here.</li>`;
+  $("#histlist").innerHTML=h.length?h.map((x,i)=>`<li><button type="button" data-h="${i}"><span class="q">${esc(x.q)}</span><span class="m">${x.mode==="name"?"Doctor name":"Location"}${x.mode==="loc"&&x.label!==x.q?" · "+esc(x.label):""} · ${esc(new Date(x.t).toLocaleString())}</span><span class="m">${esc(x.user||"Unknown user")} · ${esc(x.device||"")}</span></button></li>`).join(""):`<li class="m">No searches yet. Your location and doctor-name searches will appear here.</li>`;
 }
 function openHistory(){renderHistory();$("#histconfirm").hidden=true;$("#hist").hidden=false;$("#histclose").focus();}
 function closeHistory(){$("#hist").hidden=true;$("#histbtn").focus();}
@@ -1164,6 +1221,13 @@ if(![...SUBS,NOT_LISTED,"All"].includes(filterSub))filterSub="Glaucoma";
 fillLists();updateLabels();refresh();
 setTimeout(()=>map.invalidateSize(),50);
 if(window.claude)connect();else setTimeout(connect,300);
+/* ---------- welcome / name ---------- */
+function userName(){try{return localStorage.getItem("oph.user")||"";}catch{return "";}}
+function showUser(){const n=userName();const c=$("#whochip");if(n){c.hidden=false;c.innerHTML=`${esc(n)} · <button class="link" type="button" id="changeuser">Change</button>`;}else c.hidden=true;}
+function askName(){$("#welcome").hidden=false;$("#wname").value=userName();setTimeout(()=>$("#wname").focus(),50);}
+$("#wform").addEventListener("submit",e=>{e.preventDefault();const n=$("#wname").value.trim().slice(0,60);if(!n)return;try{localStorage.setItem("oph.user",n);}catch{}$("#welcome").hidden=true;showUser();map.invalidateSize();$("#q").focus();});
+document.addEventListener("click",e=>{if(e.target.id==="changeuser")askName();});
+showUser();if(!userName())askName();
 })();
 </script>
 

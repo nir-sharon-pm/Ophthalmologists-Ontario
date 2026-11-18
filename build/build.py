@@ -16,7 +16,8 @@ page = (t.replace('/*LEAFLET_CSS*/', open(b + '/leaflet.css', encoding='utf-8').
          .replace('/*BASE*/', open(b + '/base.json', encoding='utf-8').read().strip())
          .replace('/*GAZ*/', json.dumps({'F': g['F'], 'C': g['C']}, separators=(',', ':'), ensure_ascii=False))
          .replace('/*SNAP*/', json.dumps(docs, separators=(',', ':'), ensure_ascii=False))
-         .replace('/*DATE*/', date))
+         .replace('/*DATE*/', date)
+         .replace('/*LOG*/', json.dumps(json.load(open(b + '/log_config.json', encoding='utf-8'))) if __import__('os').path.exists(b + '/log_config.json') else 'null'))
 open(out + '/artifact.html', 'w', encoding='utf-8').write(page)
 full = ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
