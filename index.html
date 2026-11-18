@@ -1262,7 +1262,8 @@ async function runLocation(q){
   geoMsg="";let g=geocode(q);
   if(!g){geoMsg="Looking up that place…";renderList();g=await askClaude(q);}
   if(!g){geoMsg="";renderList();showNoResult(q);return false;}
-  hideNoResult();searchMode="loc";nameQuery="";geoMsg="";patient=g;computeRanking();refresh();fitPatient();$("#clear").hidden=false;
+  hideNoResult();searchMode="loc";nameQuery="";geoMsg="";patient=g;
+  filterCity="All"; /* a place search looks around that place, not inside a previously chosen city */computeRanking();refresh();fitPatient();$("#clear").hidden=false;
   if(matchMedia("(max-width:820px)").matches)$("#map").scrollIntoView({behavior:"smooth"});
   return g;
 }
