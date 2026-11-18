@@ -151,6 +151,10 @@ a{color:var(--accent)}
 .drawer li .m{font-size:12px;color:var(--muted)}
 .link.danger{color:var(--danger)}
 .card .who{padding-right:40px}
+.infobtn{border:0;background:none;color:var(--muted);cursor:pointer;padding:2px;margin-left:auto;display:inline-grid;place-items:center;border-radius:50%}
+.infobtn:hover,.infobtn[aria-expanded="true"]{color:var(--accent)}
+.srcs{grid-column:1/-1;display:flex;flex-direction:column;gap:4px;font-size:12.5px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:4px}
+.srcs-h{font-family:var(--cond);font-weight:600;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .sharebtn{position:absolute;top:8px;right:8px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--accent);display:grid;place-items:center;cursor:pointer}
 .sharebtn:hover{border-color:var(--accent);background:var(--bg)}
 .overlay.share-dlg{justify-content:center;align-items:center;padding:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -407,8 +411,15 @@ function contactRow(label,val,kind){
   if(!val)return `<dt>${label}</dt><dd class="na">${kind==="email"?"Not published":"Not published – call clinic"}</dd><span></span>`;
   return `<dt>${label}</dt><dd>${esc(val)}</dd><button class="copy" type="button" data-copy="${esc(val)}" aria-label="Copy ${label}">Copy</button>`;
 }
+function srcName(u){
+  let h="";try{h=new URL(u).hostname.replace(/^www\./,"");}catch{return "Source";}
+  const M=[["register.cpso.on.ca","CPSO register (this doctor)"],["ophthalmology.utoronto.ca","University of Toronto faculty page"],["schulich.uwo.ca","Western University faculty list"],["queensu.ca","Queen's University referral list"],["uottawa.ca","University of Ottawa faculty list"],["mcgill.ca","McGill faculty list"],["healthdoc.ca","HealthDoc listing"],["cos.imiscloud.com","Canadian Ophthalmological Society directory"],["unityhealth.to","Unity Health Toronto"],["ottawahospital.on.ca","The Ottawa Hospital"],["sinaihealth.ca","Sinai Health"],["sunnybrook.ca","Sunnybrook"],["uhn.ca","University Health Network"],["jgh.ca","Jewish General Hospital"],["muhc.ca","McGill University Health Centre"],["kingstonhsc.ca","Kingston Health Sciences Centre"],["stjoes.ca","St. Joseph's Healthcare Hamilton"],["sjhc.london.on.ca","St. Joseph's Health Care London"],["mississaugahaltonhealthline.ca","Ontario Health atHome directory"],["hnhbhealthline.ca","Ontario Health atHome directory"],["prismeyeinstitute.com","Prism Eye Institute"],["oakvalleyhealth.ca","Oak Valley Health"]];
+  for(const [k,n] of M)if(h===k||h.endsWith("."+k))return n;
+  return h;
+}
 function card(d,loc,rank,distKm){
   const top=rank&&rank<=3, others=d.locations.filter(l=>l!==loc);
+  const srcs=[...new Set((d.sources||[]).filter(u=>/^https:\/\//.test(u)))];
   return `<article class="card${top?" top":""}${selected===d.id?" sel":""}" data-id="${esc(d.id)}">
     <button class="sharebtn" type="button" data-share="${esc(d.id)}" data-lat="${loc.lat}" data-lng="${loc.lng}" aria-label="Share referral details for ${esc(d.name)}" title="Share referral details"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3v12M12 3l-4.5 4.5M12 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 10H6a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
     <span class="rank${rank?"":" none"}">${rank||""}</span>
@@ -418,7 +429,8 @@ function card(d,loc,rank,distKm){
     <dl class="contacts">${contactRow("Phone",loc.phone)}${contactRow("Fax",loc.fax)}${contactRow("Email",loc.email,"email")}</dl>
     ${others.length?`<p class="alt">Also sees patients at: ${others.map(o=>esc((o.clinic?o.clinic+", ":"")+o.city)).join("; ")}</p>`:""}
     ${d.note?`<p class="note">${esc(d.note)}</p>`:""}
-    <div class="foot"><button class="link" type="button" data-show="${esc(d.id)}" data-lat="${loc.lat}" data-lng="${loc.lng}">Show on map</button>${(d.sources||[]).slice(0,2).map((u,i)=>/^https:\/\//.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">Source ${i+1}</a>`:"").join("")}</div>
+    <div class="foot"><button class="link" type="button" data-show="${esc(d.id)}" data-lat="${loc.lat}" data-lng="${loc.lng}">Show on map</button>${srcs.length?`<button class="infobtn" type="button" data-info aria-expanded="false" aria-label="Sources for ${esc(d.name)}" title="Sources"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 10.5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.4" r="1.3" fill="currentColor"/></svg></button>`:""}</div>
+    ${srcs.length?`<div class="srcs" hidden><span class="srcs-h">Sources</span>${srcs.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(srcName(u))}</a>`).join("")}</div>`:""}
   </article>`;
 }
 const MAXCARDS=150;
@@ -467,6 +479,8 @@ $("#list").addEventListener("change",e=>{
   if(e.target.id==="fsub"){filterSub=e.target.value;computeRanking();refresh();}
 });
 $("#list").addEventListener("click",async e=>{
+  const ib=e.target.closest("[data-info]");
+  if(ib){const box=ib.closest(".card").querySelector(".srcs");if(box){box.hidden=!box.hidden;ib.setAttribute("aria-expanded",String(!box.hidden));}return;}
   const shb=e.target.closest("[data-share]");
   if(shb){openShare(shb.dataset.share,+shb.dataset.lat,+shb.dataset.lng);return;}
   const c=e.target.closest("[data-copy]");

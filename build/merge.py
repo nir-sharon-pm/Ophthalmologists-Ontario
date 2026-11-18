@@ -288,6 +288,14 @@ for k, m in mtl.items():
     out[did] = dict(id=did, name=m['name'], focus=', '.join(subs) if subs else 'Ophthalmology', subs=subs, tier='',
                     sources=[m['src']] + ssrc[:2], note='', locations=[m['loc']])
 
+# link CPSO sources to the doctor's own register page, not the register's home page
+for d in out.values():
+    if d.get('cpso'):
+        spec = 'https://register.cpso.on.ca/physician-info/?cpsonum=' + d['cpso']
+        srcs = [s for s in d.get('sources', []) if s.rstrip('/') != 'https://register.cpso.on.ca']
+        if spec not in srcs:
+            srcs.insert(0, spec)
+        d['sources'] = srcs
 docs = sorted(out.values(), key=lambda d: d['id'])
 json.dump(docs, open(A.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 from collections import Counter
