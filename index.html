@@ -1210,15 +1210,13 @@ const SHARE={"officeEmail": "snirjj@gmail.com", "provider": "gmail"};
 let shareCtx=null;
 function mapsLink(l){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(l.address||(l.clinic+" "+l.city));}
 function shareBody(d,l){
-  const lines=[d.name,subsOf(d).join(", ")];
+  const lines=[d.name];
   if(l.clinic)lines.push(l.clinic);
   lines.push(l.address);
   if(l.phone)lines.push("Phone: "+l.phone);
   if(l.fax)lines.push("Fax: "+l.fax);
   if(l.email)lines.push("Email: "+l.email);
   lines.push("Map: "+mapsLink(l));
-  if(d.note)lines.push("","Note: "+d.note);
-  lines.push("","Sent by "+(userName()||"an OphthalFind user")+" via OphthalFind");
   return lines.join("\n");
 }
 function shareLinks(){
