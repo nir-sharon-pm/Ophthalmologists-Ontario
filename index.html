@@ -1051,7 +1051,7 @@ function computeRanking(){
 function drawPatient(){
   extraLayer.clearLayers();
   if(!patient||searchMode!=="loc")return;
-  L.marker(patient,{zIndexOffset:2000,icon:L.divIcon({className:"",html:`<div class="ptmark"><i></i><b>Patient · ${esc(patient.label)}</b></div>`,iconSize:null})}).addTo(extraLayer);
+  L.marker(patient,{zIndexOffset:2000,icon:L.divIcon({className:"",html:`<div class="ptmark"><i></i><b>${esc(patient.label)}</b></div>`,iconSize:null})}).addTo(extraLayer);
   (ranking||[]).slice(0,3).forEach(r=>L.polyline([[patient.lat,patient.lng],[r.loc.lat,r.loc.lng]],{color:tok("--top"),weight:2.5,dashArray:"6 6",interactive:false}).addTo(extraLayer));
 }
 function fitPatient(){
