@@ -17,8 +17,9 @@ bash build/fetch_sources.sh "$T/src"
 python3 -I build/parse_healthdoc.py "$T/src/hd/mtl" "$T/mtl_hd.json"
 python3 -I build/parse_healthdoc.py "$T/src/hd/on" "$T/on_hd.json"
 
-# 3. Ontario: CPSO register town by town, plus licence lookups for doctors the town search missed
-node build/cpso_list.js build/data/cities.json "$T/cpso_list.json"
+# 3. Ontario: CPSO register by 3-character postal area (the register returns at most 100 results per
+#    search, so postal areas keep each search small), plus licence lookups for anyone still missed
+node build/cpso_list.js build/data/fsas.json "$T/cpso_list.json"
 python3 -I build/add_missing.py "$T/on_hd.json" "$T/cpso_list.json"
 cp "$T/cpso_list.json" build/data/cpso_list.json
 #    details older than 28 days are refreshed (about a quarter each week); new doctors always

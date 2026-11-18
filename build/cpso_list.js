@@ -45,7 +45,9 @@ async function readRows(p) {
         const lh = document.getElementById('languageSelectedHidden'); if (lh) lh.value = '';
         const s = document.getElementById('SpecialistType'); s.value = 'Ophthalmology';
         const cd = document.getElementById('cityDropDown');
+        const pcf = f.querySelector('[name=postalCode]'); if (pcf) pcf.value = '';
         if (c.startsWith('last:')) { cd.value = '-1'; f.querySelector('[name=lastName]').value = c.slice(5); }
+        else if (c.startsWith('pc:')) { cd.value = '-1'; if (pcf) pcf.value = c.slice(3); }
         else cd.value = c;
         [s, cd].forEach(x => x.dispatchEvent(new Event('change', { bubbles: true })));
         f.querySelector('button.search-button').click();
