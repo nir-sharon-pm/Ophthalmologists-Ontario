@@ -1,4 +1,4 @@
-# Ontario Ophthalmologists Referral Map
+# OphthalFind
 
 A map of ophthalmologists between Windsor, Ontario and Montréal, Québec, for referring a patient
 who has moved. Enter the patient's new postal code, town or address (or a doctor's name); the page

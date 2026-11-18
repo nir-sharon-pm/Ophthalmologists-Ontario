@@ -1,7 +1,6 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
-<title>Ontario Ophthalmologists Referral Map</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Ccircle cx=%2726%27 cy=%2726%27 r=%2717%27 fill=%27%23ffe3f0%27 stroke=%27%23e0408a%27 stroke-width=%277%27/%3E%3Cpath d=%27M39 39 L57 57%27 stroke=%27%23e0408a%27 stroke-width=%279%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Ccircle cx=%2726%27 cy=%2726%27 r=%2717%27 fill=%27%23ffe3f0%27 stroke=%27%23e0408a%27 stroke-width=%277%27/%3E%3Cpath d=%27M39 39 L57 57%27 stroke=%27%23e0408a%27 stroke-width=%279%27 stroke-linecap=%27round%27/%3E%3C/svg%3E"><title>OphthalFind</title><style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<title>OphthalFind</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@500;600&display=swap">
@@ -827,7 +826,7 @@ a{color:var(--accent)}
 
 <div class="app">
 <header>
-  <div class="brand"><h1>Ontario Ophthalmologists Referral Map</h1><p>Ophthalmologists specialists, Windsor to Montréal</p></div>
+  <div class="brand"><h1>OphthalFind</h1><p>Find Ophthalmologists Windsor to Montréal</p></div>
   <form class="search" id="f" autocomplete="off">
     <label for="q">Search by location or doctor name</label>
     <input id="q" list="suggest" placeholder="Postal code, city or address — or a doctor's name" enterkeyhint="search">
@@ -850,12 +849,11 @@ a{color:var(--accent)}
 <div class="welcome" id="welcome" hidden role="dialog" aria-modal="true" aria-labelledby="wtitle">
   <form class="wcard" id="wform" autocomplete="on">
     <div class="wicon" aria-hidden="true"><svg viewBox="0 0 64 64" width="44" height="44"><circle cx="26" cy="26" r="17" fill="#ffe3f0" stroke="#e0408a" stroke-width="7"/><path d="M39 39 L57 57" stroke="#e0408a" stroke-width="9" stroke-linecap="round"/></svg></div>
-    <h2 id="wtitle">Welcome to the Ontario Ophthalmologists Referral Map</h2>
-    <p>Find the ophthalmologists closest to a patient's new address, from Windsor to Montréal.</p>
+    <h2 id="wtitle">Welcome to OphthalFind</h2>
+    <p>Find ophthalmologists closest to a given location, from Windsor to Montréal.</p>
     <label for="wname">Your name</label>
     <input id="wname" name="name" autocomplete="name" required maxlength="60" placeholder="e.g. Dr. Jane Smith">
     <button class="btn" type="submit">Continue</button>
-    <p class="wnote">Your name is remembered in this browser, so you'll only see this page once. Each search you make is recorded with your name, device type and the town searched, and shared with the site owner. Street addresses are never recorded; please don't type patient names.</p>
   </form>
 </div>
 <div class="overlay" id="hist" hidden role="dialog" aria-modal="true" aria-labelledby="histtitle">
@@ -898,7 +896,7 @@ function cityColor(c){if(FIXED[c])return FIXED[c];let h=0;for(const ch of String
 /* ---------- state ---------- */
 const loadPref=(k,d)=>{try{return localStorage.getItem(k)??d}catch{return d}};
 const savePref=(k,v)=>{try{localStorage.setItem(k,v)}catch{}};
-let doctors=sanitize(SNAPSHOT), patient=null, ranking=null, filterCity="All", filterSub=loadPref("oph.sub","Glaucoma"), selected=null, metaInfo=null;
+let doctors=sanitize(SNAPSHOT), patient=null, ranking=null, filterCity="All", filterSub="Glaucoma", selected=null, metaInfo=null;
 let searchMode="loc", nameQuery="";
 
 function sanitize(arr){
@@ -1053,7 +1051,7 @@ function renderList(){
       if(!rows.length)return;total+=rows.length;
       body+=`<p class="group"><span class="sw" style="background:${cityColor(c)}"></span>${esc(c)} · ${rows.length}</p>`+rows.map(r=>card(r.d,r.l,0,null)).join("");
     });
-    head=`<div class="listhead"><h2>${filterCity==="All"?vis.length:total} ophthalmologist${(filterCity==="All"?vis.length:total)===1?"":"s"}${filterSub!=="All"?" · "+esc(filterSub):""}</h2><p class="sub">Select a city to show only its clinics &amp; ophthalmologists</p></div>`;
+    head=`<div class="listhead"><h2>${filterCity==="All"?vis.length:total} ophthalmologist${(filterCity==="All"?vis.length:total)===1?"":"s"}${filterSub!=="All"?" · "+esc(filterSub):""}</h2><p class="sub">Choose a city and a subspecialty to narrow the clinics &amp; ophthalmologists shown</p></div>`;
     if(!body)body=`<p class="msg">No doctors match these filters.</p>`;
   }
   const alt=ranking&&altHits.length?`<p class="msg">Did you mean ${altHits.slice(0,3).map(d=>`<button class="link" type="button" data-alt="${esc(d.name)}">${esc(d.name)}</button>`).join(", ")}${altHits.length>3?" …":""}?</p>`:"";
@@ -1067,7 +1065,7 @@ let geoMsg="";
 /* ---------- interactions ---------- */
 $("#list").addEventListener("change",e=>{
   if(e.target.id==="fcity"){filterCity=e.target.value;computeRanking();refresh();if(!patient)fitVisible();}
-  if(e.target.id==="fsub"){filterSub=e.target.value;savePref("oph.sub",filterSub);computeRanking();refresh();}
+  if(e.target.id==="fsub"){filterSub=e.target.value;computeRanking();refresh();}
 });
 $("#list").addEventListener("click",async e=>{
   const c=e.target.closest("[data-copy]");
