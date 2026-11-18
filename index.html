@@ -813,6 +813,12 @@ a{color:var(--accent)}
 .drawer li .q{font-weight:600}
 .drawer li .m{font-size:12px;color:var(--muted)}
 .link.danger{color:var(--danger)}
+.noresult{flex:1 1 100%;background:var(--warn-soft);color:var(--ink);border:1px solid var(--warn);border-radius:10px;padding:10px 12px;font-size:14px}
+.noresult p{margin:0 0 8px}
+.noresult .sugs{display:flex;flex-wrap:wrap;gap:6px}
+.noresult .sug{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 12px;font-size:13.5px;cursor:pointer;color:var(--ink)}
+.noresult .sug small{color:var(--muted);margin-left:4px}
+.noresult .hint{margin:8px 0 0;font-size:12.5px;color:var(--muted)}
 .card .who{padding-right:40px}
 .infobtn{border:0;background:none;color:var(--muted);cursor:pointer;padding:2px;margin-left:auto;display:inline-grid;place-items:center;border-radius:50%}
 .infobtn:hover,.infobtn[aria-expanded="true"]{color:var(--accent)}
@@ -879,6 +885,7 @@ a{color:var(--accent)}
     <datalist id="suggest"></datalist>
     <button class="btn" type="submit" id="go">Search</button>
     <button class="btn ghost" type="button" id="clear" hidden>Clear</button>
+    <div class="noresult" id="noresult" role="alert" hidden></div>
   </form>
   <div class="userbox">
     <button type="button" class="avatar-btn" id="avbtn" aria-haspopup="menu" aria-expanded="false" aria-label="Account menu"><span class="av" id="avimg"></span></button>
@@ -1194,16 +1201,44 @@ function exactPlace(q){
   if(CITY_INDEX.has(s))return true;
   return String(q).includes(",")&&String(q).split(",").some(p=>CITY_INDEX.has(norm(p).replace(/\b(ONTARIO|ON|QUEBEC|QC|CANADA)\b/g," ").replace(/\s+/g," ").trim()));
 }
+/* ---------- no results: suggest close doctor names and towns ---------- */
+function editDist(a,b){if(Math.abs(a.length-b.length)>2)return 9;const m=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let prev=m[0];m[0]=i;for(let j=1;j<=b.length;j++){const tmp=m[j];m[j]=Math.min(m[j]+1,m[j-1]+1,prev+(a[i-1]===b[j-1]?0:1));prev=tmp;}}return m[b.length];}
+function suggestions(q){
+  const qt=fold(q).replace(/\bdr\.?\s*/g," ").split(/[^a-z'-]+/).filter(w=>w.length>1);
+  const out=[];if(!qt.length)return out;
+  const tol=w=>w.length<=4?1:2;
+  const docs=[];
+  doctors.forEach(d=>{
+    const toks=fold(d.name+" "+(d.legal||"")).replace(/^dr\.?\s*/,"").split(/[^a-z'-]+/).filter(Boolean);
+    let score=0;
+    for(const w of qt){let best=9;for(const t of toks){const e=t.startsWith(w)?0:editDist(w,t);if(e<best)best=e;}if(best>tol(w))return;score+=best;}
+    docs.push({kind:"doc",label:d.name,q:d.name,score,sub:d.locations[0]&&d.locations[0].city});
+  });
+  docs.sort((a,b)=>a.score-b.score);out.push(...docs.slice(0,4));
+  const s=norm(q);const places=[];
+  if(s.length>=3)for(const [k,c] of CITY_INDEX){const e=k.startsWith(s)?0:editDist(s,k);if(e<=(s.length<=5?1:2))places.push({kind:"loc",label:titleCase(c.name),q:titleCase(c.name)+", "+c.prov,score:e-Math.log10(c.n+1)/10,sub:c.prov});}
+  places.sort((a,b)=>a.score-b.score);out.push(...places.slice(0,3));
+  return out;
+}
+function showNoResult(q){
+  const sug=suggestions(q), el=$("#noresult");
+  el.innerHTML=`<p><b>No doctor or place matches “${esc(q)}”.</b>${sug.length?" Did you mean:":""}</p>`+
+    (sug.length?`<div class="sugs">${sug.map((s,i)=>`<button type="button" class="sug" data-sug="${i}">${esc(s.label)}<small>${s.kind==="doc"?"doctor"+(s.sub?", "+esc(s.sub):""):"town, "+esc(s.sub||"")}</small></button>`).join("")}</div>`:"")+
+    `<p class="hint">Try a postal code (e.g. K7L or N2L 3G1), a town, or a doctor's last name. Check the spelling, or clear the search.</p>`;
+  el._sug=sug;el.hidden=false;$("#clear").hidden=false;
+}
+function hideNoResult(){const el=$("#noresult");el.hidden=true;el.innerHTML="";}
+$("#noresult").addEventListener("click",e=>{const b=e.target.closest("[data-sug]");if(!b)return;const s=$("#noresult")._sug[+b.dataset.sug];if(!s)return;$("#q").value=s.q;runSearch(s.q,true);});
 async function runLocation(q){
   geoMsg="";let g=geocode(q);
   if(!g){geoMsg="Looking up that place…";renderList();g=await askClaude(q);}
-  if(!g){geoMsg=`Couldn't find a place or doctor matching "${q}". Try a postal code (e.g. L4C or L4C 2N9), a town, or a doctor's last name.`;renderList();return false;}
-  searchMode="loc";nameQuery="";geoMsg="";patient=g;computeRanking();refresh();fitPatient();$("#clear").hidden=false;
+  if(!g){geoMsg="";renderList();showNoResult(q);return false;}
+  hideNoResult();searchMode="loc";nameQuery="";geoMsg="";patient=g;computeRanking();refresh();fitPatient();$("#clear").hidden=false;
   if(matchMedia("(max-width:820px)").matches)$("#map").scrollIntoView({behavior:"smooth"});
   return g;
 }
 let altHits=[];
-function runName(q){altHits=[];searchMode="name";nameQuery=q;patient=null;ranking=null;geoMsg="";$("#clear").hidden=false;refresh();fitVisible();}
+function runName(q){hideNoResult();altHits=[];searchMode="name";nameQuery=q;patient=null;ranking=null;geoMsg="";$("#clear").hidden=false;refresh();fitVisible();}
 async function runSearch(q,record){
   q=String(q).trim();if(!q)return;
   const looksPostal=PC_RX.test(q)&&!/[a-z]{4,}/i.test(q.replace(PC_RX,""));
@@ -1226,7 +1261,7 @@ function safeQuery(q,g){
   return {q:q,label:town};
 }
 $("#f").addEventListener("submit",e=>{e.preventDefault();runSearch($("#q").value,true);});
-$("#clear").addEventListener("click",()=>{altHits=[];patient=null;ranking=null;nameQuery="";searchMode="loc";geoMsg="";$("#q").value="";$("#clear").hidden=true;refresh();map.flyToBounds(VIEW_ALL,{duration:.6});});
+$("#clear").addEventListener("click",()=>{hideNoResult();altHits=[];patient=null;ranking=null;nameQuery="";searchMode="loc";geoMsg="";$("#q").value="";$("#clear").hidden=true;refresh();map.flyToBounds(VIEW_ALL,{duration:.6});});
 function fillLists(){
   const places=[...CITY_INDEX.values()].sort((a,b)=>b.n-a.n).slice(0,500).map(c=>titleCase(c.name)+", "+c.prov);
   const names=doctors.map(d=>d.name);
