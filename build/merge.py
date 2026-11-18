@@ -80,6 +80,7 @@ def split_address(lines):
 
 def title_name(raw):
     raw = re.sub(r'Former Name:.*$', '', raw).strip()
+    raw = re.sub(r'^(Dr\.?\s+)+', '', raw)
     if ',' in raw:
         last, first = [x.strip() for x in raw.split(',', 1)]
     else:

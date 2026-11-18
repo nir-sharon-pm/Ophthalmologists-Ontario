@@ -1,0 +1,6080 @@
+[
+ {
+  "cpso": "123113",
+  "name": "Bamberger, Mark Douglas",
+  "specialties": "Ophthalmology",
+  "location": "601 Westney Road South Suite 201 Ajax Ontario L1S 4N7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=123113",
+  "cities": [
+   "Ajax"
+  ]
+ },
+ {
+  "cpso": "92743",
+  "name": "Belovay, Graham William",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele St Unit A5 Vaughan Ontario L4K 0J4 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=92743",
+  "cities": [
+   "Ajax",
+   "Barrie",
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "120855",
+  "name": "El-Deeb, Mohab Mohamed Ali",
+  "specialties": "Ophthalmology",
+  "location": "601 Westney Road South Ajax Ontario L1S 6W8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=120855",
+  "cities": [
+   "Ajax"
+  ]
+ },
+ {
+  "cpso": "98451",
+  "name": "Greenwald, Yoel Micha Meir",
+  "specialties": "Ophthalmology",
+  "location": "415-1420 Burnhamthorpe Road East Mississauga Retina Institute Mississauga Ontario L4X 2Z9 +7 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98451",
+  "cities": [
+   "Ajax",
+   "Barrie",
+   "Burlington",
+   "Mississauga",
+   "Oakville",
+   "Orangeville"
+  ]
+ },
+ {
+  "cpso": "101831",
+  "name": "Gupta, Amitabha",
+  "specialties": "Ophthalmology",
+  "location": "408-2855 Markham Road Toronto Ontario M1X 0C3 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=101831",
+  "cities": [
+   "Ajax",
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "75330",
+  "name": "Misra, Manjula",
+  "specialties": "Ophthalmology",
+  "location": "1450 Durham Regional Highway 2 Courtice Ontario L1E 3C3 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75330",
+  "cities": [
+   "Ajax",
+   "Bowmanville",
+   "Courtice",
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "69193",
+  "name": "Nijhawan, Navdeep",
+  "specialties": "Ophthalmology",
+  "location": "601 Westney Road South Ajax Ontario L1S 4N7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=69193",
+  "cities": [
+   "Ajax"
+  ]
+ },
+ {
+  "cpso": "281923",
+  "name": "Rahat, Feisal",
+  "specialties": "Ophthalmology",
+  "location": "Clarity Eye Institute 2855 Markham Road Suite 408 Scarborough Ontario M1X 0C3 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=281923",
+  "cities": [
+   "Ajax",
+   "Brampton",
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "75084",
+  "name": "Khan, Baseer Uddin",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele Street Unit A5 Vaughan Ontario L4K0J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75084",
+  "cities": [
+   "Alliston",
+   "Brampton",
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "78562",
+  "name": "Seto, Raymond James",
+  "specialties": "Ophthalmology",
+  "location": "4 Zina Street Orangeville Ontario L9W 1E1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=78562",
+  "cities": [
+   "Alliston",
+   "Orangeville"
+  ]
+ },
+ {
+  "cpso": "70123",
+  "name": "Liu, Eugene Sy",
+  "specialties": "Ophthalmology",
+  "location": "35 Sunday Drive Unit 105 Aurora Ontario L4G 4B7 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=70123",
+  "cities": [
+   "Aurora"
+  ]
+ },
+ {
+  "cpso": "95485",
+  "name": "Azizi, Behrooz",
+  "specialties": "Ophthalmology",
+  "location": "441 Huronia Rd Behrooz Azizi Barrie Ocular Surgery Barrie Ontario L4N 9B3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=95485",
+  "cities": [
+   "Barrie"
+  ]
+ },
+ {
+  "cpso": "64071",
+  "name": "Emon, Steven Joseph",
+  "specialties": "Ophthalmology",
+  "location": "Suite 112 115 Bell Farm Road Barrie Ontario L4M 5G1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=64071",
+  "cities": [
+   "Barrie"
+  ]
+ },
+ {
+  "cpso": "131695",
+  "name": "Gelkopf, Maxwell Jesse",
+  "specialties": "Ophthalmology",
+  "location": "2180 Steeles Avenue West Uptown Eye Specialists Unit 221 Vaughan Ontario L4K 2Y7 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131695",
+  "cities": [
+   "Barrie",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "268597",
+  "name": "Jafari , Seyed Esmail",
+  "specialties": "Ophthalmology +1",
+  "location": "441 Huronia Road LASIK MD Barrie Ontario L4N 9B3 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=268597",
+  "cities": [
+   "Barrie",
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "85046",
+  "name": "Leung, Christina Chi Wai",
+  "specialties": "Ophthalmology",
+  "location": "Suite 206 125 Bell Farm Rd Barrie Ontario L4M 6L2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=85046",
+  "cities": [
+   "Barrie"
+  ]
+ },
+ {
+  "cpso": "100777",
+  "name": "Mullen, Sarah Jane",
+  "specialties": "Ophthalmology",
+  "location": "441 Huronia Road Barrie Ontario L4N 9B3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=100777",
+  "cities": [
+   "Barrie"
+  ]
+ },
+ {
+  "cpso": "79584",
+  "name": "Nia, Keon Motamedi Former Name: Nia, Jon Motamedi",
+  "specialties": "Ophthalmology",
+  "location": "Unit 2 125 Steamship Bay Road Gravenhurst Ontario P1P 1Z9 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=79584",
+  "cities": [
+   "Barrie",
+   "Concord",
+   "Gravenhurst",
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "150585",
+  "name": "Nofal, Nour",
+  "specialties": "Ophthalmology",
+  "location": "207-470 Bronte Street South Milton Eye Surgeons - Clinic Milton Ontario L9T 2J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=150585",
+  "cities": [
+   "Barrie",
+   "Burlington",
+   "Milton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "117912",
+  "name": "Qian, Jenny",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele Street Unit A5 Vaughan Ontario L4K 0J4 +6 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=117912",
+  "cities": [
+   "Barrie",
+   "Markham",
+   "Newmarket",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "70118",
+  "name": "Scanlan, Daniel Todd",
+  "specialties": "Ophthalmology",
+  "location": "309 Midland Avenue Midland Ontario L4R 3K5 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=70118",
+  "cities": [
+   "Barrie",
+   "Collingwood",
+   "Midland"
+  ]
+ },
+ {
+  "cpso": "270555",
+  "name": "Stippa, Nigel Alastair",
+  "specialties": "Ophthalmology",
+  "location": "441 Huronia Road Barrie Ontario L4N 9B3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=270555",
+  "cities": [
+   "Barrie"
+  ]
+ },
+ {
+  "cpso": "54439",
+  "name": "Tayfour, Fouad",
+  "specialties": "Ophthalmology",
+  "location": "Suite 198 2224 Walker Road Windsor Ontario N8W 5L7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=54439",
+  "cities": [
+   "Barrie",
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "109254",
+  "name": "Chen, Yufeng",
+  "specialties": "Ophthalmology",
+  "location": "104-121 Dundas St E Belleville ON K8N 1C3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=109254",
+  "cities": [
+   "Belleville"
+  ]
+ },
+ {
+  "cpso": "59704",
+  "name": "Davies, Andrew Mark",
+  "specialties": "Ophthalmology",
+  "location": "123 Millennium Parkway R R 5 Belleville Ontario K8N 4Z5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=59704",
+  "cities": [
+   "Belleville"
+  ]
+ },
+ {
+  "cpso": "106468",
+  "name": "Gupta, Ritesh",
+  "specialties": "Ophthalmology",
+  "location": "102-121 Dundas St E Belleville ON K8N 1C3 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106468",
+  "cities": [
+   "Belleville",
+   "Brantford",
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "92807",
+  "name": "Gupta, Vasudha",
+  "specialties": "Ophthalmology",
+  "location": "100-27 Place d'Armes Galen Eye Centre Kingston ON K7K 6Z6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=92807",
+  "cities": [
+   "Belleville",
+   "Kingston",
+   "Quinte West"
+  ]
+ },
+ {
+  "cpso": "120887",
+  "name": "Liu, Henry Yuheng",
+  "specialties": "Ophthalmology",
+  "location": "121 Dundas Street East Belleville Ontario K8N 1C3 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=120887",
+  "cities": [
+   "Belleville",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "59304",
+  "name": "Sakamoto, Terence Keith",
+  "specialties": "Ophthalmology",
+  "location": "R R 5 123 Millennium Parkway Belleville Ontario K8N 4Z5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=59304",
+  "cities": [
+   "Belleville"
+  ]
+ },
+ {
+  "cpso": "119622",
+  "name": "Mikhail, Mikel",
+  "specialties": "Ophthalmology",
+  "location": "149 King St W Oshawa ON L1J 2J3 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=119622",
+  "cities": [
+   "Bowmanville",
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "69093",
+  "name": "Ahmed, Iqbal Karim",
+  "specialties": "Ophthalmology",
+  "location": "Prism Eye Institute Suite 100 2201 Bristol Circle Oakville Ontario L6H 0J8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=69093",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "83305",
+  "name": "Alizadeh-Ebadi, Mahmoud",
+  "specialties": "Ophthalmology",
+  "location": "350 Rutherford Rd Unit 300, Plaza II Brampton Ontario L6W 4N6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=83305",
+  "cities": [
+   "Brampton",
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "88769",
+  "name": "Baath, Jasrajbir",
+  "specialties": "Ophthalmology",
+  "location": "Unit 217 2250 Bovaird Drive East Brampton Ontario L6R 0W3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88769",
+  "cities": [
+   "Brampton"
+  ]
+ },
+ {
+  "cpso": "95738",
+  "name": "Chiu, Hannah Hiu-Yan",
+  "specialties": "Ophthalmology",
+  "location": "Suite 401 7900 Hurontario St Brampton Ontario L6Y 0P6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=95738",
+  "cities": [
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "111027",
+  "name": "Freund, Paul Richard",
+  "specialties": "Ophthalmology",
+  "location": "705-1849 Yonge St Toronto ON M4S 1Y2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111027",
+  "cities": [
+   "Brampton"
+  ]
+ },
+ {
+  "cpso": "90611",
+  "name": "Furlonge, Dexter Andeev",
+  "specialties": "Ophthalmology",
+  "location": "Suite 228 1333 Sheppard Avenue East Toronto Ontario M2J 1V1 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90611",
+  "cities": [
+   "Brampton",
+   "North York"
+  ]
+ },
+ {
+  "cpso": "112035",
+  "name": "Han, Sangsu",
+  "specialties": "Ophthalmology",
+  "location": "438 Iroquois Shore Road Carrot Inc Oakville Ontario L6H 0X7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112035",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "71133",
+  "name": "Khan, Yasser Anwar",
+  "specialties": "Ophthalmology",
+  "location": "438 Iroquois Shore Road Bldg C, Unit 1-6 Oakville Ontario L5H 0X7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=71133",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "58102",
+  "name": "Klein, Thomas Brian",
+  "specialties": "Ophthalmology",
+  "location": "Prism Eye Institute Unit 605 7700 Hurontario Street Brampton Ontario L6Y 4M3 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=58102",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "98448",
+  "name": "Lam, Kay Ka",
+  "specialties": "Ophthalmology",
+  "location": "Uptown Eye Specialists 2180 Steeles Ave W, Unit 221 Vaughan Ontario L4K 2Z5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98448",
+  "cities": [
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "22244",
+  "name": "Mandelcorn, Mark Samuel",
+  "specialties": "Ophthalmology",
+  "location": "Toronto Western Hospital 399 Bathurst Street East Wing Room 416 Toronto Ontario M5T 2S8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=22244",
+  "cities": [
+   "Brampton"
+  ]
+ },
+ {
+  "cpso": "119001",
+  "name": "Michaelov, Evan Aaron",
+  "specialties": "Ophthalmology",
+  "location": "7900 Hurontario Street Uptown Eye Specialists Suite 401 Brampton Ontario L6Y 0C7 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=119001",
+  "cities": [
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "71677",
+  "name": "Mills, Michael David",
+  "specialties": "Ophthalmology",
+  "location": "Suite 100 2201 Bristol Circle Oakville Ontario L6H0J8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=71677",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "118244",
+  "name": "Mostofian, Fargol",
+  "specialties": "Ophthalmology",
+  "location": "605-7700 Hurontario Street Prism Eye Institute Brampton Ontario L6Y 4M3 +7 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=118244",
+  "cities": [
+   "Brampton",
+   "Mississauga",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "78228",
+  "name": "Nazemi, Fariba",
+  "specialties": "Ophthalmology",
+  "location": "Mount Sinai Hospital Eye clinic 60 Murray Street, Suite 1-040 Box#3 Toronto ON M5T 3L9 Toronto Ontario M5G 1X8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=78228",
+  "cities": [
+   "Brampton",
+   "Concord",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "267023",
+  "name": "Nithianandan, Harrish",
+  "specialties": "Ophthalmology",
+  "location": "unit 401-7900 Hurontario Street Brampton Ontario L6Y 0P6 +8 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=267023",
+  "cities": [
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "101565",
+  "name": "Rastikerdar, Elham",
+  "specialties": "Ophthalmology",
+  "location": "605-7700 Hurontario Street Prism Eye Institute Brampton Ontario L6Y 4M3 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=101565",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "72340",
+  "name": "Somani, Sohel",
+  "specialties": "Ophthalmology",
+  "location": "Suite 401 7900 Hurontario Street Brampton Ontario L6Y 0P6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72340",
+  "cities": [
+   "Brampton",
+   "Concord",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "72341",
+  "name": "Tam, Eric Siu Lung",
+  "specialties": "Ophthalmology",
+  "location": "Uptown Eye Specialists 7900 Hurontario Street Unit 401 Brampton Ontario L6Y 0P6 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72341",
+  "cities": [
+   "Brampton",
+   "Concord",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "88669",
+  "name": "Teichman, Joshua Cary",
+  "specialties": "Ophthalmology",
+  "location": "Prism Eye Institute Suite 100 2201 Bristol Circle Oakville Ontario L6H 0J8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88669",
+  "cities": [
+   "Brampton",
+   "Mississauga",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "109446",
+  "name": "Tong, Lili",
+  "specialties": "Ophthalmology",
+  "location": "Uptown Eye Specialists 7900 Hurontario Street Unit 401 Brampton Ontario L6Y 0P6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=109446",
+  "cities": [
+   "Brampton"
+  ]
+ },
+ {
+  "cpso": "91645",
+  "name": "Varma, Devesh Kumar",
+  "specialties": "Ophthalmology",
+  "location": "Prism Eye Institute 2201 Bristol Circle, Suite 100 Oakville Ontario L6H 0J8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91645",
+  "cities": [
+   "Brampton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "80948",
+  "name": "Yuen, Darana Wai-Sum Former Name: Yau, Darana Wai-Sum",
+  "specialties": "Ophthalmology",
+  "location": "7900 Hurontario Street Uptown Eye Specialists Suite 401 Brampton Ontario L6Y 0P6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=80948",
+  "cities": [
+   "Brampton",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "102010",
+  "name": "Bruen, Robin Patrick John",
+  "specialties": "Ophthalmology",
+  "location": "Unit C 274 Lynden Road Brantford Ontario N3R 0B9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=102010",
+  "cities": [
+   "Brantford",
+   "Simcoe"
+  ]
+ },
+ {
+  "cpso": "87609",
+  "name": "Calotti, Fadi Yousif Edwar",
+  "specialties": "Ophthalmology",
+  "location": "Suite 116 99 Wayne Gretzky Parkway Brantford Ontario N3S 6T6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87609",
+  "cities": [
+   "Brantford"
+  ]
+ },
+ {
+  "cpso": "131173",
+  "name": "Nichani, Prem Anil H.",
+  "specialties": "Ophthalmology",
+  "location": "99 Wayne Gretzky Parkway Great Lakes Eye Centre 4th Floor / Suite 116 Brantford Ontario N3S 7P1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131173",
+  "cities": [
+   "Brantford"
+  ]
+ },
+ {
+  "cpso": "60875",
+  "name": "Thomsen, John Eric",
+  "specialties": "Ophthalmology",
+  "location": "Suite B 274 Lynden Road Brantford Ontario N3R 6B8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60875",
+  "cities": [
+   "Brantford"
+  ]
+ },
+ {
+  "cpso": "90506",
+  "name": "Leonard, Kevin Christopher",
+  "specialties": "Ophthalmology",
+  "location": "1832 County road 2 Brockville ON K6V 5T1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90506",
+  "cities": [
+   "Brockville"
+  ]
+ },
+ {
+  "cpso": "266998",
+  "name": "Mohammad, Syed",
+  "specialties": "Ophthalmology",
+  "location": "1832 County Road 2 Brockville Ontario K6V 3E1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=266998",
+  "cities": [
+   "Brockville",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "72814",
+  "name": "Ahuja, Nina Former Name: Ahuja, Nina",
+  "specialties": "Ophthalmology",
+  "location": "3305 Harvester Road Unit #3 Burlington Ontario L7N 3J6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72814",
+  "cities": [
+   "Burlington",
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "68758",
+  "name": "Emara, Barry Yehia",
+  "specialties": "Ophthalmology",
+  "location": "2224 Walker Road Suite 200 Windsor Ontario N8W 5L7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=68758",
+  "cities": [
+   "Burlington",
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "266955",
+  "name": "Erikitola, Ore-oluwa Catherine",
+  "specialties": "Ophthalmology",
+  "location": "Oakville Trafalgar Memorial Hospital 3001 Hospital Gate Oakville Ontario L6M 0L8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=266955",
+  "cities": [
+   "Burlington",
+   "Milton",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "74676",
+  "name": "Hasanee, Khalid",
+  "specialties": "Ophthalmology",
+  "location": "3497 Fairview Street Burlington Ontario L7N 2R4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=74676",
+  "cities": [
+   "Burlington"
+  ]
+ },
+ {
+  "cpso": "59741",
+  "name": "McGillivray, Daniel Lachlan",
+  "specialties": "Ophthalmology",
+  "location": "3497 Fairview Street Burlington Ontario L7N 2R4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=59741",
+  "cities": [
+   "Burlington"
+  ]
+ },
+ {
+  "cpso": "90638",
+  "name": "Seif, Gamal",
+  "specialties": "Ophthalmology",
+  "location": "4671 Palladium Way Unit 5 Burlington ON L7M 0W9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90638",
+  "cities": [
+   "Burlington"
+  ]
+ },
+ {
+  "cpso": "52157",
+  "name": "Singer, Robert Harry",
+  "specialties": "Ophthalmology",
+  "location": "3497 Fairview Street Burlington Ontario L7N 2R4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52157",
+  "cities": [
+   "Burlington"
+  ]
+ },
+ {
+  "cpso": "87388",
+  "name": "Tam, Diamond Yat Fai",
+  "specialties": "Ophthalmology",
+  "location": "3305 Harvester Rd Burlington ON L7N 3N2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87388",
+  "cities": [
+   "Burlington"
+  ]
+ },
+ {
+  "cpso": "132125",
+  "name": "Yu, Weiyang",
+  "specialties": "Ophthalmology",
+  "location": "Unit X2B-1149 Barton Street East Hamilton Eye Physicians and Surgeons Hamilton Ontario L8H 2V2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=132125",
+  "cities": [
+   "Burlington",
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "76155",
+  "name": "O'Connor, Michael David",
+  "specialties": "Ophthalmology",
+  "location": "Department of Ophthalmology - C8 CHEO 401 Smyth Road Ottawa Ontario K1H 8L1 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76155",
+  "cities": [
+   "Carleton Place",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "73372",
+  "name": "Anjema, Christopher Michael",
+  "specialties": "Ophthalmology",
+  "location": "735 St Clair Street Anjema Eye Institute Chatham Ontario N7L 0E9 +8 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=73372",
+  "cities": [
+   "Chatham",
+   "Hamilton",
+   "London",
+   "Mississauga",
+   "Oakville",
+   "Ottawa",
+   "Waterloo"
+  ]
+ },
+ {
+  "cpso": "52201",
+  "name": "McMahon, Robert George",
+  "specialties": "Ophthalmology",
+  "location": "463 Saint Clair Street Chatham Ontario N7L 3K6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52201",
+  "cities": [
+   "Chatham"
+  ]
+ },
+ {
+  "cpso": "70052",
+  "name": "Hassard, Frank Alfred",
+  "specialties": "Ophthalmology",
+  "location": "60 Swayne Street Cobourg Ontario K9A 1K5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=70052",
+  "cities": [
+   "Cobourg"
+  ]
+ },
+ {
+  "cpso": "123378",
+  "name": "Ali-Ridha, Andre Nihad",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele St Clarity Eye Institute Ophthalmology Concord ON L4K 0J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=123378",
+  "cities": [
+   "Concord",
+   "Markham",
+   "North York"
+  ]
+ },
+ {
+  "cpso": "29818",
+  "name": "Arshinoff, Steve Aaron",
+  "specialties": "Ophthalmology",
+  "location": "York Finch Eye Associates Suite 316 2115 Finch Avenue West Downsview Ontario M3N 2V6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=29818",
+  "cities": [
+   "Concord",
+   "North York",
+   "Downsview"
+  ]
+ },
+ {
+  "cpso": "84650",
+  "name": "Dorrepaal, Stephen John",
+  "specialties": "Ophthalmology",
+  "location": "A5-9135 Keele St Clarity Eye Institue - Vaughan Concord ON L4K 0J4 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84650",
+  "cities": [
+   "Concord",
+   "Maple",
+   "Newmarket",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "104933",
+  "name": "Lam, Vincent Wai-Hung",
+  "specialties": "Ophthalmology",
+  "location": "221-2180 Steeles Ave W Uptown Eye Specialists Concord ON L4K 2Z5 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=104933",
+  "cities": [
+   "Concord",
+   "Mississauga",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "79474",
+  "name": "Mandelcorn, Efrem Dov",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst Street 6-East Room 432 Toronto Western Hospital Toronto, ON Toronto Ontario M5T 2S8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=79474",
+  "cities": [
+   "Concord"
+  ]
+ },
+ {
+  "cpso": "114720",
+  "name": "Patodia, Yogesh",
+  "specialties": "Ophthalmology",
+  "location": "A5-9135 Keele St Concord ON L4K 0J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=114720",
+  "cities": [
+   "Concord",
+   "Newmarket",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "75673",
+  "name": "Weinstein, Richard Daryl",
+  "specialties": "Ophthalmology",
+  "location": "501 - 31 Kingsbury Dr Kitchener Ontario N2A 0K5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75673",
+  "cities": [
+   "Concord",
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "94352",
+  "name": "Gottlieb, Chloe Charmaine Chlebek",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road The Ottawa Hospital, General Campus Critical Care Wing Box 307 Ottawa Ontario K1H 8M2 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=94352",
+  "cities": [
+   "Cornwall",
+   "Ottawa",
+   "Smiths Falls"
+  ]
+ },
+ {
+  "cpso": "75549",
+  "name": "Suess, Christine Josephine",
+  "specialties": "Ophthalmology",
+  "location": "20 Montreal Road Cornwall Ontario K6H 1B1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75549",
+  "cities": [
+   "Cornwall"
+  ]
+ },
+ {
+  "cpso": "89744",
+  "name": "Youssef, Tarek Former Name: Youssef, Tarek Ahmed Abdul-Salam",
+  "specialties": "Ophthalmology",
+  "location": "127 Sydney Street Cornwall Ontario K6H 3H1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=89744",
+  "cities": [
+   "Cornwall"
+  ]
+ },
+ {
+  "cpso": "71448",
+  "name": "Eino, Dalia Mahmoud",
+  "specialties": "Ophthalmology",
+  "location": "118 Hatt St Dundas Ontario L9H 2G6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=71448",
+  "cities": [
+   "Dundas"
+  ]
+ },
+ {
+  "cpso": "33146",
+  "name": "Mann, Keith Douglas",
+  "specialties": "Ophthalmology",
+  "location": "118 Hatt St. Dundas Ontario L9H 2G6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=33146",
+  "cities": [
+   "Dundas"
+  ]
+ },
+ {
+  "cpso": "84621",
+  "name": "Sharda, Rajeshvar Kumar",
+  "specialties": "Ophthalmology",
+  "location": "438 Iroquois Shore Rd Carrot Health Oakville ON L6H 0X7 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84621",
+  "cities": [
+   "Dunnville",
+   "Hamilton",
+   "Mississauga",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "27584",
+  "name": "Spencer, John Alan",
+  "specialties": "Ophthalmology",
+  "location": "385 The West Mall Etobicoke Ontario M9C 1E7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=27584",
+  "cities": [
+   "Etobicoke"
+  ]
+ },
+ {
+  "cpso": "150554",
+  "name": "Faggioni, Anastasia Lee",
+  "specialties": "Ophthalmology",
+  "location": "238 Bertie Street Fort Erie Ontario L2A 1Z5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=150554",
+  "cities": [
+   "Fort Erie"
+  ]
+ },
+ {
+  "cpso": "83021",
+  "name": "Sogbesan, Enitan Adedolapo",
+  "specialties": "Ophthalmology",
+  "location": "2757 King Street East St. Joseph's HealthCare - CAHS Hamilton Regional Eye Institute Hamilton Ontario L8G 5E4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=83021",
+  "cities": [
+   "Fort Erie",
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "23175",
+  "name": "Teal, Patricia Kathleen",
+  "specialties": "Ophthalmology",
+  "location": "Douglas Memorial Hospital Medical Centre 238 Bertie Street Fort Erie Ontario L2A 1Z3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=23175",
+  "cities": [
+   "Fort Erie"
+  ]
+ },
+ {
+  "cpso": "63606",
+  "name": "Chevrier, Robert Lionel Arthur",
+  "specialties": "Ophthalmology",
+  "location": "879 Shefford Road Gloucester Ontario K1J 8H9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=63606",
+  "cities": [
+   "Gloucester",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "115996",
+  "name": "French, Lauren Michelle",
+  "specialties": "Ophthalmology",
+  "location": "200-879 Shefford Rd Gloucester ON K1J 8H9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115996",
+  "cities": [
+   "Gloucester"
+  ]
+ },
+ {
+  "cpso": "23348",
+  "name": "Simpson, Ernest Rand",
+  "specialties": "Ophthalmology",
+  "location": "Mount Sinai Hospital Dept of Ophthalmology 60 Murray Street Room L1-040, Box #3 Toronto Ontario M5T 3L9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=23348",
+  "cities": [
+   "Gravenhurst"
+  ]
+ },
+ {
+  "cpso": "110281",
+  "name": "Moinul, Prima",
+  "specialties": "Ophthalmology",
+  "location": "Guelph Eye MD Clinic 89 Dawson Rd Suite 214 Guelph ON N1H 1B1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=110281",
+  "cities": [
+   "Guelph",
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "66783",
+  "name": "Neufeld, Mark Victor",
+  "specialties": "Ophthalmology",
+  "location": "Suite 112 450 Speedvale Avenue West Guelph Ontario N1H 7Y6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66783",
+  "cities": [
+   "Guelph"
+  ]
+ },
+ {
+  "cpso": "80780",
+  "name": "Rodriguez, Sylvia Louise",
+  "specialties": "Ophthalmology",
+  "location": "Guelph Eye MD Clinic 89 Dawson Road, Suite 214 Guelph Ontario N1H 1B1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=80780",
+  "cities": [
+   "Guelph",
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "103205",
+  "name": "Xu, Mark",
+  "specialties": "Ophthalmology",
+  "location": "Guelph Eye MD Clinic 89 Dawson Road, Suite 214 Guelph Ontario N1H 1B1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103205",
+  "cities": [
+   "Guelph",
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "60718",
+  "name": "Arora, Vineet Iqbal",
+  "specialties": "Ophthalmology",
+  "location": "867 Upper Paradise Rd Hamilton Ontario L9C 5R3 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60718",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "101824",
+  "name": "Bali, Shveta",
+  "specialties": "Ophthalmology",
+  "location": "1 Young St Suite 302 Sharda Eye Institute Hamilton ON L8N 1T8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=101824",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "62739",
+  "name": "Cabrera, Anthony Elmer",
+  "specialties": "Ophthalmology",
+  "location": "112 Queenston Street Ground Floor St. Catharines Ontario L2R 2Z4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=62739",
+  "cities": [
+   "Hamilton",
+   "St. Catharines"
+  ]
+ },
+ {
+  "cpso": "98360",
+  "name": "Chan, Brian John",
+  "specialties": "Ophthalmology",
+  "location": "Unit X2B 1149 Barton Street East Hamilton Ontario L8H2V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98360",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "77582",
+  "name": "Chaudhary, Varun",
+  "specialties": "Ophthalmology",
+  "location": "2757 King Street East St Joseph Health Care Hamilton Ontario L8G 5E4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77582",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "103784",
+  "name": "Donaldson, Laura",
+  "specialties": "Ophthalmology",
+  "location": "1 Young St Sharda Eye Institute Hamilton ON L8N 1T8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103784",
+  "cities": [
+   "Hamilton",
+   "Niagara Falls"
+  ]
+ },
+ {
+  "cpso": "141822",
+  "name": "Heede, Santa",
+  "specialties": "Ophthalmology",
+  "location": "1200 Main St W McMaster Children's Hospital Hamilton ON L8N 3Z5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=141822",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "61230",
+  "name": "Johnson, David Walter",
+  "specialties": "Ophthalmology",
+  "location": "Unit 2 695 Canterbury Street Woodstock Ontario N4S 8W7 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=61230",
+  "cities": [
+   "Hamilton",
+   "Kitchener",
+   "London",
+   "Waterloo",
+   "Woodstock"
+  ]
+ },
+ {
+  "cpso": "115117",
+  "name": "Lee, Ye Sl",
+  "specialties": "Ophthalmology",
+  "location": "1149 Barton Street East Hamilton Eye Physicians and Surgeons Unit X2B Hamilton Ontario L8H 2V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115117",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "33318",
+  "name": "Martin, James Andrew",
+  "specialties": "Ophthalmology",
+  "location": "88 Wentworth Street South Hamilton Ontario L8N 2Y9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=33318",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "119976",
+  "name": "Poirier, Marie-Eve",
+  "specialties": "Ophthalmology",
+  "location": "LASIK MD 407 Laurier Avenue West Store 10/11 Ottawa Ontario K1R7Y7 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=119976",
+  "cities": [
+   "Hamilton",
+   "Kitchener",
+   "Mississauga",
+   "North York",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "90083",
+  "name": "Rodriguez, Amadeo Raul",
+  "specialties": "Ophthalmology",
+  "location": "St Joseph's Ambulatory Health Ctr 2757 King Street East Hamilton Ontario L8G 5E4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90083",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "106700",
+  "name": "Rullo, Jacob",
+  "specialties": "Ophthalmology",
+  "location": "199 MacNab Street South Celsus Centre for Eye Disease and Rejuvenation Hamilton Ontario L8P 3C8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106700",
+  "cities": [
+   "Hamilton",
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "83309",
+  "name": "Sabri, Kourosh",
+  "specialties": "Ophthalmology",
+  "location": "McMaster University Medical Centre 3V2 Paediatric Ophthalmology Clinic Department of Surgery 1200 Main Street West Hamilton Ontario L8N 3Z5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=83309",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "65139",
+  "name": "Vahdat, Jamie Homayoun",
+  "specialties": "Ophthalmology",
+  "location": "4-6800 Morrison St. Niagara Falls Ontario L2E 6Z8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65139",
+  "cities": [
+   "Hamilton",
+   "Niagara Falls"
+  ]
+ },
+ {
+  "cpso": "103318",
+  "name": "Zhao, Lei Di",
+  "specialties": "Ophthalmology",
+  "location": "1 Young Street, Suite 302 Hamilton Ontario L8N 1V2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103318",
+  "cities": [
+   "Hamilton"
+  ]
+ },
+ {
+  "cpso": "89406",
+  "name": "Mainville, Norman Patrick",
+  "specialties": "Ophthalmology",
+  "location": "1800 8th Street East Brightshores Health System Room 7220 Owen Sound Ontario N4K 6M9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=89406",
+  "cities": [
+   "Hanover",
+   "Meaford",
+   "Owen Sound"
+  ]
+ },
+ {
+  "cpso": "110755",
+  "name": "Hassanaly, Salima Isabelle",
+  "specialties": "Ophthalmology",
+  "location": "1111 Ghislain Street Hawkesbury and District General Hospital Hawkesbury Ontario K6A 3G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=110755",
+  "cities": [
+   "Hawkesbury"
+  ]
+ },
+ {
+  "cpso": "87997",
+  "name": "Shoughary, Ali Toufic",
+  "specialties": "Ophthalmology",
+  "location": "1-1380 Upper Canada St unit 203 Kanata ON K2T 0N7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87997",
+  "cities": [
+   "Kanata"
+  ]
+ },
+ {
+  "cpso": "96117",
+  "name": "Bal, Manpartap Singh",
+  "specialties": "Ophthalmology",
+  "location": "5-497 Cataraqui Woods Dr The Macula Clinic Kingston ON K7P 0V3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=96117",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "72162",
+  "name": "Baxter, Stephanie Anne",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock St Kingston Health Sciences Centre Hotel Dieu Hospital Site Johnson 6 Eye Centre Kingston ON K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72162",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "86238",
+  "name": "Bona, Mark David",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Department of Ophthalmology 166 Brock Street Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86238",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "73664",
+  "name": "Campbell, Robert James",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock St Kingston Health Sciences Centre Dept of Ophthalmology Kingston ON K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=73664",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "112186",
+  "name": "Curtis, Rachel Amanda",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Department of Ophthalmology 166 Brock Street Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112186",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "74756",
+  "name": "Dam, Olivia Mayin",
+  "specialties": "Ophthalmology",
+  "location": "27 Place D'Armes Suite 100 Kingston Ontario K7K 6Z6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=74756",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "50523",
+  "name": "Farmer, James Patrick",
+  "specialties": "Anatomical Pathology +1",
+  "location": "725 Arlington Park Pl Kingston ON K7M 7E4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=50523",
+  "cities": [
+   "Kingston",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "101924",
+  "name": "Ferreira, Pear Pongsachareonnont Former Name: PONGSACHAREONNONT, PEAR",
+  "specialties": "Ophthalmology",
+  "location": "Queen's University Department of Ophthalmology 166 Brock St Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=101924",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "104931",
+  "name": "Gonder, John Thomas",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock Street Hotel Dieu Hospital Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=104931",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "79376",
+  "name": "Jinapriya, Delan",
+  "specialties": "Ophthalmology",
+  "location": "Galen Eye Centre Suite 100 27 Place d'Armes Kingston Ontario K7K 6Z6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=79376",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "93208",
+  "name": "Johnson, Davin Emanuel",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Department of Ophthalmology 166 Brock Street Kingston Ontario K7L 5G2 +6 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=93208",
+  "cities": [
+   "Kingston",
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "51434",
+  "name": "Kratky, Vladimir",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Room 262D 166 Brock Street Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=51434",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "93120",
+  "name": "Law, Christine",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Department of Ophthalmology 166 Brock Street Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=93120",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "273151",
+  "name": "Mollan, Susan Patricia Former Name: Molsom, Susan Patricia",
+  "specialties": "Ophthalmology",
+  "location": "8 Lakeshore Boulevard Kingston Ontario K7M 4J6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=273151",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "86738",
+  "name": "Oliver Fernandez, Alejandro",
+  "specialties": "Ophthalmology",
+  "location": "725 Arlington Park Place Kingston Ontario K7M 7E4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86738",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "271032",
+  "name": "Parreira Duarte Filho, Newton",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock Street Ophthalmology - Queen's University Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=271032",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "272359",
+  "name": "Rana, Sidra Anwar",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock Street Queen's University -Department of Ophthalmology Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=272359",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "78231",
+  "name": "Rao, Krishna Beejady Gururaja",
+  "specialties": "Ophthalmology",
+  "location": "27 Place D'Armes Suite 100 Kingston Ontario K7K 6Z6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=78231",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "64253",
+  "name": "Sharma, Sanjay",
+  "specialties": "Ophthalmology",
+  "location": "5-497 Cataraqui Woods Dr The Macula Clinic Kingston ON K7P 0V3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=64253",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "100260",
+  "name": "Simpson, Sarah Marie",
+  "specialties": "Ophthalmology",
+  "location": "1-683 Innovation Dr Kingston ON K7K 7E6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=100260",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "101571",
+  "name": "Singh, Harmanjit",
+  "specialties": "Ophthalmology",
+  "location": "100-27 Place d'Armes Galen Eye Centre Kingston ON K7K 6Z6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=101571",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "80840",
+  "name": "Strube, Yi Ning Johanna",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital Department of Ophthalmology 166 Brock Street Kingston Ontario K7L 5G2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=80840",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "60709",
+  "name": "Ten Hove, Martin William",
+  "specialties": "Ophthalmology",
+  "location": "Hotel Dieu Hospital 166 Brock Street Kingston Ontario K7L 5G2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60709",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "77525",
+  "name": "Urton, Todd Elliott",
+  "specialties": "Ophthalmology",
+  "location": "1-683 Innovation Dr Kingston ON K7K 7E6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77525",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "88971",
+  "name": "Wood, Stephanie Anne",
+  "specialties": "Ophthalmology",
+  "location": "Galen Eye Centre 27 Place d'Armes, Suite 100 Kingston Ontario K7K6Z6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88971",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "84847",
+  "name": "Yeung, Jacky Yat-Tung",
+  "specialties": "Ophthalmology",
+  "location": "The Peterborough Clinic 26 Hospital Drive Peterborough Ontario K9J 7C3 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84847",
+  "cities": [
+   "Kingston",
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "128203",
+  "name": "Zhou, Tianwei",
+  "specialties": "Ophthalmology",
+  "location": "76 Stuart Street Kingston Ontario K7L 2V7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=128203",
+  "cities": [
+   "Kingston"
+  ]
+ },
+ {
+  "cpso": "96076",
+  "name": "Alangh, Manreet",
+  "specialties": "Ophthalmology",
+  "location": "4278 King St E Kitchener ON N2P 2G5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=96076",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "121842",
+  "name": "Bin Yameen, Tarek Abdullah",
+  "specialties": "Ophthalmology",
+  "location": "4278 King Street East Tri-City Eye Care Kitchener Ontario N2P 2G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121842",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "77359",
+  "name": "Carrillo Gomez, Monica Maria",
+  "specialties": "Ophthalmology",
+  "location": "501-31 Kingsbury Dr Ocular Health Centre - Kitchener Site Kitchener ON N2A 2L9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77359",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "85025",
+  "name": "Chan, Toby Yiu Bong",
+  "specialties": "Ophthalmology",
+  "location": "Unit 501 31 Kingsbury Drive Kitchener Ontario N2A 0K5 +5 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=85025",
+  "cities": [
+   "Kitchener",
+   "Milton"
+  ]
+ },
+ {
+  "cpso": "77541",
+  "name": "Desai, Nimesh",
+  "specialties": "Ophthalmology",
+  "location": "4278 King St E Tricity Eyecare Kitchener ON N2P 2G5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77541",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "91384",
+  "name": "Dudok, David Vladimir",
+  "specialties": "Ophthalmology",
+  "location": "Niagara Eye Care Centre 3460 Schmon Parkway Thorold Ontario L2V 4Y6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91384",
+  "cities": [
+   "Kitchener",
+   "Thorold"
+  ]
+ },
+ {
+  "cpso": "114913",
+  "name": "Gulamhusein, Husayn",
+  "specialties": "Ophthalmology",
+  "location": "4278 King St E Kitchener ON N2P 2G5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=114913",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "87265",
+  "name": "McAlister, Chryssa Nuala Gabriella",
+  "specialties": "Ophthalmology",
+  "location": "Belmont Professional Centre Suite 411 564 Belmont Avenue West Kitchener Ontario N2M 5N6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87265",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "64942",
+  "name": "McCuaig, Bradley Michael",
+  "specialties": "Ophthalmology",
+  "location": "Suite 209 564 Belmont Avenue West Kitchener Ontario N2M 5N6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=64942",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "110910",
+  "name": "Peng, Si-Liang",
+  "specialties": "Ophthalmology",
+  "location": "306-564 Belmont Ave W Kitchener ON N2M 5N6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=110910",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "105618",
+  "name": "Rayat, Jaspreet Singh",
+  "specialties": "Ophthalmology",
+  "location": "31 Kingsbury Dr Kitchener Ontario N2A 2L9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=105618",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "117949",
+  "name": "Sedarous, Fady",
+  "specialties": "Ophthalmology",
+  "location": "501-31 Kingsbury Drive Kitchener Ontario N2A",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=117949",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "109314",
+  "name": "Shen, Carl",
+  "specialties": "Ophthalmology",
+  "location": "911 Queens Blvd St. Mary's General Hospital Division of Ophthalmology Eye Clinic Kitchener ON N2M 1B2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=109314",
+  "cities": [
+   "Kitchener",
+   "Waterloo"
+  ]
+ },
+ {
+  "cpso": "66431",
+  "name": "Wilkinson, John William",
+  "specialties": "Ophthalmology",
+  "location": "4278 King St E Tri-City Eye Care Kitchener ON N2P 2G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66431",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "115523",
+  "name": "Wong, Kevin",
+  "specialties": "Ophthalmology",
+  "location": "31 Kingsbury Dr Kitchener ON N2A 0K5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115523",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "79369",
+  "name": "Yepes Restrepo, Natasha",
+  "specialties": "Ophthalmology",
+  "location": "Suite 501 31 KIngsbury Drive Kitchener Ontario N2A 0K5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=79369",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "71241",
+  "name": "Zafar, Aftab",
+  "specialties": "Ophthalmology",
+  "location": "Sutie 201 148 Manitou Drive Kitchener Ontario N2C 1L3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=71241",
+  "cities": [
+   "Kitchener"
+  ]
+ },
+ {
+  "cpso": "69316",
+  "name": "Lane, David Peter Pasco",
+  "specialties": "Ophthalmology",
+  "location": "39 Commerce Road Lindsay Ontario K9V 5Y3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=69316",
+  "cities": [
+   "Lindsay"
+  ]
+ },
+ {
+  "cpso": "97364",
+  "name": "Zhou, Alysia Weijia",
+  "specialties": "Ophthalmology",
+  "location": "Suite 8 65 Angeline Street North Lindsay Ontario K9V 5N7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97364",
+  "cities": [
+   "Lindsay"
+  ]
+ },
+ {
+  "cpso": "114360",
+  "name": "Anderson, Matthew Frederick",
+  "specialties": "Ophthalmology",
+  "location": "St Joseph's Health Care London Department of Ophthalmology 268 Grosvenor St London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=114360",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "156640",
+  "name": "Andriatti Paulo, Danilo",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor Street St Joseph's Hospital Eye Clinic Ivey Eye Institute London Ontario N6A 3N3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=156640",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "58508",
+  "name": "Bains, Rick Amar Bir Singh",
+  "specialties": "Ophthalmology",
+  "location": "142 Fullarton St TLC Laser Eye Centers London ON N6A 0A4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=58508",
+  "cities": [
+   "London",
+   "Seaforth"
+  ]
+ },
+ {
+  "cpso": "91146",
+  "name": "Bursztyn, Lulu Liane Catherine Danielle",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute 268 Grosvenor Street London Ontario N6A 4V2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91146",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "152747",
+  "name": "Camacho, Alex de Oliveira Coronel",
+  "specialties": "Ophthalmology",
+  "location": "PO Box 5777 Stn B London ON N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=152747",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "152871",
+  "name": "Dubinsky Pertzov, Biana Former Name: Dubinsky, Biana",
+  "specialties": "Ophthalmology",
+  "location": "339 Windermere Road London Health Sciences Centre- University Hospital London Ontario N6A 5A5 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=152871",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "68179",
+  "name": "Hutnik, Cindy Mary-Lynn",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St Joseph's Health Care Eye Clinic 268 Grosvenor Street London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=68179",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "93804",
+  "name": "Iordanous, Yiannis",
+  "specialties": "Ophthalmology",
+  "location": "St Joseph's Health Care Ivey Eye Institute 268 Grosvenor Street Room B1-110 London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=93804",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "100931",
+  "name": "Iqbal, Munir Muhammad",
+  "specialties": "Ophthalmology",
+  "location": "B1 658B 268 Grosvenor St St. Joseph's Hospital Division of Opthalmology London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=100931",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "97913",
+  "name": "Li, Bo",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor Street Division of Ophthalmology St Joseph's Health Care London London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97913",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "69288",
+  "name": "Makar Abdel Messih, Inas Helmy",
+  "specialties": "Ophthalmology",
+  "location": "The Ivey Eye Institute St Joseph's Hospital 268 Grosvenor Street N6A 4V2 London ontario London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=69288",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "80177",
+  "name": "Mather, Rookaya",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St Josephs Health Care 268 Grosvenor Street London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=80177",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "74984",
+  "name": "Mcilraith, Ian Peter",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St Joseph's Health Care Centre 268 Grosvenor Street London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=74984",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "31325",
+  "name": "Motolko, Michael",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St. Josephs Health Care PO Box 5777 Station B London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=31325",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "33187",
+  "name": "Nichols, Bruce David",
+  "specialties": "Ophthalmology",
+  "location": "1695 Wonderland Road North Laser Vision London London Ontario N6G 4W3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=33187",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "112072",
+  "name": "Park, Sei-Young John",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor Street Ivey Eye Institute St. Joseph's Hospital Department of Ophthalmology London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112072",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "147607",
+  "name": "Plemel, David James Albert",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor Street St Joseph's Health Care Ivey Eye Institute London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=147607",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "76179",
+  "name": "Proulx, Alain Arthur",
+  "specialties": "Ophthalmology",
+  "location": "St Joseph's Health Care Ivey Eye Institute 268 Grosvenor Street London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76179",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "112361",
+  "name": "Ribeiro Juncal, Verena",
+  "specialties": "Ophthalmology Phone: 519-646-6277 Fax: 519-646-6278",
+  "location": "St. Joesph's Hospital268 Grosvenor StLondon Ontario N6A 4V2",
+  "status": "Active",
+  "url": "javascript:///physician-info/?cpsonum=112361",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "84623",
+  "name": "Sharan, Sapna",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St. Joseph's Health Care 268 Grosvenor Street London Ontario N6A 4V2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84623",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "156403",
+  "name": "Sharon, Tal Former Name: Priel, Tal",
+  "specialties": "Ophthalmology",
+  "location": "Western University Department of Ophthalmology 268 Grosvenor Street London Ontario N6A 3N3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=156403",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "68778",
+  "name": "Sheidow, Thomas Gordon",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute 268 Grosvenor Street London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=68778",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "55544",
+  "name": "Tingey, David Paul",
+  "specialties": "Ophthalmology",
+  "location": "Ivey Eye Institute St Joseph's Health Care London 268 Grosvenor Street PO Box 5777 London Ontario N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=55544",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "140717",
+  "name": "Tong, Christine Maya",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor St Ivey Eye Institute - St Joseph’s Hospital London ON N6A 4V2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=140717",
+  "cities": [
+   "London"
+  ]
+ },
+ {
+  "cpso": "110401",
+  "name": "Aboobaker, Shaheer",
+  "specialties": "Ophthalmology Phone: (416) 449-3937 Fax:",
+  "location": "Toronto Retina Institute6 Maginn MewsNorth York Ontario M3C 0G9 +4 Locations",
+  "status": "Active",
+  "url": "javascript:///physician-info/?cpsonum=110401",
+  "cities": [
+   "Markham",
+   "North York",
+   "Oakville",
+   "Oshawa",
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "62433",
+  "name": "Chow, David Robert",
+  "specialties": "Ophthalmology",
+  "location": "Toronto Retina Institute Suite 208 6 Maginn Mews North York Ontario M3C 0G9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=62433",
+  "cities": [
+   "Markham",
+   "North York",
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "94326",
+  "name": "Chung, Thomas",
+  "specialties": "Ophthalmology",
+  "location": "Units 301 - 303 505 Highway 7 East Markham Ontario L3T 7T1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=94326",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "269579",
+  "name": "George, Matthew Maher Adly",
+  "specialties": "Ophthalmology",
+  "location": "25 Centurian Drive Markham Ontario L3R 5N8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=269579",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "267676",
+  "name": "Javed, Ahmed",
+  "specialties": "Ophthalmology",
+  "location": "6 Maginn Mews Toronto Ontario M3C 0G9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=267676",
+  "cities": [
+   "Markham",
+   "Oakville",
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "86788",
+  "name": "Koushan, Keyvan",
+  "specialties": "Ophthalmology",
+  "location": "Mt. Sinai Hospital Eye Clinic Rm L1-001 60 Murray St. Toronto Ontario M5T 3L9 +6 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86788",
+  "cities": [
+   "Markham",
+   "North York",
+   "Oakville",
+   "Oshawa",
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "22758",
+  "name": "MacDonald, Alan Lee",
+  "specialties": "Ophthalmology",
+  "location": "B-262 Main St N Markham ON L3P 1Y7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=22758",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "61607",
+  "name": "Martow, Jeffrey",
+  "specialties": "Ophthalmology",
+  "location": "Suite 304 377 Church Street Markham Ontario L6B 1A1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=61607",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "100875",
+  "name": "Musewe, Toylin Kudzai",
+  "specialties": "Ophthalmology",
+  "location": "Markham Stouffville Health Centre Suite 302 377 Church Street Markham Ontario L6B 1A1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=100875",
+  "cities": [
+   "Markham",
+   "North York"
+  ]
+ },
+ {
+  "cpso": "134034",
+  "name": "Ng, Anita Sin Yee Former Name: Ng, Sin Yee",
+  "specialties": "Ophthalmology",
+  "location": "7270 Woodbine Avenue AM EYES Markham 206 Markham Ontario L3R 4B9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=134034",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "82961",
+  "name": "Noble, Jason",
+  "specialties": "Ophthalmology",
+  "location": "2130 Lawrence Avenue East Suite 403 Scarborough Ontario M1R 3A6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82961",
+  "cities": [
+   "Markham",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "91486",
+  "name": "Odorcic, Silvia",
+  "specialties": "Ophthalmology",
+  "location": "7270 Woodbine Avenue Unit 206 Markham Ontario L3R 4B9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91486",
+  "cities": [
+   "Markham",
+   "North York"
+  ]
+ },
+ {
+  "cpso": "72552",
+  "name": "Weinstock, Victor Moss",
+  "specialties": "Ophthalmology",
+  "location": "Suite 5 106 Cornell Park Avenue Markham Ontario L6B 1B6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72552",
+  "cities": [
+   "Markham"
+  ]
+ },
+ {
+  "cpso": "112668",
+  "name": "Chan, Aaron Tin-Lin",
+  "specialties": "Ophthalmology",
+  "location": "470 Bronte Street South Milton Eye Surgeons Suite #207 Milton Ontario L9T 2J4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112668",
+  "cities": [
+   "Milton"
+  ]
+ },
+ {
+  "cpso": "94076",
+  "name": "Lei, Shaobo",
+  "specialties": "Ophthalmology",
+  "location": "2475 McDougall Street Jackson Park Health Centre Suite 240 Windsor Ontario N8X 3N9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=94076",
+  "cities": [
+   "Milton",
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "65299",
+  "name": "Ali, Fareed Ahmad",
+  "specialties": "Ophthalmology",
+  "location": "1880 Sismet Road Mississauga Ontario L4W 1W9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65299",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "103292",
+  "name": "Arjmand, Parnian",
+  "specialties": "Ophthalmology",
+  "location": "415-1420 Burnhamthorpe Rd E Mississauga Retina Institute Mississauga ON L4X 2Z9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103292",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "66736",
+  "name": "Armogan, Narendra",
+  "specialties": "Ophthalmology",
+  "location": "1880 Sismet Road Mississauga Ontario L4W 1W9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66736",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "103699",
+  "name": "Bedi, Harleen",
+  "specialties": "Ophthalmology",
+  "location": "85-3465 Platinum Dr Mississauga ON L5M 2S1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103699",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "90766",
+  "name": "Bhatti, Adil",
+  "specialties": "Ophthalmology",
+  "location": "Suite 205 2148 Carling Avenue Ottawa Ontario K2A 1H1 +7 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90766",
+  "cities": [
+   "Mississauga",
+   "Ottawa",
+   "Orléans"
+  ]
+ },
+ {
+  "cpso": "60349",
+  "name": "Budning, Andrew Stewart",
+  "specialties": "Ophthalmology",
+  "location": "Suite 305 2300 Eglinton Avenue West Mississauga Ontario L5M 2V8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60349",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "68005",
+  "name": "DeAngelis, Dan Douglas",
+  "specialties": "Ophthalmology",
+  "location": "1880 Sismet Drive Mississauga Ontario L4W 1W9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=68005",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "266662",
+  "name": "Jin, Shicheng",
+  "specialties": "Ophthalmology",
+  "location": "150 Sherway Drive Trillium Health Partners – Queensway Health Centre Division of Ophthalmology Toronto Ontario M9C 1A5 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=266662",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "62538",
+  "name": "Kates, Warren Bradley",
+  "specialties": "Ophthalmology",
+  "location": "415-1420 Burnhamthorpe Rd E Mississauga ON L4X 2Z9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=62538",
+  "cities": [
+   "Mississauga",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "66398",
+  "name": "Kosaric, Alan",
+  "specialties": "Ophthalmology +2",
+  "location": "Ophthalmic Consultant Centres 1880 Sismet Road Mississauga Ontario L4W 1W9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66398",
+  "cities": [
+   "Mississauga",
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "84681",
+  "name": "Mandell, Mark Aaron",
+  "specialties": "Ophthalmology",
+  "location": "Mississauga Retina Institute Suite 415 1420 Burnhamthorpe Rd E Mississauga Ontario L4X 2Z9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84681",
+  "cities": [
+   "Mississauga",
+   "North York"
+  ]
+ },
+ {
+  "cpso": "51927",
+  "name": "Markowitz, Samuel Nahman",
+  "specialties": "Ophthalmology",
+  "location": "1225 Davenport Road Toronto Ontario M6H 2H1 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=51927",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "30069",
+  "name": "Miller, Michael",
+  "specialties": "Ophthalmology",
+  "location": "Credit Valley Professional Building 2300 Eglinton Avenue West Suite 407 Mississauga Ontario L5M 2V8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=30069",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "85972",
+  "name": "Safi, Sohail",
+  "specialties": "Ophthalmology",
+  "location": "2000 Credit Valley Road Unit 514 Mississauga Ontario L5M 4N4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=85972",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "52251",
+  "name": "Vettese, Antonio",
+  "specialties": "Ophthalmology",
+  "location": "2300 Eglinton Avenue West Suite 407 Mississauga Ontario L5M 2V8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52251",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "66140",
+  "name": "Wallerstein, Avi",
+  "specialties": "Ophthalmology",
+  "location": "LASIK MD First Canadian Place 100 King Street West Suite 120 M5X 2A1 Toronto Ontario M5X2A1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66140",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "65532",
+  "name": "Yan, David Benedict",
+  "specialties": "Ophthalmology",
+  "location": "Mount Sinai Hospital 60 Murray St Room L1 - 040 Toronto Ontario M5G 1X5 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65532",
+  "cities": [
+   "Mississauga"
+  ]
+ },
+ {
+  "cpso": "65800",
+  "name": "Munro, Shane Matthew",
+  "specialties": "Ophthalmology",
+  "location": "139 Greenbank Road Suite 102 Nepean Ontario K2H 9A5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65800",
+  "cities": [
+   "Nepean"
+  ]
+ },
+ {
+  "cpso": "139978",
+  "name": "Kansal, Vinay",
+  "specialties": "Ophthalmology",
+  "location": "44-16945 Leslie St Newmarket ON L3Y 9A2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=139978",
+  "cities": [
+   "Newmarket"
+  ]
+ },
+ {
+  "cpso": "152403",
+  "name": "Onasanya, Oluwadara Emmanuel",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele Street Vaughan Ontario L4K 0J4 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=152403",
+  "cities": [
+   "Newmarket",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "77980",
+  "name": "Salyani, Mohamed Asif",
+  "specialties": "Ophthalmology",
+  "location": "16945 Leslie Street Unit 44 Newmarket Ontario L3Y 9A2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77980",
+  "cities": [
+   "Newmarket",
+   "Pickering",
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "65504",
+  "name": "Sayuchchiyadevan, Ganeshan",
+  "specialties": "Ophthalmology",
+  "location": "233 Brady Street Sudbury ON P3B 4H5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65504",
+  "cities": [
+   "Newmarket"
+  ]
+ },
+ {
+  "cpso": "286611",
+  "name": "Seyedian, Mohammad Amin",
+  "specialties": "Ophthalmology",
+  "location": "16945 Leslie Street Medical Eye Consultants Newmarket Ontario L3Y 9A2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=286611",
+  "cities": [
+   "Newmarket",
+   "Pickering",
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "137711",
+  "name": "Sze, Amy Meiling",
+  "specialties": "Ophthalmology",
+  "location": "14-18075 Leslie St Newmarket ON L3Y 9A4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=137711",
+  "cities": [
+   "Newmarket"
+  ]
+ },
+ {
+  "cpso": "67772",
+  "name": "Walker, Robin Michael Cumnor",
+  "specialties": "Ophthalmology",
+  "location": "Unit 1 376 Eagle Street Newmarket Ontario L3Y 1K4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=67772",
+  "cities": [
+   "Newmarket"
+  ]
+ },
+ {
+  "cpso": "97983",
+  "name": "McLaughlin, Christopher Ryan",
+  "specialties": "Ophthalmology",
+  "location": "Suite 304 4256 Portage Road Niagara Falls Ontario L2E 6E4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97983",
+  "cities": [
+   "Niagara Falls"
+  ]
+ },
+ {
+  "cpso": "94301",
+  "name": "Sheikh, Amber Zia",
+  "specialties": "Ophthalmology",
+  "location": "Suite 305 4256 Portage Road Niagara Falls Ontario L2E 6A4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=94301",
+  "cities": [
+   "Niagara Falls"
+  ]
+ },
+ {
+  "cpso": "118330",
+  "name": "Sidiqi, Ahmad Mohammad",
+  "specialties": "Ophthalmology",
+  "location": "suite 302-4256 Portage Road Niagara Falls Ontario L2E 6A4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=118330",
+  "cities": [
+   "Niagara Falls"
+  ]
+ },
+ {
+  "cpso": "82886",
+  "name": "Adam, Robert Saul",
+  "specialties": "Ophthalmology",
+  "location": "Unit A5-9135 Keele Street Clarity Eye Institute Vaughan Ontario L4K 0J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82886",
+  "cities": [
+   "North York",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "87289",
+  "name": "Azadeh, Minoo",
+  "specialties": "Ophthalmology",
+  "location": "404-1110 Sheppard Ave E North York ON M2K 2W2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87289",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "52456",
+  "name": "Berger, Alan Richard",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St Toronto ON M5B 1W8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52456",
+  "cities": [
+   "North York",
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "66278",
+  "name": "Blicker, Jeffrey Alan",
+  "specialties": "Ophthalmology",
+  "location": "South Medical Tower Suite 228 650 West 41st Avenue Vancouver British Columbia V5Z 2M9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66278",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "96216",
+  "name": "Butty, Ziad",
+  "specialties": "Ophthalmology",
+  "location": "513-2425 Bloor St W Toronto ON M6S 4W4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=96216",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "52310",
+  "name": "Dorfman, Jason Kevin",
+  "specialties": "Ophthalmology",
+  "location": "202-250 Sheppard Ave E North York ON M2N 6M9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52310",
+  "cities": [
+   "North York",
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "52993",
+  "name": "Fearon, Stanley Blair",
+  "specialties": "Ophthalmology",
+  "location": "18 Wynford Dr Suite 108 North York ON M3C 3S2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52993",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "111470",
+  "name": "Gilani, Fatimah",
+  "specialties": "Ophthalmology",
+  "location": "Bochner Eye Institute 40 Prince Arthur Avenue Toronto Ontario M5R 1A9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111470",
+  "cities": [
+   "North York",
+   "Oakville",
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "82591",
+  "name": "Gill, Harmeet S",
+  "specialties": "Ophthalmology",
+  "location": "Eye Face Institute 4789 Yonge St., Suite 316 North York Ontario M2N 0G3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82591",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "106425",
+  "name": "Goldfarb, Jeremy Allan",
+  "specialties": "Ophthalmology",
+  "location": "316-4789 Yonge St North York ON M2N 0G3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106425",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "29866",
+  "name": "Hershenfeld, Seymour Albert",
+  "specialties": "Ophthalmology",
+  "location": "7 Elmwood Ave North Toronto Eye Care Elmwood North York ON M2N 6R6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=29866",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "112729",
+  "name": "Kisilevsky, Eli Former Name: Kisilevsky, Ilia",
+  "specialties": "Ophthalmology",
+  "location": "30 The Queensway Toronto Ontario M6R 1B5 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112729",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "110688",
+  "name": "Le, Kim Thien",
+  "specialties": "Ophthalmology",
+  "location": "124 Merton St AM EYES Suite 403 Toronto ON M4S 2Z2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=110688",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "91592",
+  "name": "Le, Tran Dao-Bich",
+  "specialties": "Ophthalmology",
+  "location": "North Toronto Eye Care - North 2065 Finch Avenue West - Suite 400 Toronto Ontario M3N 2V7 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91592",
+  "cities": [
+   "North York",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "103609",
+  "name": "Leung, Victoria Christine Wai-Kei",
+  "specialties": "Ophthalmology",
+  "location": "316-4789 Yonge St North York ON M2N 0G3 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103609",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "80274",
+  "name": "Ma, Joseph Jee Keen",
+  "specialties": "Ophthalmology",
+  "location": "162 Willowdale Ave Veritas Laser/Vision Correction North York ON M2N 4Y6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=80274",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "77808",
+  "name": "Muni, Rajeev Hemant",
+  "specialties": "Ophthalmology",
+  "location": "St Michael's Hospital Dept of Ophthalmology & Vision Sci Suite 801 61 Queen Street East Toronto Ontario M5C 2T2 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77808",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "137372",
+  "name": "Park, Jong Geol",
+  "specialties": "Ophthalmology",
+  "location": "Toronto Retina Institute 6 Maginn Mews North York Ontario M3C 0G9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=137372",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "91024",
+  "name": "Pesin, Nataly Former Name: Weizblit, Nataly",
+  "specialties": "Ophthalmology",
+  "location": "404-1110 Sheppard Ave E North York ON M2K 2W2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91024",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "70079",
+  "name": "Rathee, Rajinder Singh",
+  "specialties": "Ophthalmology",
+  "location": "18 Wynford Drive, Suite 108 North York ON M3C 3S2 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=70079",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "19538",
+  "name": "Tanzer, Herbert",
+  "specialties": "Ophthalmology",
+  "location": "106 - 18 Wynford Dr North York ON M3C 3S2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=19538",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "31613",
+  "name": "Velos, Pamela",
+  "specialties": "Ophthalmology",
+  "location": "1235 Wilson Ave Humber River Health North York ON M3M 0B2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=31613",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "55992",
+  "name": "Weiser, Brent Alden",
+  "specialties": "Ophthalmology",
+  "location": "108-18 Wynford Dr North York ON M3C 3S2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=55992",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "109186",
+  "name": "Yang, Ye Lin",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr Suite 308 North York ON M3C 1J4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=109186",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "95294",
+  "name": "Yau, Gary Lloyd Ka Tao",
+  "specialties": "Ophthalmology",
+  "location": "Sunnybrook Health Sciences Centre 2075 Bayview Ave Suite M1-202B Toronto ON M4N 3M5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=95294",
+  "cities": [
+   "North York"
+  ]
+ },
+ {
+  "cpso": "72693",
+  "name": "Bindlish, Rajiv",
+  "specialties": "Ophthalmology",
+  "location": "Oakville Eye Associates Unit A2 2330 Wyecroft Road Oakville Ontario L6L 6M1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=72693",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "115533",
+  "name": "Cote, Elie Joseph",
+  "specialties": "Ophthalmology",
+  "location": "200-245 Danforth Avenue Toronto Ontario M4K 1N2 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115533",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "88957",
+  "name": "Dang, Radhika Natasha",
+  "specialties": "Ophthalmology",
+  "location": "2401 Bristol Cir Suite B100 Oakville ON L6H 5S9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88957",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "96782",
+  "name": "Daniel, Shanon Mary",
+  "specialties": "Ophthalmology",
+  "location": "710 Dorval Drive, Suite 701 Oakville Ontario L6K 3V7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=96782",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "89999",
+  "name": "Davidson, Joseph Kent",
+  "specialties": "Ophthalmology",
+  "location": "438 Iroquois Shore Rd Suite 101 Oakville ON L6H 1M3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=89999",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "85162",
+  "name": "Gagne, Sebastien",
+  "specialties": "Ophthalmology",
+  "location": "6110 Doris-Lussier Boisbriand Quebec J7H 0E8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=85162",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "76217",
+  "name": "Iizuka, Megumi",
+  "specialties": "Ophthalmology",
+  "location": "2401 Bristol Cir Oakville Trafalgar Eye Centre Suite B100 Oakville ON L6H 5S9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76217",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "103057",
+  "name": "Khan, Michelle Shahid",
+  "specialties": "Ophthalmology",
+  "location": "100-2201 Bristol Circle Oakville Ontario L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103057",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "106580",
+  "name": "Kherani, Irfan Nizarali",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St Toronto Western Hospital East Wing 6-411 Toronto ON M5T 2S8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106580",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "117797",
+  "name": "Lukasik, Taylor Henry William",
+  "specialties": "Ophthalmology",
+  "location": "suite 100-2201 Bristol Circle Prism Eye Institute Oakville Ontario L6H 0J8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=117797",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "155016",
+  "name": "Moti, Farah Razack",
+  "specialties": "Ophthalmology",
+  "location": "Bristol Circle 100 Prism Eye Institute Oakville Ontario L6H +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=155016",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "59720",
+  "name": "Nianiaris, Nicholas",
+  "specialties": "Ophthalmology",
+  "location": "245 Danforth Avenue Suite 200 Toronto Ontario M4K 1N2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=59720",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "98532",
+  "name": "Rai, Amandeep Singh",
+  "specialties": "Ophthalmology",
+  "location": "Kensington Eye Institute 340 College St, Suite 501 Toronto Ontario M5T 3A9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98532",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "92498",
+  "name": "Roy, Mili",
+  "specialties": "Ophthalmology",
+  "location": "Suite 100 2201 Bristol Circle Oakville Ontario L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=92498",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "93166",
+  "name": "Schlenker, Matthew Bryan",
+  "specialties": "Ophthalmology",
+  "location": "University Health Network Toronto Western Hospital EW 6-405 399 Bathurst St. Toronto Ontario M5T 2S8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=93166",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "103576",
+  "name": "Sharma, Rahul Assa",
+  "specialties": "Ophthalmology",
+  "location": "2201 Bristol Cir Suite 100 and 200 Oakville ON L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103576",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "106904",
+  "name": "Sivachandran, Nirojini",
+  "specialties": "Ophthalmology",
+  "location": "5-1425 Cornwall Rd Oakville ON L6J 7T5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106904",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "55492",
+  "name": "Smith, Dean Alexander",
+  "specialties": "Ophthalmology",
+  "location": "2201 Bristol Circle Suite 200 Oakville Ontario L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=55492",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "152868",
+  "name": "Takhar, Jaskirat Singh",
+  "specialties": "Ophthalmology",
+  "location": "2201 Bristol Circle Oakville Ontario L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=152868",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "102119",
+  "name": "Utman, Saqib Ali Khan",
+  "specialties": "Ophthalmology",
+  "location": "9-1525 Cornwall Road Oakville Ontario L6J 0B2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=102119",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "60837",
+  "name": "Wong, David Tak Wah",
+  "specialties": "Ophthalmology",
+  "location": "8-528 Donnelly 30 Bond Street Toronto Ontario M5B 1W8 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60837",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "142589",
+  "name": "You, Jia Yue",
+  "specialties": "Ophthalmology",
+  "location": "2201 Bristol Cir Suite 100 Oakville ON L6H 0J8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=142589",
+  "cities": [
+   "Oakville"
+  ]
+ },
+ {
+  "cpso": "76756",
+  "name": "Hillson, Tim Richard",
+  "specialties": "Ophthalmology",
+  "location": "Suite 2 384 West Street North Orillia Ontario L3V 5E6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76756",
+  "cities": [
+   "Orillia"
+  ]
+ },
+ {
+  "cpso": "52892",
+  "name": "Nixon, Donald Ray",
+  "specialties": "Ophthalmology",
+  "location": "190 Memorial Avenue Unit D Orillia Ontario L3V 5X6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52892",
+  "cities": [
+   "Orillia"
+  ]
+ },
+ {
+  "cpso": "52526",
+  "name": "Baziuk, Natalia",
+  "specialties": "Ophthalmology",
+  "location": "149 King St W Durham Retina Specialists Oshawa ON L1J 2J3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52526",
+  "cities": [
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "23442",
+  "name": "Bissada, Maurice",
+  "specialties": "Ophthalmology",
+  "location": "306 King St W Oshawa ON L1J 2J9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=23442",
+  "cities": [
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "65631",
+  "name": "Boyd, Shelley Romayne",
+  "specialties": "Ophthalmology",
+  "location": "St Michaels Hospital Suite 505 55 Queen Street East Toronto Ontario M5C 1R8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65631",
+  "cities": [
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "58464",
+  "name": "Ro, Athanasius Sang-Ki",
+  "specialties": "Ophthalmology",
+  "location": "Suite 2A 201 King Street West Oshawa Ontario L1J 2J5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=58464",
+  "cities": [
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "57208",
+  "name": "Yassein, Hossam",
+  "specialties": "Ophthalmology",
+  "location": "201 King Street West Oshawa Ontario L1J 2J5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=57208",
+  "cities": [
+   "Oshawa"
+  ]
+ },
+ {
+  "cpso": "98739",
+  "name": "Abtahi, Maryam",
+  "specialties": "Ophthalmology",
+  "location": "100-1730 St. Laurent Blvd Ottawa ON K1G 5L1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98739",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "52727",
+  "name": "Agapitos, Peter Panagiotis",
+  "specialties": "Ophthalmology",
+  "location": "Suite 209 1919 Riverside Drive Ottawa Ontario K1H 1A2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52727",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "81761",
+  "name": "Al Karmi, Rani Nasib Ibrahim",
+  "specialties": "Ophthalmology",
+  "location": "Prism Surgical Eye Suites Mount Carmel Medical Center 1609 Stittsville Main Street Unit E Ottawa Ontario K2S1A2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=81761",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "137474",
+  "name": "Al-Kaabi, Abdullah Juma Khalfan",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road Ottawa Ontario K1H 8M2 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=137474",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "272690",
+  "name": "Alizadeh Ghavidel, Leila",
+  "specialties": "Ophthalmology",
+  "location": "Herzig Eye Institute Suite 600-1730 Saint Laurent Boulevard Ottawa Ontario K1G 5L1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=272690",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "32229",
+  "name": "Allen, Larry Hugh",
+  "specialties": "Ophthalmology",
+  "location": "875 Carling Avenue CMPA Ottawa Ontario K1S 5P1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=32229",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "155804",
+  "name": "Alotaibi, Abdulrahman S A T D A",
+  "specialties": "Ophthalmology",
+  "location": "2211 Carling Avenue Ottawa Ontario K2B 7E9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=155804",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "131064",
+  "name": "Amrani, Selya",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Avenue Focus Eye Center Ottawa Ontario K1Y 4G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131064",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "91987",
+  "name": "Baig, Kashif",
+  "specialties": "Ophthalmology",
+  "location": "1730 Saint Laurent Boulevard Precision Cornea Centre Suite 100 Ottawa Ontario K1G 5L1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91987",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "84218",
+  "name": "Baryla, Julia Grazyna",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Ave Ottawa ON K1Y 4G5 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=84218",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "106699",
+  "name": "Basilious, Alfred",
+  "specialties": "Ophthalmology",
+  "location": "302-1105 Carling Ave Ottawa ON K1Y 4G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106699",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "50993",
+  "name": "Bastianelli, Francesco Elio",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Ave Ste. 302 Ottawa ON K1Y 4G5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=50993",
+  "cities": [
+   "Ottawa",
+   "Orléans"
+  ]
+ },
+ {
+  "cpso": "95349",
+  "name": "Bastianelli, Paul Anthony Roy",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Ave Ottawa ON K1Y 4G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=95349",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "57336",
+  "name": "Behki, Rama Rani",
+  "specialties": "Ophthalmology",
+  "location": "Riverside Eye Care Center, TOH 1967 Riverside Drive Suite 323 Ottawa Ontario K1H 7W9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=57336",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "88414",
+  "name": "Belliveau, Michel James-Rheal",
+  "specialties": "Ophthalmology",
+  "location": "202-1919 Riverside Drive Riverside Professional Centre Ottawa Ontario K1H 1A2 +4 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88414",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "74852",
+  "name": "Bhargava, Anuj",
+  "specialties": "Ophthalmology",
+  "location": "Suite 200 879 Shefford Road Ottawa Ontario K1J 8H9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=74852",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "32909",
+  "name": "Britton, William Alan Arthur",
+  "specialties": "Ophthalmology",
+  "location": "2211 Carling Avenue Ottawa Ontario K2B 7E9 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=32909",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "61129",
+  "name": "Buhrmann, Ralf Reynir",
+  "specialties": "Ophthalmology",
+  "location": "Ottawa Eye Institute Ottawa General Hospital 501 Smyth Road Ottawa Ontario K1H 8L6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=61129",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "97585",
+  "name": "Chan, Stephanie Chung Yan",
+  "specialties": "Ophthalmology",
+  "location": "29 rue Ducharme Clinique Ophtalmologique de l'Outaouais Gatineau Quebec J8Y 3P7 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97585",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "153596",
+  "name": "Darwich, Rami",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Avenue Ottawa Ontario K1Y 4G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=153596",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "54170",
+  "name": "Delpero, Walter",
+  "specialties": "Ophthalmology",
+  "location": "2148 Carling Avenue suite 204 Ottawa Ontario K2A 1H1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=54170",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "73239",
+  "name": "Demers, Pierre",
+  "specialties": "Ophthalmology",
+  "location": "Lasik MD Montreal 1250 Boulevard Rene-Levesque West Level MD Montreal Quebec H3B 4W8 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=73239",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "121453",
+  "name": "Denstedt, James Taylor",
+  "specialties": "Ophthalmology",
+  "location": "The Ottawa Hospital- General Campus Division of Opthalmology 501 Smyth Rd Ottawa Ontario K1H 8L6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121453",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "111841",
+  "name": "Dimopoulos, Ioannis",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road The Ottawa Hospital University of Ottawa Eye Institute Box 307 Ottawa Ontario K1H 8M2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111841",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "86724",
+  "name": "Dollin, Michael Leo Elliot",
+  "specialties": "Ophthalmology",
+  "location": "The Ottawa Hospital University of Ottawa Eye Institute 501 Smyth Road Box 307 Ottawa Ontario K1H 8L6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86724",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "53944",
+  "name": "Entwistle, Catherine Marie Anne",
+  "specialties": "Ophthalmology",
+  "location": "600-1730 St. Laurent Blvd Ottawa ON K1G 5L1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=53944",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "70950",
+  "name": "Fournier, Annick Valerie",
+  "specialties": "Ophthalmology",
+  "location": "Childrens Hospital of Eastern Ontario Department of Ophthalmology 401 Smyth Road Ottawa Ontario K1H 8L1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=70950",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "97222",
+  "name": "Gan, Kenman Dang",
+  "specialties": "Ophthalmology",
+  "location": "2211 Carling Avenue Ottawa Ontario K2B 7E9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97222",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "57067",
+  "name": "Harding, Peter William",
+  "specialties": "Ophthalmology",
+  "location": "879 Shefford Road Ottawa Ontario K1J 8H9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=57067",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "73658",
+  "name": "Hurley, Bernard Robert",
+  "specialties": "Ophthalmology",
+  "location": "University of Ottawa Eye Institute 501 Smyth Road Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=73658",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "280439",
+  "name": "Hébert, Mélanie",
+  "specialties": "Ophthalmology",
+  "location": "713 Montréal Road Montfort Hospital Ophthalmology Ottawa Ontario K1K 0M9 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=280439",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "50861",
+  "name": "Jordan, David Ronald",
+  "specialties": "Ophthalmology",
+  "location": "301 O'Connor Street Ottawa Ontario K2P 1V6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=50861",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "121080",
+  "name": "Kanda, Pushpinder Singh",
+  "specialties": "Ophthalmology",
+  "location": "2148 Carling Avenue iCare Surgical Centre Suite #205 Ottawa Ontario K2A 1H1 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121080",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "88911",
+  "name": "Karanjia, Rustum Sarosh",
+  "specialties": "Ophthalmology",
+  "location": "The Ottawa Hospital General Campus 501 Smyth Road Ottawa Ontario K1H 8L6 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=88911",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "116625",
+  "name": "Koaik, Mona Kassem",
+  "specialties": "Ophthalmology",
+  "location": "3755 Riverside Drive Ottawa Ophthalmology Unit 402 Ottawa Ontario K1G 4K9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=116625",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "61772",
+  "name": "Lapointe, Marie Louise",
+  "specialties": "Ophthalmology",
+  "location": "2nd Floor 879 Shefford Rd Ottawa Ontario K1J 8H9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=61772",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "97211",
+  "name": "Lee, Thomas Kin Man",
+  "specialties": "Ophthalmology",
+  "location": "Retina Centre of Ottawa 2211 Carling Avenue Ottawa Ontario K2B 7E9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=97211",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "111216",
+  "name": "Li, Cody Xian",
+  "specialties": "Ophthalmology",
+  "location": "205-2148 Carling Ave Ottawa ON K2A 1H1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111216",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "66103",
+  "name": "Maberley, David Alan Lambert",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd W 6253 Ottawa ON K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=66103",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "65270",
+  "name": "Marshall, David Henry",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Ave Ottawa ON K1Y 4G5 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=65270",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "114991",
+  "name": "McDonald, Heather Margaret",
+  "specialties": "Ophthalmology",
+  "location": "1655 Kilborn Avenue Ottawa Ontario K1H 6M7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=114991",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "60277",
+  "name": "McDonald, Hector",
+  "specialties": "Ophthalmology",
+  "location": "1655 Kilborn Avenue Ottawa Ontario K1H 6M7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60277",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "103953",
+  "name": "McLaughlin, John Adam",
+  "specialties": "Ophthalmology",
+  "location": "The Retina Centre 2211 Carling Avenue Ottawa Ontario K2B 7E9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103953",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "158666",
+  "name": "Meda, Oksana Former Name: Kaminska, Oksana Yuriivna",
+  "specialties": "Ophthalmology",
+  "location": "3030 Pandosy Street Kelowna British Columbia V1Y 0C4 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=158666",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "82955",
+  "name": "Miller, Garfield Lincoln Alexander",
+  "specialties": "Ophthalmology",
+  "location": "1730 St. Laurent Blvd Precision Glaucoma Centre Suite 100 Ottawa ON K1G 5L1 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82955",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "25702",
+  "name": "Mintsioulis, George",
+  "specialties": "Ophthalmology",
+  "location": "Eye Institute Ottawa General Hospital 501 Smyth Road Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=25702",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "267778",
+  "name": "Okudolo, Joseph Oghenetega",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road The Eye institute - The Ottawa Hospital Ottawa Ontario K1H 8L6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=267778",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "127437",
+  "name": "Podury, Soumya",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd The Ottawa Hospital Ottawa ON K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=127437",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "51708",
+  "name": "Poleski, Steven Allan",
+  "specialties": "Ophthalmology",
+  "location": "Ottawa Eye Clinic 680 Montreal Road Ottawa Ontario K1K 0T3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=51708",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "112764",
+  "name": "Quinn, Matthew Patrick",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd The Ottawa Hospital Eye Institute Ottawa ON K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112764",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "76520",
+  "name": "Ross, Ella Anna",
+  "specialties": "Ophthalmology",
+  "location": "208 Beechwood Ave Ottawa Ontario K1L 8A8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76520",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "103936",
+  "name": "Sabeti, Saama",
+  "specialties": "Ophthalmology",
+  "location": "1730 St. Laurent Blvd Unit 100 Ottawa ON K1G 5L1 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103936",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "107005",
+  "name": "Saleh, Solin",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road The Ottawa Hospital General Campus Department of Ophthalmology Ottawa Ontario K1H 8L6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=107005",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "288143",
+  "name": "Samet, Adam",
+  "specialties": "Ophthalmology +1",
+  "location": "501 Smyth Road Ottawa Eye Institute Department of Ophthalmology Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=288143",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "120975",
+  "name": "Samet, Saba",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road Ottawa Eye Institute Department of Ophthalmology Ottawa Ontario K1H 8M2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=120975",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "115291",
+  "name": "Sim, Mark Yan-Wei",
+  "specialties": "Ophthalmology",
+  "location": "100-1730 Saint Laurent Boulevard Ottawa Ontario K1G 5L1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115291",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "115567",
+  "name": "Tam, Alex Lai Chi",
+  "specialties": "Ophthalmology",
+  "location": "1105 Carling Avenue Focus Eye Centre Ottawa Ontario K1Y 4G5",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115567",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "116971",
+  "name": "Trang, Nataly",
+  "specialties": "Ophthalmology",
+  "location": "Lasik MD 407 Laurier Ave W Store 10/11 Minto Place Atrium Ottawa Ontario K1R 7Y7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=116971",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "108955",
+  "name": "Tsang, Adrian Chiu Kein",
+  "specialties": "Ophthalmology",
+  "location": "The Ottawa Hospital General Campus Department of Ophthalmology 501 Smyth Road, Box 307 Ottawa, ON K1H 8L6 Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=108955",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "62667",
+  "name": "Tuli, Raman",
+  "specialties": "Ophthalmology",
+  "location": "2211 Carling Avenue Ottawa Ontario K2B 7E9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=62667",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "115037",
+  "name": "Veluri, Himabindu",
+  "specialties": "Ophthalmology",
+  "location": "879 Shefford Road Ottawa Ontario K1J 8H9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=115037",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "58303",
+  "name": "Weston, Bonnie Cynthia",
+  "specialties": "Ophthalmology",
+  "location": "Riverside Eye Care Centre 1967 Riverside Dr. Ottawa Ontario K1H 7W9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=58303",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "91726",
+  "name": "Wu, Albert Ya-Po",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road The Ottawa Hospital Department of Ophthalmology Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=91726",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "82504",
+  "name": "Ziai, Setareh",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Road Ottawa Ontario K1H 8L6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82504",
+  "cities": [
+   "Ottawa"
+  ]
+ },
+ {
+  "cpso": "103544",
+  "name": "Abo-Shasha, Rami",
+  "specialties": "Ophthalmology",
+  "location": "1360 20th St E Owen Sound Ontario N4K 5N3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=103544",
+  "cities": [
+   "Owen Sound"
+  ]
+ },
+ {
+  "cpso": "63778",
+  "name": "Orr, Richard James",
+  "specialties": "Ophthalmology",
+  "location": "1360 20th Street East P O Box 1800 Owen Sound Ontario N4K 5N3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=63778",
+  "cities": [
+   "Owen Sound"
+  ]
+ },
+ {
+  "cpso": "75177",
+  "name": "Sherif, Hesham A",
+  "specialties": "Ophthalmology",
+  "location": "Grey Bruce Health Sevices Department of Ophthalmology Suite 7213 1800 8th Street East Owen Sound Ontario N4K 6M9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75177",
+  "cities": [
+   "Owen Sound"
+  ]
+ },
+ {
+  "cpso": "111803",
+  "name": "Bagheri, Mansoureh",
+  "specialties": "Ophthalmology",
+  "location": "233 Brady Street Greater Sudbury Ontario P3B 4H5 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111803",
+  "cities": [
+   "Parry Sound"
+  ]
+ },
+ {
+  "cpso": "78336",
+  "name": "Cheung, Cindy Helen",
+  "specialties": "Ophthalmology",
+  "location": "The Peterborough Clinic Suite 201 26 Hospital Drive Peterborough Ontario K9J 7C3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=78336",
+  "cities": [
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "93775",
+  "name": "Hurst, Jonathan David",
+  "specialties": "Ophthalmology",
+  "location": "Suite 201 26 Hospital Drive Peterborough Ontario K9J 7C3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=93775",
+  "cities": [
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "29456",
+  "name": "Jackson, William Bruce",
+  "specialties": "Ophthalmology",
+  "location": "The Peterborough Clinic Suite 204 26 Hospital Drive Peterborough Ontario K9J 7C3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=29456",
+  "cities": [
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "43069",
+  "name": "McDonald, John Christopher",
+  "specialties": "Ophthalmology",
+  "location": "The Peterborough Clinic 26 Hospital Dr Peterborough ON K9J 7C3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=43069",
+  "cities": [
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "75147",
+  "name": "McReelis, Kylen Darby",
+  "specialties": "Ophthalmology",
+  "location": "The Peterborough Clinic 26 Hospital Drive Peterborough Ontario K9J 7C3 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75147",
+  "cities": [
+   "Peterborough"
+  ]
+ },
+ {
+  "cpso": "86409",
+  "name": "Hassanlou, Mojgan",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave Toronto ON M4N 3M5 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86409",
+  "cities": [
+   "Pickering"
+  ]
+ },
+ {
+  "cpso": "52019",
+  "name": "Ventresca, Mario Robert",
+  "specialties": "Ophthalmology",
+  "location": "248 Killaly Street West Port Colborne Ontario L3K 6A6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52019",
+  "cities": [
+   "Port Colborne"
+  ]
+ },
+ {
+  "cpso": "98745",
+  "name": "Ahadian, Ali",
+  "specialties": "Ophthalmology",
+  "location": "unit 15 level 2-9080 Yonge Street Ahadian Eye Institute Richmond Hill Ontario L4C 0Y7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98745",
+  "cities": [
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "275932",
+  "name": "Akbarikamrani, Marjan",
+  "specialties": "Ophthalmology",
+  "location": "Unit 12 - 9080 Yonge Street Grand Genesis Health Richmond Hill Ontario L4C 0Y7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=275932",
+  "cities": [
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "31189",
+  "name": "Kraft, Stephen Paul",
+  "specialties": "Ophthalmology",
+  "location": "Hospital For Sick Children 555 University Avenue Toronto Ontario M5G 1X8 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=31189",
+  "cities": [
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "153668",
+  "name": "Sahebghalam, Ramin",
+  "specialties": "Ophthalmology",
+  "location": "9080 Yonge Street Level 2, Unit 12 Grand Genesis Health Richmond Hill Ontario L4C 0Y7 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=153668",
+  "cities": [
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "61107",
+  "name": "Woo, Elaine Kin Jen",
+  "specialties": "Ophthalmology",
+  "location": "Suite 212 250 Harding Boulevard West Richmond Hill Ontario L4C 9M7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=61107",
+  "cities": [
+   "Richmond Hill"
+  ]
+ },
+ {
+  "cpso": "59333",
+  "name": "Patodia, Murari Lal",
+  "specialties": "Ophthalmology",
+  "location": "1500 London Road Sarnia Ontario N7S 1P7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=59333",
+  "cities": [
+   "Sarnia"
+  ]
+ },
+ {
+  "cpso": "74719",
+  "name": "Assaad, David Mark",
+  "specialties": "Ophthalmology",
+  "location": "Scarborough Eye Associates 2941 Lawrence Ave East Scarborough Ontario M1P 2V6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=74719",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "76720",
+  "name": "Cheskes, Jordan Wesley",
+  "specialties": "Ophthalmology",
+  "location": "Scarborough Eye Associates 2941 Lawrence Avenue East Scarborough Ontario M1P 2V6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76720",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "29580",
+  "name": "Goldberg, Chaim Joseph",
+  "specialties": "Ophthalmology",
+  "location": "2235 Kennedy Road Scarborough Ontario M1T 3G8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=29580",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "52532",
+  "name": "Goldhar, Sheldon William",
+  "specialties": "Ophthalmology",
+  "location": "3850 Finch Avenue East Suite 303 Scarborough Ontario M1T 3T6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52532",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "75345",
+  "name": "Henen, Raafat Naguib Ibrahim",
+  "specialties": "Ophthalmology",
+  "location": "203 - 1585 Markham Road Scarborough Ontario M1B 2W1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75345",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "153918",
+  "name": "Heroman, James Wesley",
+  "specialties": "Ophthalmology",
+  "location": "Clarity Eye Institute 3- 145 Kingston Road Toronto Ontario L1S 7J4 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=153918",
+  "cities": [
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "112150",
+  "name": "Kwok, Jason Mun Yiu",
+  "specialties": "Ophthalmology",
+  "location": "2855 Markham Road Unit 408 Toronto Ontario M1X 0C3 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=112150",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "86215",
+  "name": "Leung, Andrea Karen",
+  "specialties": "Ophthalmology",
+  "location": "Suite 207 3447 Kennedy Road Scarborough Ontario M1V 3S1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=86215",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "118391",
+  "name": "Taheri-Shirazi, Maryam",
+  "specialties": "Ophthalmology",
+  "location": "a5-9135 Keele Street Clarity Eye Vaughan Ontario L4K 0J4 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=118391",
+  "cities": [
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "99734",
+  "name": "Tong, Melissa Gar Yun",
+  "specialties": "Ophthalmology",
+  "location": "9135 Keele Street Unit A5 Vaughan Ontario L4K 0J4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=99734",
+  "cities": [
+   "Scarborough",
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "75336",
+  "name": "Weisbrod, Daniel Joshua",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave Sunnybrook Health Sciences Centre Department of Ophthalmology M-Wing, 1st Floor, Room M1-302B Toronto ON M4N 3M5 +8 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=75336",
+  "cities": [
+   "Scarborough"
+  ]
+ },
+ {
+  "cpso": "111228",
+  "name": "Sivakumar, Saraswati",
+  "specialties": "Ophthalmology",
+  "location": "46 Norfolk street North Simcoe Ontario N3Y 5C6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=111228",
+  "cities": [
+   "Simcoe"
+  ]
+ },
+ {
+  "cpso": "29285",
+  "name": "Thorpe, John Bruce",
+  "specialties": "Ophthalmology",
+  "location": "75 Elgin Avenue Simcoe Ontario N3Y 4A9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=29285",
+  "cities": [
+   "Simcoe"
+  ]
+ },
+ {
+  "cpso": "57630",
+  "name": "Beiko, George Hutul Hachkowski",
+  "specialties": "Ophthalmology",
+  "location": "180 Vine Street Suite 103 St. Catharines Ontario L2R 7P3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=57630",
+  "cities": [
+   "St. Catharines"
+  ]
+ },
+ {
+  "cpso": "121195",
+  "name": "Sivakumar, Gayathri Kunnathur",
+  "specialties": "Ophthalmology",
+  "location": "300 South Edgeware Road Unit 101 St. Thomas Ontario N5P 4L1",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=121195",
+  "cities": [
+   "St. Thomas"
+  ]
+ },
+ {
+  "cpso": "79007",
+  "name": "Fava, Mark Adam",
+  "specialties": "Ophthalmology",
+  "location": "Suite 102 835 Paramount Drive Stoney Creek Ontario L8J 0B4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=79007",
+  "cities": [
+   "Stoney Creek"
+  ]
+ },
+ {
+  "cpso": "131623",
+  "name": "Mcinnis, Rachel Lang",
+  "specialties": "Ophthalmology",
+  "location": "C-771 Erie Street Stratford Eye Specialists Stratford Ontario N4Z 1A2 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=131623",
+  "cities": [
+   "Stratford",
+   "Central Huron"
+  ]
+ },
+ {
+  "cpso": "109022",
+  "name": "Schulz, David Christian Nocent",
+  "specialties": "Ophthalmology",
+  "location": "771 Erie Street Unit C Stratford Ontario N4Z 1A2",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=109022",
+  "cities": [
+   "Stratford"
+  ]
+ },
+ {
+  "cpso": "106167",
+  "name": "Feng, Mary Mengrui Former Name: Feng, Mengrui",
+  "specialties": "Ophthalmology",
+  "location": "358-395 Carrie St Strathroy Middlesex General Hospital Suite 358 Strathroy ON N7G 3C9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106167",
+  "cities": [
+   "Strathroy"
+  ]
+ },
+ {
+  "cpso": "98060",
+  "name": "Khimdas, Sarit Subhash",
+  "specialties": "Ophthalmology",
+  "location": "3460 Schmonn Parkway Thorold Ontario L2V4Y6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=98060",
+  "cities": [
+   "Thorold"
+  ]
+ },
+ {
+  "cpso": "82732",
+  "name": "Pirbhai, Adnan",
+  "specialties": "Ophthalmology",
+  "location": "Niagara Eye Care Centre 3460 Schmon Parkway Thorold Ontario L2V 4Y6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=82732",
+  "cities": [
+   "Thorold"
+  ]
+ },
+ {
+  "cpso": "73467",
+  "name": "Rhemtulla, El-Karim Fatehali Jaffer",
+  "specialties": "Ophthalmology",
+  "location": "Unit 1 3460 Schmon Parkway Thorold Ontario L2V 4Y6",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=73467",
+  "cities": [
+   "Thorold"
+  ]
+ },
+ {
+  "cpso": "68787",
+  "name": "Lachapelle, Kevin Robert",
+  "specialties": "Ophthalmology",
+  "location": "2 - 1 Frankford Cres Trenton ON K8V 6H8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=68787",
+  "cities": [
+   "Trenton"
+  ]
+ },
+ {
+  "cpso": "94649",
+  "name": "Maini, Rajiv",
+  "specialties": "Ophthalmology",
+  "location": "221-2180 Steeles Ave West Vaughan Ontario L4K 2Z5 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=94649",
+  "cities": [
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "83766",
+  "name": "McGuire, Kwesi Chidi",
+  "specialties": "Ophthalmology",
+  "location": "Clarity Eye Institute 9135 Keele St Unit A5 Vaughan Ontario L4K 0J4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=83766",
+  "cities": [
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "278089",
+  "name": "Pinto, Ashlyn Marie",
+  "specialties": "Ophthalmology",
+  "location": "2238 Dundas Street West Clarity Eye Institute Suite 308 Toronto Ontario M6R +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=278089",
+  "cities": [
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "77877",
+  "name": "Sanghera, Gurinder Paul",
+  "specialties": "Ophthalmology",
+  "location": "Suite 1-001 60 Murray Street Toronto Ontario M5T 3L9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=77877",
+  "cities": [
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "268244",
+  "name": "Williams, Olayinka Ann-Marie",
+  "specialties": "Ophthalmology",
+  "location": "Clarity Eye - Vaughan 9135 Keele Street Unit 5A Vaughan Ontario L4K 0J4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=268244",
+  "cities": [
+   "Vaughan"
+  ]
+ },
+ {
+  "cpso": "118985",
+  "name": "Zaslavsky, Kirill",
+  "specialties": "Ophthalmology",
+  "location": "140 Columbia Street West Unit 302 Waterloo Ontario N2L 3K8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=118985",
+  "cities": [
+   "Waterloo"
+  ]
+ },
+ {
+  "cpso": "33657",
+  "name": "Korzinstone, Clifford Arnold",
+  "specialties": "Ophthalmology",
+  "location": "198 Des Newman Boulevard Whitby Ontario L1P 0P9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=33657",
+  "cities": [
+   "Whitby"
+  ]
+ },
+ {
+  "cpso": "106135",
+  "name": "Zhang, Angela Qiao",
+  "specialties": "Ophthalmology",
+  "location": "198 Des Newman Boulevard 3O Whitby Ontario L1P 0P9 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=106135",
+  "cities": [
+   "Whitby"
+  ]
+ },
+ {
+  "cpso": "141483",
+  "name": "Afzal, Fatima",
+  "specialties": "Ophthalmology +1",
+  "location": "Windsor Eye Associates Suite 198 - 2224 Walker Road Windsor Ontario N8W 1E6 +3 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=141483",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "63327",
+  "name": "Curran, Brian Michael",
+  "specialties": "Ophthalmology",
+  "location": "Jackson Park Medical Centre Suite 240 2475 McDougall Street Windsor Ontario N8X 3N9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=63327",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "57389",
+  "name": "Deans, Robin Michael",
+  "specialties": "Ophthalmology",
+  "location": "Unit 4 1270 Walker Road Windsor Ontario N8Y 4T4",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=57389",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "33122",
+  "name": "Fiander, Donald Cecil",
+  "specialties": "Ophthalmology",
+  "location": "Suite 101 2224 Walker Rd Windsor Ontario N8W 5L7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=33122",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "147638",
+  "name": "Hamad, Abdualrahman Esam",
+  "specialties": "Ophthalmology",
+  "location": "2475 McDougall Street Suite 240 Windsor Ontario N8X 3N9",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=147638",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "76666",
+  "name": "Mathew, Benjamin",
+  "specialties": "Ophthalmology",
+  "location": "2000 Lake Avenue Woodstock Illinois 60098 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=76666",
+  "cities": [
+   "Windsor",
+   "Woodstock"
+  ]
+ },
+ {
+  "cpso": "90862",
+  "name": "Podbielski, Dominik Waclaw",
+  "specialties": "Ophthalmology",
+  "location": "2224 Walker Rd Suite 200 Windsor ON N8W 5L7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=90862",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "87399",
+  "name": "Yoganathan, Pradeepa",
+  "specialties": "Ophthalmology",
+  "location": "Windsor Eye Associates Suite 198 2224 Walker Road Windsor Ontario N8W 3P6 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=87399",
+  "cities": [
+   "Windsor"
+  ]
+ },
+ {
+  "cpso": "60065",
+  "name": "Lui, Derek Pok-Keung",
+  "specialties": "Ophthalmology",
+  "location": "369 Hunter Street Woodstock Ontario N4S 4G3",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=60065",
+  "cities": [
+   "Woodstock"
+  ]
+ },
+ {
+  "cpso": "54070",
+  "name": "Eplett, Catherine Jane",
+  "specialties": "Ophthalmology",
+  "location": "Suite 310 20 Wynford Drive Don Mills Ontario M3C 1J4 +1 Location",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=54070",
+  "cities": [
+   "Don Mills"
+  ]
+ },
+ {
+  "cpso": "52453",
+  "name": "Rabinovitch, Theodore",
+  "specialties": "Ophthalmology",
+  "location": "2065 Finch Ave W Suite 400 Downsview, Ontario M3N2V7 Downsview Ontario M3N 2V7",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=52453",
+  "cities": [
+   "Downsview"
+  ]
+ },
+ {
+  "cpso": "20585",
+  "name": "Smith, David Royce",
+  "specialties": "Ophthalmology",
+  "location": "1333 Sheppard Ave. East Suite 228 Toronto Ontario M2J 1V1 +2 Locations",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=20585",
+  "cities": [
+   "Downsview"
+  ]
+ },
+ {
+  "cpso": "58523",
+  "name": "Kaplan, Henry Daniel",
+  "specialties": "Ophthalmology",
+  "location": "Suite 719 115 Humber College Boulevard Rexdale Ontario M9V 4B8",
+  "status": "ACTIVE",
+  "url": "javascript:///physician-info/?cpsonum=58523",
+  "cities": [
+   "Rexdale"
+  ]
+ },
+ {
+  "cpso": "26185",
+  "name": "Dr. Aaron Wolfe Rifkind",
+  "specialties": "Ophthalmology",
+  "location": "826 Main St East, Hamilton, ON L8M 1L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "114671",
+  "name": "Dr. Adnan Talib A Alawami",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "92365",
+  "name": "Dr. Ajoy Vincent",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Suite 102, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "100239",
+  "name": "Dr. Alexander Jacques Kaplan",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Unit 1, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "55231",
+  "name": "Dr. Allan Raymond Slomovic",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Second Floor, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "109909",
+  "name": "Dr. Amrit Singh Rai",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Division of Radiation Oncology, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "55538",
+  "name": "Dr. Anne Maxine Beattie",
+  "specialties": "Ophthalmology",
+  "location": "304 Victoria Ave North, Suite 201, Hamilton, ON L8L 5G4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "28335",
+  "name": "Dr. Arnold Israel Kravetz",
+  "specialties": "Ophthalmology",
+  "location": "115 Humber College Blvd, Etobicoke, ON M9V 0A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "92246",
+  "name": "Dr. Arunun Yohann Reginald",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "87116",
+  "name": "Dr. Ashwin Chandrasekhara Mallipatna",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "73831",
+  "name": "Dr. Asim Ali",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "88060",
+  "name": "Dr. Babak Maleki",
+  "specialties": "Ophthalmology",
+  "location": "1033 Bay St, Diagnostic Centres, Toronto, ON M5S 3A5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "147785",
+  "name": "Dr. Barrett Hunter Eubanks",
+  "specialties": "Ophthalmology",
+  "location": "150 Bloor St West, 11, Toronto, ON M5S 1M4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "28022",
+  "name": "Dr. Brenda Louise Gallie",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "33096",
+  "name": "Dr. Brent Joseph Macinnis",
+  "specialties": "Ophthalmology",
+  "location": "489 Sussex Dr, Suite 410, Ottawa, ON K1N 6Z5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "23552",
+  "name": "Dr. Brian Clark Leonard",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "82791",
+  "name": "Dr. Carla Radica Lutchman",
+  "specialties": "Ophthalmology",
+  "location": "1450 O'Connor Dr, Division of Urology Civic Campus, Toronto, ON M4B 2T8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "60820",
+  "name": "Dr. Catherine Mary Birt",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Suite 100, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "59993",
+  "name": "Dr. Charlotte Isabel Wedge",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr, 8th Wing, Toronto, ON M3C 1J4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "55455",
+  "name": "Dr. Christine Mary Erlich",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr, Don Mills, ON M3C 1J4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "62200",
+  "name": "Dr. Christoph Friedrich Kranemann",
+  "specialties": "Ophthalmology",
+  "location": "4100 Yonge St, Dept. of Obstetrics & Gynaecology, Toronto, ON M2P 2B7",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "95392",
+  "name": "Dr. Cindy Tze Yung Lam",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Community and Health Services, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "82644",
+  "name": "Dr. Clara Carwei Chan",
+  "specialties": "Ophthalmology",
+  "location": "600 Sherbourne St, Toronto, ON M4X 1W4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "100242",
+  "name": "Dr. Crystal Sin Yi Cheung",
+  "specialties": "Ophthalmology",
+  "location": "1333 Sheppard Ave. East, Unit 3, Toronto, ON M2J 1V1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50729",
+  "name": "Dr. Dale Ellen Gray",
+  "specialties": "Ophthalmology",
+  "location": "1333 Sheppard Ave East, Toronto, ON M2J 1V1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "84177",
+  "name": "Dr. Danah Hassan Mohd Saleh Al-Breiki",
+  "specialties": "Ophthalmology",
+  "location": "501 Chemin Smyth Rd, Suite 1222, Ottawa, ON K1H 8L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "154294",
+  "name": "Dr. Daniel Qiushi Li",
+  "specialties": "Ophthalmology",
+  "location": "30 The Queensway, Unit One, Toronto, ON M6R 1B5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "33568",
+  "name": "Dr. David Hyman Zackon",
+  "specialties": "Ophthalmology",
+  "location": "2148 Carling Ave, Ottawa, ON K2A 1H1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "70132",
+  "name": "Dr. David Jacob Weinstock",
+  "specialties": "Ophthalmology",
+  "location": "206 Sheppard Ave West, Toronto, ON M2N 1N1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "113167",
+  "name": "Dr. David Jose Mathew",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "51507",
+  "name": "Dr. David Samuel Rootman",
+  "specialties": "Ophthalmology",
+  "location": "",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "58189",
+  "name": "Dr. Dayle Anne Sigesmund",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr, Toronto, ON M3C 1J4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "95468",
+  "name": "Dr. Dustin Jonathan Curts",
+  "specialties": "Ophthalmology",
+  "location": "901 3rd Ave E, Owen Sound, ON N4K 2K7",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "59654",
+  "name": "Dr. Edsel Bill Ing",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, General Campus, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "87627",
+  "name": "Dr. Edward Arkadiy Margolin",
+  "specialties": "Ophthalmology",
+  "location": "801 Eglinton Ave West, Richardson House, Toronto, ON M5N 1E3",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "64784",
+  "name": "Dr. Elise Heon",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Department of Psychiatry, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "59006",
+  "name": "Dr. Fabio Gregorio Zanetti",
+  "specialties": "Ophthalmology",
+  "location": "525 Park Rd North, University Campus Department Of Pathology, Brantford, ON N3R 7K8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "64016",
+  "name": "Dr. Filiberto Altomare",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St, Unit 13, Toronto, ON M5B 1W8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "141707",
+  "name": "Dr. Gareth David Mercer",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "122320",
+  "name": "Dr. Georges Bassam Nassrallah",
+  "specialties": "Ophthalmology",
+  "location": "60 Murray St, Unit 102, Toronto, ON M5T 3L9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "151626",
+  "name": "Dr. Ghulam Farooq Dogar",
+  "specialties": "Ophthalmology",
+  "location": "342 Erie St, Suite 300, Stratford, ON N5A 2N4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "137669",
+  "name": "Dr. Henry Chieh Heng Chen",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "30262",
+  "name": "Dr. Hugh Douglas McGowan",
+  "specialties": "Ophthalmology",
+  "location": "610 University Ave, Department of Pediatrics, Toronto, ON M5G 2M9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "25210",
+  "name": "Dr. Irene Vanek",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St, Toronto, ON M5B 1W8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "32442",
+  "name": "Dr. James Herbert Oestreicher",
+  "specialties": "Ophthalmology",
+  "location": "86 South Dr, Toronto, ON M4W 1R6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "118179",
+  "name": "Dr. Jeffrey Matthew Mah",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St, Department of Urology General Campus, Toronto, ON M5B 1W8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "90796",
+  "name": "Dr. Jennifer Calafati",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, McMaster Children's Hospital, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "54764",
+  "name": "Dr. Jocelyn Marie MacIntosh",
+  "specialties": "Ophthalmology",
+  "location": "190 Memorial Ave, Dept Pathology Room 208 Juravinski Hospital, Orillia, ON L3V 5X6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "59075",
+  "name": "Dr. John Arthur Gorfinkel",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Suite 306, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "60902",
+  "name": "Dr. John Charles Lloyd",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Victoria Campus, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "63718",
+  "name": "Dr. John Hyunsik Shin",
+  "specialties": "Ophthalmology",
+  "location": "1800 Sheppard Ave East, Suite 708, Toronto, ON M2J 5A7",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "32910",
+  "name": "Dr. John Robert Britton",
+  "specialties": "Ophthalmology",
+  "location": "1 Centrepointe Dr, Dept. of Psychiatry, Ottawa, ON K2G 6E2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "29001",
+  "name": "Dr. John Russell Gonder",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor St, London, ON N6A 4V2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50407",
+  "name": "Dr. John Theodore Christakis",
+  "specialties": "Ophthalmology",
+  "location": "245 Danforth Ave, Centenary Hospital, Toronto, ON M4K 1N2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "97942",
+  "name": "Dr. Jonathan Andrew Micieli",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Suite 420, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "55726",
+  "name": "Dr. Joseph Gasser",
+  "specialties": "Ophthalmology",
+  "location": "28 Bartley Dr, Division Of Thoracic Surgery, Toronto, ON M4A 1B8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "23378",
+  "name": "Dr. Joseph Raymond Buncic",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Dept of Ophthalmology, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "89493",
+  "name": "Dr. Kamiar Mireskandari",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Department of Family Medicine, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "18727",
+  "name": "Dr. Kenneth Axmith",
+  "specialties": "Ophthalmology",
+  "location": "717 Eglinton Ave West, Suite 200 c/o RCT, Toronto, ON M5N 1C9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "70091",
+  "name": "Dr. Kenneth Eng",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Suite 406, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "59236",
+  "name": "Dr. Kevin David Smith",
+  "specialties": "Ophthalmology",
+  "location": "2148 Carling Ave, Ottawa, ON K2A 1H1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "88447",
+  "name": "Dr. King Yin Chow",
+  "specialties": "Ophthalmology",
+  "location": "2855 Markham Rd, Unit 5, Scarborough, ON M1X 0C3",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "66521",
+  "name": "Dr. Larissa Anne Derzko-Dzulynsky",
+  "specialties": "Ophthalmology",
+  "location": "2425 Bloor St W, P O Box 5339 University Campus Site, Toronto, ON M6S 4W4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "26745",
+  "name": "Dr. Lawrence Elliot Kobetz",
+  "specialties": "Ophthalmology",
+  "location": "2757 King St E, Division of Neurology, Hamilton, ON L8G 5E4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "66511",
+  "name": "Dr. Lawrence Weisbrod",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr, Toronto, ON M3C 1J4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "106622",
+  "name": "Dr. Lisa Geetanjali Jagan",
+  "specialties": "Ophthalmology",
+  "location": "1849 Yonge St, Toronto, ON M4S 1Y2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50634",
+  "name": "Dr. Luigi Robert Giavedoni",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St, Toronto, ON M5B 1W8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "29616",
+  "name": "Dr. Man Mohan Merchea",
+  "specialties": "Ophthalmology",
+  "location": "230 First Ave, St. Thomas, ON N5R 4P5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "76365",
+  "name": "Dr. Marisa Sit",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "67158",
+  "name": "Dr. Mark Jamie Cohen",
+  "specialties": "Ophthalmology",
+  "location": "100 King St West, ER, Toronto, ON M5X 2A1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "52405",
+  "name": "Dr. Michael Henry Brent",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "88376",
+  "name": "Dr. Michael Jonathan Wan",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, 3E Med Ed Teaching Clinic, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "115167",
+  "name": "Dr. Michael Thai Binh Nguyen",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "120947",
+  "name": "Dr. Milad Modabber",
+  "specialties": "Ophthalmology",
+  "location": "150 Bloor St W, Toronto, ON M5S 2X9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "67994",
+  "name": "Dr. Ming Fong Agnes Wong",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "110040",
+  "name": "Dr. Monica Daibert Nido",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, St Joseph's Health Centre, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "71629",
+  "name": "Dr. Mounir Bashour",
+  "specialties": "Ophthalmology",
+  "location": "5025 Orbitor Dr, Services of Ottawa, Mississauga, ON L4W 4Y5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "85106",
+  "name": "Dr. Muhammed Hatem Abdel Aleem Krema",
+  "specialties": "Ophthalmology",
+  "location": "610 University Ave, Toronto, ON M5G 2M9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "51918",
+  "name": "Dr. Myrna Lichter",
+  "specialties": "Ophthalmology",
+  "location": "1849 Yonge St, Toronto, ON M4S 1Y2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "58157",
+  "name": "Dr. Nancy Audrey Tucker",
+  "specialties": "Ophthalmology",
+  "location": "60 Murray St, 5 MC-420 A, Toronto, ON M5T 3L9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "55234",
+  "name": "Dr. Nancy Ellen Epstein",
+  "specialties": "Ophthalmology",
+  "location": "790 Bay St, Toronto, ON M5G 1N8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "78755",
+  "name": "Dr. Nasrin Najm-Tehrani",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, Division of Neurology, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "71918",
+  "name": "Dr. Nathalie Teboul",
+  "specialties": "Ophthalmology",
+  "location": "350 Sparks St, Suite 152, Ottawa, ON K1R 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "71578",
+  "name": "Dr. Neera Singal",
+  "specialties": "Ophthalmology",
+  "location": "790 Bay St, Etherington Hall, Toronto, ON M5G 1N8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "64236",
+  "name": "Dr. Neeru Gupta",
+  "specialties": "Ophthalmology",
+  "location": "30 Bond St, Department Of Anaesthesia, Toronto, ON M5B 1W8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "96870",
+  "name": "Dr. Netan Choudhry",
+  "specialties": "Ophthalmology",
+  "location": "3280 Bloor St. W, Suite 200, Toronto, ON M8X 2X3",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "65480",
+  "name": "Dr. Nicholas Skouras",
+  "specialties": "Ophthalmology",
+  "location": "20 Eglinton Ave West, Unit 2, Toronto, ON M4R 1K8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "93470",
+  "name": "Dr. Nima Noordeh",
+  "specialties": "Ophthalmology",
+  "location": "7700 Hurontario St, Box 255, Brampton, ON L6Y 4M3",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "81025",
+  "name": "Dr. Nupura Krishnadev Bakshi",
+  "specialties": "Ophthalmology",
+  "location": "2425 Bloor St West, Toronto, ON M6S 4W4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "58554",
+  "name": "Dr. Omar Javed Hakim",
+  "specialties": "Ophthalmology",
+  "location": "101 Frederick St, Kitchener, ON N2H 6R2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "98220",
+  "name": "Dr. Panos George Christakis",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50724",
+  "name": "Dr. Patricia Victoria Hinton",
+  "specialties": "Ophthalmology",
+  "location": "1133 Sheppard Ave West, Toronto, ON M3K 0A1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "93231",
+  "name": "Dr. Peng Yan",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "64170",
+  "name": "Dr. Peter John Kertes",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50989",
+  "name": "Dr. Peter John Konzuk",
+  "specialties": "Ophthalmology",
+  "location": "350 Sparks St, Ottawa, ON K1R 7S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "33446",
+  "name": "Dr. Peter Karl Girschek",
+  "specialties": "Ophthalmology",
+  "location": "2238 Dundas St West, Suite 507, Toronto, ON M6R 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "50794",
+  "name": "Dr. Philip Lorne Hooper",
+  "specialties": "Ophthalmology",
+  "location": "268 Grosvenor St, London, ON N6A 4V2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "80896",
+  "name": "Dr. Radha Pyari Kohly",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave 202b, Box 847, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "101163",
+  "name": "Dr. Randall Ulate Piedra",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "51962",
+  "name": "Dr. Raymond Mark Stein",
+  "specialties": "Ophthalmology",
+  "location": "40 Prince Arthur Ave, Suite 200, Toronto, ON M5R 1A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "107028",
+  "name": "Dr. Rebecca Leah Stein",
+  "specialties": "Ophthalmology",
+  "location": "40 Prince Arthur Ave, Toronto, ON M5R 1A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "27040",
+  "name": "Dr. Robert Burton Morgan",
+  "specialties": "Ophthalmology",
+  "location": "879 Shefford Rd, University Health Network, Ottawa, ON K1J 8H9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "51923",
+  "name": "Dr. Robert Ellis Johnson",
+  "specialties": "Ophthalmology",
+  "location": "166 Brock St, Kingston, ON K7L 5G2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "52547",
+  "name": "Dr. Robert George Devenyi",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Suite 305, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "66657",
+  "name": "Dr. Rosa Maria Braga-Mele",
+  "specialties": "Ophthalmology",
+  "location": "245 Danforth Ave, 2nd Floor, Toronto, ON M4K 1N2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "57250",
+  "name": "Dr. Samuel Darwin Stevens",
+  "specialties": "Ophthalmology",
+  "location": "1832 County Rd 2, Elizabethtown, ON K6V 7G7",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "33393",
+  "name": "Dr. Selwyn Leigh Abel",
+  "specialties": "Ophthalmology",
+  "location": "3101 Bloor St West, Toronto, ON M8X 2W2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "51802",
+  "name": "Dr. Shaun Singer",
+  "specialties": "Ophthalmology",
+  "location": "399 Bathurst St, Suite 504, Toronto, ON M5T 2S8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "58201",
+  "name": "Dr. Sheila Marie Brazel",
+  "specialties": "Ophthalmology",
+  "location": "2238 Dundas St West, Suite 310, Toronto, ON M6R 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "26662",
+  "name": "Dr. Sheldon Herzig",
+  "specialties": "Ophthalmology",
+  "location": "150 Bloor St West, Toronto, ON M5S 2X9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "61132",
+  "name": "Dr. Sherif Rashad El-Defrawy",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, University Campus Department of Surgery, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "24611",
+  "name": "Dr. Solomon Joseph Weinstock",
+  "specialties": "Ophthalmology",
+  "location": "206 Sheppard Ave West, Suite 201, Toronto, ON M2N 1N1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "101506",
+  "name": "Dr. Stephan Ong Tone",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "100958",
+  "name": "Dr. Stephanie Alena Wong Low",
+  "specialties": "Ophthalmology",
+  "location": "340 College St, Toronto, ON M5T 3A9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "103383",
+  "name": "Dr. Stephanie Nicole Kletke",
+  "specialties": "Ophthalmology",
+  "location": "555 University Ave, RM 1NW-126, Toronto, ON M5G 1X8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "53955",
+  "name": "Dr. Steven Matthew Gilberg",
+  "specialties": "Ophthalmology",
+  "location": "501 Smyth Rd, Ottawa, ON K1H 8L6",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "33473",
+  "name": "Dr. Susan Mildred Rutherford",
+  "specialties": "Ophthalmology",
+  "location": "1450 O'Connor Dr, Suite 212, Toronto, ON M4B 2T8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "32417",
+  "name": "Dr. Ted Gary Rosenstock",
+  "specialties": "Ophthalmology",
+  "location": "1162 Weston Rd, Toronto, ON M6M 4P4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "93978",
+  "name": "Dr. Theodore Jonathan Christakis",
+  "specialties": "Ophthalmology",
+  "location": "245 Danforth Ave, Department of Pediatrics, Toronto, ON M4K 1N2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "88558",
+  "name": "Dr. Tiiu Mai Hess",
+  "specialties": "Ophthalmology",
+  "location": "2065 Finch Ave West, Toronto, ON M3N 2V7",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "149456",
+  "name": "Dr. Tina Xinshuo Tang",
+  "specialties": "Ophthalmology",
+  "location": "2075 Bayview Ave, Toronto, ON M4N 3M5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "29244",
+  "name": "Dr. Trevor John Francis Chin Fook",
+  "specialties": "Ophthalmology",
+  "location": "600 Sherbourne St, Suite 506, Toronto, ON M4X 1W4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "104467",
+  "name": "Dr. Vlad Diaconita",
+  "specialties": "Ophthalmology",
+  "location": "2201 Bristol Cir, Department of Surgery, Oakville, ON L6H 0J8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "91281",
+  "name": "Dr. Walter Nathan Liao",
+  "specialties": "Ophthalmology",
+  "location": "4040 Finch Ave East, Suit 35, Scarborough, ON M1S 4V5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "24708",
+  "name": "Dr. Wayne Warren Canniff",
+  "specialties": "Ophthalmology",
+  "location": "233 Chamberlain St, Pembroke, ON K8A 6X9",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "67858",
+  "name": "Dr. Wilfred Kyle Brydon",
+  "specialties": "Ophthalmology",
+  "location": "230 First Ave, St. Thomas, ON N5R 4P5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "26524",
+  "name": "Dr. William Gordon Davies Squires",
+  "specialties": "Ophthalmology",
+  "location": "20 Wynford Dr, Suite 203, Toronto, ON M3C 1J4",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "22726",
+  "name": "Dr. William Michael Easterbrook",
+  "specialties": "Ophthalmology",
+  "location": "790 Bay St, Suite 204, Toronto, ON M5G 1N8",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "84639",
+  "name": "Dr. Ying Kathy Cao",
+  "specialties": "Ophthalmology",
+  "location": "1333 Sheppard Ave Ea, Department of Medicine, Toronto, ON M2J 1V1",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "68032",
+  "name": "Dr. Ying Lu",
+  "specialties": "Ophthalmology",
+  "location": "220 Duncan Mill Rd, Toronto, ON M3B 3J5",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ },
+ {
+  "cpso": "97721",
+  "name": "Dr. Zale David Mednick",
+  "specialties": "Ophthalmology",
+  "location": "1849 Yonge St, Dept of Pediatrics, Toronto, ON M4S 1Y2",
+  "status": "",
+  "url": "",
+  "cities": [
+   "healthdoc"
+  ]
+ }
+]

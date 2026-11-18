@@ -34,6 +34,7 @@ async function readRows(p) {
   for (const city of cities) {
     i++;
     try {
+      const before = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
       await p.evaluate(c => {
         const f = document.getElementById('searchForm');
         ['lastName', 'firstName'].forEach(n => { const el = f.querySelector('[name=' + n + ']'); if (el) el.value = ''; });
@@ -46,7 +47,13 @@ async function readRows(p) {
         [s, cd].forEach(x => x.dispatchEvent(new Event('change', { bubbles: true })));
         f.querySelector('button.search-button').click();
       }, city);
-      await sleep(8000);
+      // wait until the results table has been replaced (or says there are no results)
+      for (let w = 0; w < 40; w++) {
+        await sleep(1000);
+        const now = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
+        if (now && now !== before && !/Loading|Processing/i.test(now)) break;
+      }
+      await sleep(1500);
       let seenFirst = '';
       for (let page = 1; page < 60; page++) {
         const rows = await readRows(p);
@@ -63,8 +70,13 @@ async function readRows(p) {
         }
         const next = p.locator('a.page-select-link', { hasText: 'Next page' });
         if (!(await next.count())) break;
+        const prevPage = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|'));
         await next.first().click();
-        await sleep(1500);
+        for (let w = 0; w < 20; w++) {
+          await sleep(700);
+          const now = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
+          if (now && now !== prevPage) break;
+        }
       }
       console.error(i + '/' + cities.length, city, 'total', all.size);
     } catch (e) {

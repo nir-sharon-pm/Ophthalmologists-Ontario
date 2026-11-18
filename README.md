@@ -6,6 +6,7 @@ highlights the top 3 and shows each clinic's address, phone, fax and email (wher
 
 - Public site (GitHub Pages): `index.html` at the repository root
 - Claude version (live data for signed-in viewers): https://claude.ai/artifact/XnRTqYhh6t8kquXMSvFf8Q
+- Public site: https://ns-pm.github.io/Ophthalmologists-Ontario/
 
 Distances are straight-line. Always confirm the referral fax by phone before sending patient information.
 

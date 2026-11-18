@@ -155,7 +155,6 @@ a{color:var(--accent)}
 <header>
   <div class="brand"><h1>Ontario Ophthalmologists Referral Map</h1><p>Ophthalmologists specialists, Windsor to Montréal</p></div>
   <form class="search" id="f" autocomplete="off">
-    <div class="modebar"><span class="modelabel" id="modelabel">Search by the patient's new location (postal code, city or address) or by a doctor's name</span></div>
     <label for="q">Search by location or doctor name</label>
     <input id="q" list="suggest" placeholder="Postal code, city or address — or a doctor's name" enterkeyhint="search">
     <datalist id="suggest"></datalist>
@@ -283,7 +282,7 @@ function drawSites(){
     const best=Math.min(...c.items.map(s=>siteBestRank(s)||99));
     const color=cityColor(cities[0]);
     const single=c.items.length===1;
-    const label=single?(z>=10.5?shortClinic(c.items[0].clinic||c.items[0].address):c.items[0].city):(cities.length===1?cities[0]:cities.slice(0,2).join(" · ")+(cities.length>2?" +":""));
+    const label=single?(z>=10.5?(c.items[0].clinic?shortClinic(c.items[0].clinic):c.items[0].city):c.items[0].city):(cities.length===1?cities[0]:cities.slice(0,2).join(" · ")+(cities.length>2?" +":""));
     const html=`<div class="pin${single?"":" cl"}${best<99?" top":""}" style="--c:${color}"><span class="b" style="background:${color}">${n}</span><span class="t">${esc(label)}</span>${best<99?`<span class="r">#${best}</span>`:""}</div>`;
     const ll=single?[c.items[0].lat,c.items[0].lng]:L.latLngBounds(c.items.map(s=>[s.lat,s.lng])).getCenter();
     const mk=L.marker(ll,{icon:L.divIcon({className:"",html,iconSize:null}),zIndexOffset:best<99?1000-best:0,title:label+" – "+n+" doctor"+(n>1?"s":""),keyboard:true});
@@ -491,21 +490,9 @@ function refresh(){renderList();drawSites();drawPatient();updateLabels();}
 /* ---------- data freshness: live store, built-in copy fallback ---------- */
 let mode="snapshot";
 function statusText(){const v=metaInfo&&metaInfo.lastVerified?metaInfo.lastVerified:SNAPSHOT_DATE;
-  return mode==="live"?`Live data, synced from the shared directory when the page opened. Last verified ${esc(v)}.`:`Directory verified ${esc(SNAPSHOT_DATE)} and refreshed every Sunday.`;}
+  return `Directory verified ${esc(SNAPSHOT_DATE)} and refreshed every Sunday.`;}
 function setStatus(m){mode=m;$("#status").innerHTML=m==="live"?`<span class="dot live"></span><span>Live data · verified ${esc(metaInfo&&metaInfo.lastVerified||SNAPSHOT_DATE)}</span>`:m==="loading"?`<span class="dot"></span><span>Fetching latest data…</span>`:`<span class="dot"></span><span>Verified ${esc(SNAPSHOT_DATE)} · updated weekly</span>`;renderList();}
-async function connect(){
-  let db=null;try{db=window.claude&&claude.use?await claude.use("db"):null;}catch{}
-  if(!db){setStatus("snapshot");return;}
-  setStatus("loading");
-  const timer=setTimeout(()=>{if(mode==="loading")setStatus("snapshot");},10000);
-  try{db.doc("meta/info").onSnapshot(s=>{if(s.exists){metaInfo=s.data();if(mode==="live")setStatus("live");}},()=>{});}catch{}
-  try{db.collection("doctors").onSnapshot(snap=>{clearTimeout(timer);
-      if(snap.empty){setStatus("snapshot");return;}
-      const fresh=sanitize(snap.docs.map(d=>d.data()));if(!fresh.length){setStatus("snapshot");return;}
-      doctors=fresh;fillLists();computeRanking();refresh();setStatus("live");
-    },()=>{clearTimeout(timer);setStatus("snapshot");});
-  }catch{clearTimeout(timer);setStatus("snapshot");}
-}
+function connect(){setStatus("snapshot");}
 const restyle=()=>{drawBase();drawPatient();};
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change",restyle);
 new MutationObserver(restyle).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
