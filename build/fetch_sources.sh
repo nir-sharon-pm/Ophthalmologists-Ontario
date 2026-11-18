@@ -19,4 +19,15 @@ get "https://www.healthdoc.ca/find/qc/montreal-metropolitan-community/ophthalmol
 for pg in 2 3 4 5; do get "https://www.healthdoc.ca/find/qc/montreal-metropolitan-community/ophthalmologist?pg=$pg" "$D/hd/list$pg.html"; done
 grep -oh 'href="https://www.healthdoc.ca/listing/[^"]*"' "$D"/hd/list*.html | sed 's/.*href="//;s/"//' | sort -u > "$D/hd/urls.txt"
 while read -r u; do get "$u" "$D/hd/mtl/$(basename "$u").html"; sleep 0.3; done < "$D/hd/urls.txt"
+# Ontario ophthalmologists listed by HealthDoc with CPSO numbers (cross-check for the register sweep)
+mkdir -p "$D/hd/on"
+for r in durham-region eastern-ontario essex-county frontenac-county halton-region hamilton middlesex-london niagara-region ottawa peel-region simcoe-county southwestern-ontario toronto waterloo-region wellington-county york-region; do
+  for pg in 1 2 3 4 5 6 7 8; do
+    u="https://www.healthdoc.ca/find/on/$r/ophthalmologist"; [ "$pg" -gt 1 ] && u="$u?pg=$pg"
+    get "$u" "$D/hd/on_${r}_$pg.html"
+    [ "$(grep -o 'href="https://www.healthdoc.ca/listing/' "$D/hd/on_${r}_$pg.html" | wc -l)" -lt 2 ] && break
+  done
+done
+grep -oh 'href="https://www.healthdoc.ca/listing/[^"]*"' "$D"/hd/on_*.html | sed 's/.*href="//;s/"//' | sort -u > "$D/hd/on_urls.txt"
+while read -r u; do get "$u" "$D/hd/on/$(basename "$u").html"; sleep 0.2; done < "$D/hd/on_urls.txt"
 echo "done: $(ls "$D/uoft/prof" | wc -l) U of T profiles, $(ls "$D/hd/mtl" | wc -l) Montreal listings"
