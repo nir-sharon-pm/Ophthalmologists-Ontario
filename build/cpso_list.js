@@ -27,8 +27,8 @@ async function readRows(p) {
 }
 
 (async () => {
-  const b = await chromium.launch();
-  const p = await b.newPage();
+  let b = await chromium.launch();
+  let p = await b.newPage();
   await openResultsPage(p);
   const all = fs.existsSync(outPath) ? new Map(JSON.parse(fs.readFileSync(outPath)).map(d => [d.cpso, d])) : new Map();
   let i = 0;
@@ -86,6 +86,9 @@ async function readRows(p) {
       console.error(i + '/' + cities.length, city, 'total', all.size);
     } catch (e) {
       console.error(city, 'ERR', e.message.slice(0, 80));
+      // start over with a fresh browser if the page or browser went away
+      try { await b.close(); } catch {}
+      b = await chromium.launch(); p = await b.newPage();
       await openResultsPage(p).catch(() => {});
     }
     if (i % 10 === 0) fs.writeFileSync(outPath, JSON.stringify([...all.values()], null, 1));
