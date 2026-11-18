@@ -750,6 +750,7 @@ aside{border-right:1px solid var(--line);background:var(--panel);overflow:auto;m
 a{color:var(--accent)}
 .about{margin-top:18px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
 .about p{margin:0 0 6px}
+.about .verified{display:flex;align-items:center;gap:6px;font-weight:500;color:var(--ink)}
 /* map overlays */
 .regions{position:absolute;z-index:500;top:10px;left:calc(10px + env(safe-area-inset-left,0px));display:flex;flex-wrap:wrap;gap:6px;max-width:calc(100% - 70px)}
 @media (max-width:820px){.regions{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.regions button{flex:none}.legend{font-size:11px;gap:8px}}
@@ -874,7 +875,6 @@ a{color:var(--accent)}
     <button class="btn" type="submit" id="go">Search</button>
     <button class="btn ghost" type="button" id="clear" hidden>Clear</button>
   </form>
-  <div class="status" id="status"><span class="dot"></span><span>Loading data…</span></div>
   <div class="userbox">
     <button type="button" class="avatar-btn" id="avbtn" aria-haspopup="menu" aria-expanded="false" aria-label="Account menu"><span class="av" id="avimg"></span></button>
     <div class="umenu" id="umenu" role="menu" hidden>
@@ -1120,7 +1120,7 @@ function renderList(){
   el.innerHTML=head+(geoMsg?`<p class="msg">${esc(geoMsg)}</p>`:"")+alt+filters+`<div class="cards">${body}</div>`+aboutHtml();
 }
 function aboutHtml(){
-  return `<div class="about"><p><b>About this data.</b> Ontario doctors and their practice locations come from the CPSO public register; Montréal doctors from McGill University and CMQ-verified HealthDoc listings. Subspecialties come from university and hospital faculty pages; "Subspecialty not listed" means none was published, not that the doctor has none.</p><p>Confirm the referral fax by phone before sending patient information. Distances are straight-line, not driving.</p><p>${statusText()}</p></div>`;
+  return `<div class="about"><p><b>About this data.</b> Ontario doctors and their practice locations come from the CPSO public register; Montréal doctors from McGill University and CMQ-verified HealthDoc listings. Subspecialties come from university and hospital faculty pages; "Subspecialty not listed" means none was published, not that the doctor has none.</p><p>Confirm the referral fax by phone before sending patient information. Distances are straight-line, not driving.</p><p class="verified"><span class="dot"></span>${statusText()}</p></div>`;
 }
 let geoMsg="";
 
@@ -1323,7 +1323,7 @@ function refresh(){renderList();drawSites();drawPatient();updateLabels();}
 let mode="snapshot";
 function statusText(){const v=metaInfo&&metaInfo.lastVerified?metaInfo.lastVerified:SNAPSHOT_DATE;
   return `Directory verified ${esc(SNAPSHOT_DATE)} and refreshed every Sunday.`;}
-function setStatus(m){mode=m;$("#status").innerHTML=m==="live"?`<span class="dot live"></span><span>Live data · verified ${esc(metaInfo&&metaInfo.lastVerified||SNAPSHOT_DATE)}</span>`:m==="loading"?`<span class="dot"></span><span>Fetching latest data…</span>`:`<span class="dot"></span><span>Verified ${esc(SNAPSHOT_DATE)} · updated weekly</span>`;renderList();}
+function setStatus(m){mode=m;renderList();}
 function connect(){setStatus("snapshot");}
 const restyle=()=>{drawBase();drawPatient();};
 matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change",restyle);
@@ -1337,9 +1337,13 @@ if(window.claude)connect();else setTimeout(connect,300);
 function userName(){try{return localStorage.getItem("oph.user")||"";}catch{return "";}}
 const ANIMALS=["cat","dog","bear","bunny","fox","panda","koala","raccoon"];
 function avatarIndex(){
-  let i=null;try{i=localStorage.getItem("oph.avatar");}catch{}
-  if(i===null||isNaN(+i)||+i<0||+i>=ANIMALS.length){i=Math.floor(Math.random()*ANIMALS.length);try{localStorage.setItem("oph.avatar",String(i));}catch{}}
-  return +i;
+  let i=null;try{i=localStorage.getItem("oph.av");}catch{}
+  if(i!==null&&!isNaN(+i)&&+i>=0&&+i<ANIMALS.length)return +i;
+  const n=fold(userName()).replace(/^dr\.?\s*/,"").replace(/\s+/g," ").trim();
+  if(!n)return 0; /* not stored until the person has entered a name */
+  let h=2166136261;for(const ch of n){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)>>>0;}
+  i=h%ANIMALS.length;try{localStorage.setItem("oph.av",String(i));}catch{}
+  return i;
 }
 function avatarSVG(kind){
   const P={cat:{f:"#f2b46d",d:"#d98c3a",in:"#ffd9e1",bg:"#ffd3a1"},dog:{f:"#c99a6b",d:"#8a5a35",in:"#e8c39e",bg:"#b9d4ff"},bear:{f:"#a8703f",d:"#7a4c25",in:"#d9a877",bg:"#b8e6c4"},bunny:{f:"#f4f1ee",d:"#d8cfc8",in:"#ffc7d6",bg:"#ffc2da"},fox:{f:"#f08a3c",d:"#c85f1a",in:"#fff4ea",bg:"#ffe08c"},panda:{f:"#ffffff",d:"#2b2b2b",in:"#2b2b2b",bg:"#a9e3cf"},koala:{f:"#a9b2bd",d:"#7c8692",in:"#f1d7dc",bg:"#c8cfff"},raccoon:{f:"#9aa0a6",d:"#3d4248",in:"#e6e8ea",bg:"#dcc6ff"}}[kind];
