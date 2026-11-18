@@ -204,7 +204,8 @@ for cpso, det in details.items():
     subs, ssrc = subs_for(first, last)
     _, used = sub_key(first, last)
     if used and first.split() and used != first.split()[0]:
-        display = f'Dr. {used} {last}'   # the name the doctor goes by in faculty/society listings
+        g = first.split()
+        display = f'Dr. {" ".join(g[:g.index(used) + 1])} {last}'   # e.g. Dr. Christine Maya Tong (goes by Maya)
     did = slug(first, last)
     if did in out or did in curated:
         did += '-' + cpso

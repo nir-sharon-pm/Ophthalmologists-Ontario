@@ -454,7 +454,7 @@ function renderList(){
   if(searchMode==="name"&&nameQuery){
     const hits=visibleDoctors();
     const rows=[];hits.forEach(d=>{const ls=d.locations.filter(locVisible);(ls.length?ls:d.locations).forEach(l=>rows.push({d,l}));});
-    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. Name search covers every city and subspecialty; clear the search to go back.</p></div>`;
+    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. Name search covers every city and subspecialty${filterSub!=="All"&&hits.some(d=>!subsOf(d).includes(filterSub))?`, including doctors outside the ${esc(filterSub)} filter`:""}; clear the search to go back.</p></div>`;
     body=rows.slice(0,MAXCARDS).map(r=>card(r.d,r.l,0,null)).join("")||`<p class="msg">No doctor found. Check the spelling or try the last name only.</p>`;
   }else if(ranking){
     head=`<div class="listhead"><h2>Nearest to ${esc(patient.label)}</h2><p class="sub">${esc(filterSub==="All"?"All subspecialties":filterSub)} · straight-line distance. Top 3 are highlighted on the map.</p></div>`;
@@ -549,7 +549,7 @@ function suggestions(q){
     const toks=fold(d.name+" "+(d.legal||"")).replace(/^dr\.?\s*/,"").split(/[^a-z'-]+/).filter(Boolean);
     let score=0;
     for(const w of qt){let best=9;for(const t of toks){const e=t.startsWith(w)?0:editDist(w,t);if(e<best)best=e;}if(best>tol(w))return;score+=best;}
-    docs.push({kind:"doc",label:d.name,q:d.name,score,sub:d.locations[0]&&d.locations[0].city});
+    docs.push({kind:"doc",label:d.name,q:d.name,score,sub:subsOf(d)[0]+(d.locations[0]?", "+d.locations[0].city:"")});
   });
   docs.sort((a,b)=>a.score-b.score);out.push(...docs.slice(0,4));
   const s=norm(q);const places=[];
@@ -560,7 +560,7 @@ function suggestions(q){
 function showNoResult(q){
   const sug=suggestions(q), el=$("#noresult");
   el.innerHTML=`<p><b>No doctor or place matches “${esc(q)}”.</b>${sug.length?" Did you mean:":""}</p>`+
-    (sug.length?`<div class="sugs">${sug.map((s,i)=>`<button type="button" class="sug" data-sug="${i}">${esc(s.label)}<small>${s.kind==="doc"?"doctor"+(s.sub?", "+esc(s.sub):""):"town, "+esc(s.sub||"")}</small></button>`).join("")}</div>`:"")+
+    (sug.length?`<div class="sugs">${sug.map((s,i)=>`<button type="button" class="sug" data-sug="${i}">${esc(s.label)}<small>${s.kind==="doc"?esc(s.sub||"doctor"):"town, "+esc(s.sub||"")}</small></button>`).join("")}</div>`:"")+
     `<p class="hint">Try a postal code (e.g. K7L or N2L 3G1), a town, or a doctor's last name. Check the spelling, or clear the search.</p>`;
   el._sug=sug;el.hidden=false;$("#clear").hidden=false;
 }
