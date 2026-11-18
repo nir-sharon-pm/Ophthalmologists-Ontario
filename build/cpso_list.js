@@ -36,6 +36,8 @@ async function readRows(p) {
     i++;
     try {
       const before = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
+      // the page fetches results itself after the form is submitted; wait for that reply
+      const reply = p.waitForResponse(r => r.url().includes('Get-Search-Results'), { timeout: 45000 }).catch(() => null);
       await p.evaluate(c => {
         const f = document.getElementById('searchForm');
         ['lastName', 'firstName'].forEach(n => { const el = f.querySelector('[name=' + n + ']'); if (el) el.value = ''; });
@@ -52,13 +54,16 @@ async function readRows(p) {
         [s, cd].forEach(x => x.dispatchEvent(new Event('change', { bubbles: true })));
         f.querySelector('button.search-button').click();
       }, city);
-      // wait until the results table has been replaced (or says there are no results)
-      for (let w = 0; w < 40; w++) {
-        await sleep(1000);
-        const now = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
-        if (now && now !== before && !/Loading|Processing/i.test(now)) break;
+      const got = await reply;
+      if (!got) {
+        // fall back to watching the table change
+        for (let w = 0; w < 20; w++) {
+          await sleep(1000);
+          const now = await p.$$eval('table tbody tr', trs => trs.map(tr => tr.innerText).join('|')).catch(() => '');
+          if (now && now !== before && !/Loading|Processing/i.test(now)) break;
+        }
       }
-      await sleep(1500);
+      await sleep(1800);
       let seenFirst = '';
       for (let page = 1; page < 60; page++) {
         const rows = await readRows(p);
