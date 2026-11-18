@@ -817,8 +817,6 @@ a{color:var(--accent)}
 .sharebtn:hover{border-color:var(--accent);background:var(--bg)}
 .overlay.share-dlg{justify-content:center;align-items:center;padding:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .share-dlg .drawer{width:min(460px,100%);height:auto;max-height:calc(100% - 32px);border-radius:14px;padding:20px;box-shadow:0 18px 50px rgba(0,0,0,.3)}
-.share-doc{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;margin:0 0 14px}
-.share-doc b{display:block;font-size:15px}
 .fld{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
 .fld label{font-weight:600;font-size:14px}
 .fld input{font-size:16px;padding:11px 12px;border:1.5px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
@@ -826,17 +824,18 @@ a{color:var(--accent)}
 .share-actions{display:flex;flex-direction:column;gap:8px}
 .share-actions a{text-align:center;text-decoration:none}
 
-.share-to{font-size:12.5px;color:var(--muted);margin:10px 0 0}
-.share-alt{margin:14px 0 0;padding:10px 0 0;border-top:1px solid var(--line)}
-.alt-q{margin:0 0 8px;font-size:13.5px;font-weight:600;text-align:center}
-.alt-btns{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.alt-btns .btn{padding:9px 8px;font-size:13.5px;text-align:center;text-decoration:none;white-space:normal}
-.share-alt.off .btn{opacity:.55}
-@media (max-width:480px){.alt-btns{grid-template-columns:1fr}}
+.share-to{font-size:12.5px;color:var(--muted);margin:10px 0 0;text-align:center}
+.share-sub{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.xbtn{width:38px;height:38px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.xbtn:hover{background:var(--bg)}
+.share-alt{margin:12px 0 0;padding:10px 0 0;border-top:1px solid var(--line)}
+.share-alt.off #altcopy{color:var(--muted);text-decoration-style:dotted}
+.share-done{text-align:center}
+.alt-q{margin:0;font-size:13.5px;text-align:center}
 .share-actions a[aria-disabled="true"]{opacity:.55}
 .share-need{color:var(--danger);font-size:13px;margin:6px 0 0}
 .share-alt.hl .alt-q{color:var(--top-ink)}
-.share-alt.hl{background:var(--top-soft);border-radius:10px;padding:10px;border-top:0}
+.share-alt.hl{background:var(--top-soft);border-radius:10px;padding:8px 10px;border-top:0}
 .share-done{font-size:13px;color:var(--muted);margin:8px 0 0}
 .userbox{position:relative;margin-left:auto}
 .avatar-btn{border:0;background:none;padding:0;cursor:pointer;border-radius:50%;display:block}
@@ -904,24 +903,18 @@ a{color:var(--accent)}
     <button class="btn" type="submit">Continue</button>
   </form>
 </div>
-<div class="overlay share-dlg" id="share" hidden role="dialog" aria-modal="true" aria-labelledby="sharetitle">
+<div class="overlay share-dlg" id="share" hidden role="dialog" aria-modal="true" aria-labelledby="sharetitle" aria-describedby="sharesub">
   <div class="drawer">
-    <div class="row"><h2 id="sharetitle">Send referral details</h2><button class="btn ghost" type="button" id="shareclose">Close</button></div>
-    <div class="share-doc" id="sharedoc"></div>
+    <div class="row"><div><h2 id="sharetitle">Send to our office</h2><p class="share-sub" id="sharesub">Office staff can print or forward to the patient</p></div><button class="xbtn" type="button" id="shareclose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
     <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe" aria-describedby="pneed"><p class="share-need" id="pneed" role="alert" hidden>Enter the patient's name first.</p></div>
     <div class="share-actions">
-      <a class="btn" id="sendapp" aria-disabled="true" href="#">Submit to Office Email</a>
+      <a class="btn" id="sendapp" target="_blank" rel="noopener" aria-disabled="true" href="#">Submit to Office Email</a>
     </div>
+    <p class="share-to" id="shareto"></p>
     <div class="share-alt" id="sharealt">
-      <p class="alt-q">Nothing opened?</p>
-      <div class="alt-btns">
-        <a class="btn ghost" id="altgmail" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Gmail</a>
-        <a class="btn ghost" id="altoutlook" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Outlook</a>
-        <button class="btn ghost" type="button" id="altcopy">Copy email text</button>
-      </div>
+      <p class="alt-q">Nothing opened? <button class="link" type="button" id="altcopy">Copy email text</button></p>
     </div>
     <p class="share-done" id="sharedone" role="status" hidden></p>
-    <p class="share-to" id="shareto"></p>
   </div>
 </div>
 <div class="overlay" id="hist" hidden role="dialog" aria-modal="true" aria-labelledby="histtitle">
@@ -1241,10 +1234,8 @@ function shareLinks(){
   const body=shareBody(shareCtx.d,shareCtx.l);
   const to=(SHARE&&SHARE.officeEmail)||"";
   const app=$("#sendapp");
-  app.href="mailto:"+to+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body.replace(/\n/g,"\r\n"));
-  $("#altgmail").href="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(to)+"&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
-  $("#altoutlook").href="https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
-  ["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).setAttribute("aria-disabled",pn?"false":"true"));
+  app.href="https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+  app.setAttribute("aria-disabled",pn?"false":"true");
   $("#sharealt").classList.toggle("off",!pn);
   if(pn)$("#pneed").hidden=true;
   shareCtx.text="To: "+to+"\nSubject: "+subject+"\n\n"+body;
@@ -1253,8 +1244,7 @@ function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
   const l=d.locations.find(x=>Math.abs(x.lat-lat)<1e-6&&Math.abs(x.lng-lng)<1e-6)||d.locations[0];
   shareCtx={d,l};
-  $("#sharedoc").innerHTML=`<b>${esc(d.name)}</b>${l.clinic?esc(l.clinic)+"<br>":""}${esc(l.address)}`;
-  $("#shareto").textContent="Your mail app opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
+  $("#shareto").textContent="Outlook opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
   $("#pname").value="";$("#sharealt").classList.remove("hl");$("#sharedone").hidden=true;$("#sharedone").textContent="";shareLinks();
   $("#share").hidden=false;setTimeout(()=>$("#pname").focus(),50);
 }
@@ -1262,7 +1252,7 @@ function closeShare(){$("#share").hidden=true;shareCtx=null;}
 $("#pname").addEventListener("input",shareLinks);
 $("#pname").addEventListener("keydown",e=>{if(e.key==="Enter"&&$("#pname").value.trim()){e.preventDefault();$("#sendapp").click();}});
 function logShare(){if(shareCtx&&!shareCtx.logged){shareCtx.logged=true;const l=shareCtx.l;logRemote({mode:"share",q:shareCtx.d.name,label:shareCtx.d.name+" · "+(l.city||""),user:userName()||"",device:deviceType()});}}
-["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).addEventListener("click",e=>{
+["#sendapp"].forEach(s=>$(s).addEventListener("click",e=>{
   if($(s).getAttribute("aria-disabled")==="true"){e.preventDefault();$("#pneed").hidden=false;$("#pname").focus();return;}
   logShare();
   if(s==="#sendapp"){$("#sharealt").classList.add("hl");}
