@@ -824,10 +824,12 @@ a{color:var(--accent)}
 .fld input:focus{border-color:var(--accent);outline:none}
 .share-actions{display:flex;flex-direction:column;gap:8px}
 .share-actions a{text-align:center;text-decoration:none}
-.share-actions a[aria-disabled="true"]{opacity:.45;pointer-events:none}
+
 .share-to{font-size:12.5px;color:var(--muted);margin:10px 0 0}
 .share-alt{font-size:13.5px;margin:12px 0 0;line-height:1.9}
-.share-alt a[aria-disabled="true"],.share-alt.off button{opacity:.45;pointer-events:none}
+.share-alt a[aria-disabled="true"],.share-alt.off button{color:var(--muted);text-decoration-style:dotted}
+.share-actions a[aria-disabled="true"]{opacity:.55}
+.share-need{color:var(--danger);font-size:13px;margin:6px 0 0}
 .share-alt.hl{background:var(--top-soft);border-radius:8px;padding:6px 10px}
 .share-done{font-size:13px;color:var(--muted);margin:8px 0 0}
 .userbox{position:relative;margin-left:auto}
@@ -900,7 +902,7 @@ a{color:var(--accent)}
   <div class="drawer">
     <div class="row"><h2 id="sharetitle">Send referral details</h2><button class="btn ghost" type="button" id="shareclose">Close</button></div>
     <div class="share-doc" id="sharedoc"></div>
-    <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe"></div>
+    <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe" aria-describedby="pneed"><p class="share-need" id="pneed" role="alert" hidden>Enter the patient's name first.</p></div>
     <div class="share-actions">
       <a class="btn" id="sendapp" aria-disabled="true" href="#">Submit to Office Email</a>
     </div>
@@ -1231,6 +1233,7 @@ function shareLinks(){
   $("#altoutlook").href="https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
   ["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).setAttribute("aria-disabled",pn?"false":"true"));
   $("#sharealt").classList.toggle("off",!pn);
+  if(pn)$("#pneed").hidden=true;
   shareCtx.text="To: "+to+"\nSubject: "+subject+"\n\n"+body;
 }
 function openShare(id,lat,lng){
@@ -1247,12 +1250,12 @@ $("#pname").addEventListener("input",shareLinks);
 $("#pname").addEventListener("keydown",e=>{if(e.key==="Enter"&&$("#pname").value.trim()){e.preventDefault();$("#sendapp").click();}});
 function logShare(){if(shareCtx&&!shareCtx.logged){shareCtx.logged=true;const l=shareCtx.l;logRemote({mode:"share",q:shareCtx.d.name,label:shareCtx.d.name+" · "+(l.city||""),user:userName()||"",device:deviceType()});}}
 ["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).addEventListener("click",e=>{
-  if($(s).getAttribute("aria-disabled")==="true"){e.preventDefault();$("#pname").focus();return;}
+  if($(s).getAttribute("aria-disabled")==="true"){e.preventDefault();$("#pneed").hidden=false;$("#pname").focus();return;}
   logShare();
   if(s==="#sendapp"){$("#sharealt").classList.add("hl");}
 }));
 $("#altcopy").addEventListener("click",async()=>{
-  if(!shareCtx||!$("#pname").value.trim()){$("#pname").focus();return;}
+  if(!shareCtx||!$("#pname").value.trim()){$("#pneed").hidden=false;$("#pname").focus();return;}
   logShare();
   const done=$("#sharedone");done.hidden=false;
   try{await navigator.clipboard.writeText(shareCtx.text);done.textContent="Copied. Paste it into a new email to "+((SHARE&&SHARE.officeEmail)||"the office")+".";}
