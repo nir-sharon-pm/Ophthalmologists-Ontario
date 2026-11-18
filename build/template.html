@@ -258,10 +258,10 @@ a{color:var(--accent)}
 </div>
 <div class="overlay share-dlg" id="share" hidden role="dialog" aria-modal="true" aria-labelledby="sharetitle" aria-describedby="sharesub">
   <div class="drawer">
-    <div class="row"><div><h2 id="sharetitle">Send to our office</h2><p class="share-sub" id="sharesub">Office staff can print or forward to the patient</p></div><button class="xbtn" type="button" id="shareclose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
+    <div class="row"><div><h2 id="sharetitle">Email to office</h2><p class="share-sub" id="sharesub"></p></div><button class="xbtn" type="button" id="shareclose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
     <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe" aria-describedby="pneed"><p class="share-need" id="pneed" role="alert" hidden>Enter the patient's name first.</p></div>
     <div class="share-actions">
-      <a class="btn" id="sendapp" target="_blank" rel="noopener" aria-disabled="true" href="#">Submit to Office Email</a>
+      <a class="btn" id="sendapp" target="_blank" rel="noopener" aria-disabled="true" href="#">Send</a>
     </div>
     <p class="share-to" id="shareto"></p>
     <div class="share-alt" id="sharealt">
@@ -646,16 +646,17 @@ function fillLists(){
 const SHARE=/*SHARE*/;
 let shareCtx=null;
 function mapsLink(l){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(l.address||(l.clinic+" "+l.city));}
-function shareBody(d,l){
-  const addr=[l.clinic,l.address].filter(Boolean).join("\n");
-  const contact=[l.phone&&"Phone: "+l.phone,l.fax&&"Fax: "+l.fax,l.email&&"Email: "+l.email].filter(Boolean).join("\n");
-  return [d.name,addr,contact,"Map: "+mapsLink(l)].filter(Boolean).join("\n\n");
+function shareBody(d,l,pn){
+  const nf="Not found";
+  const addr=[l.clinic,l.address||nf].filter(Boolean).join("\n");
+  const contact=["Phone: "+(l.phone||nf),"Fax: "+(l.fax||nf),"Email: "+(l.email||nf)].join("\n");
+  return ["Hi!","Can you please submit a referral for patient "+(pn||"")+" to the following physician:",d.name,addr,contact,"Thanks!\nTaS"].join("\n\n");
 }
 function shareLinks(){
   if(!shareCtx)return;
   const pn=$("#pname").value.trim();
   const subject="Referral Details for "+(pn||"");
-  const body=shareBody(shareCtx.d,shareCtx.l);
+  const body=shareBody(shareCtx.d,shareCtx.l,pn);
   const to=(SHARE&&SHARE.officeEmail)||"";
   const app=$("#sendapp");
   app.href="https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
@@ -668,6 +669,7 @@ function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
   const l=d.locations.find(x=>Math.abs(x.lat-lat)<1e-6&&Math.abs(x.lng-lng)<1e-6)||d.locations[0];
   shareCtx={d,l};
+  $("#sharesub").textContent="Send "+d.name+"'s contact details to the office email, so staff can submit them a referral.";
   $("#shareto").textContent="Outlook opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
   $("#pname").value="";$("#sharealt").classList.remove("hl");$("#sharedone").hidden=true;$("#sharedone").textContent="";shareLinks();
   $("#share").hidden=false;setTimeout(()=>$("#pname").focus(),50);
