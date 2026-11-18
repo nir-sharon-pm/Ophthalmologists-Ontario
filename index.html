@@ -1210,14 +1210,9 @@ const SHARE={"officeEmail": "snirjj@gmail.com", "provider": "gmail"};
 let shareCtx=null;
 function mapsLink(l){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(l.address||(l.clinic+" "+l.city));}
 function shareBody(d,l){
-  const lines=[d.name];
-  if(l.clinic)lines.push(l.clinic);
-  lines.push(l.address);
-  if(l.phone)lines.push("Phone: "+l.phone);
-  if(l.fax)lines.push("Fax: "+l.fax);
-  if(l.email)lines.push("Email: "+l.email);
-  lines.push("Map: "+mapsLink(l));
-  return lines.join("\n");
+  const addr=[l.clinic,l.address].filter(Boolean).join("\n");
+  const contact=[l.phone&&"Phone: "+l.phone,l.fax&&"Fax: "+l.fax,l.email&&"Email: "+l.email].filter(Boolean).join("\n");
+  return [d.name,addr,contact,"Map: "+mapsLink(l)].filter(Boolean).join("\n\n");
 }
 function shareLinks(){
   if(!shareCtx)return;
