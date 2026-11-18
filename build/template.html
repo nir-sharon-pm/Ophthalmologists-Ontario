@@ -163,6 +163,10 @@ a{color:var(--accent)}
 .share-actions a{text-align:center;text-decoration:none}
 .share-actions a[aria-disabled="true"]{opacity:.45;pointer-events:none}
 .share-to{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.share-alt{font-size:13.5px;margin:12px 0 0;line-height:1.9}
+.share-alt a[aria-disabled="true"],.share-alt.off button{opacity:.45;pointer-events:none}
+.share-alt.hl{background:var(--top-soft);border-radius:8px;padding:6px 10px}
+.share-done{font-size:13px;color:var(--muted);margin:8px 0 0}
 .userbox{position:relative;margin-left:auto}
 .avatar-btn{border:0;background:none;padding:0;cursor:pointer;border-radius:50%;display:block}
 .av{display:block;width:44px;height:44px;border-radius:50%;overflow:hidden;box-shadow:0 0 0 2px var(--panel),0 0 0 3.5px var(--line)}
@@ -237,6 +241,8 @@ a{color:var(--accent)}
     <div class="share-actions">
       <a class="btn" id="sendapp" aria-disabled="true" href="#">Submit to Office Email</a>
     </div>
+    <p class="share-alt" id="sharealt">Nothing opened? <a id="altgmail" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Gmail</a> · <a id="altoutlook" target="_blank" rel="noopener" href="#" aria-disabled="true">Open in Outlook</a> · <button class="link" type="button" id="altcopy">Copy email text</button></p>
+    <p class="share-done" id="sharedone" role="status" hidden></p>
     <p class="share-to" id="shareto"></p>
   </div>
 </div>
@@ -558,7 +564,11 @@ function shareLinks(){
   const to=(SHARE&&SHARE.officeEmail)||"";
   const app=$("#sendapp");
   app.href="mailto:"+to+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body.replace(/\n/g,"\r\n"));
-  app.setAttribute("aria-disabled",pn?"false":"true");
+  $("#altgmail").href="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(to)+"&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+  $("#altoutlook").href="https://outlook.office.com/mail/deeplink/compose?to="+encodeURIComponent(to)+"&subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+  ["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).setAttribute("aria-disabled",pn?"false":"true"));
+  $("#sharealt").classList.toggle("off",!pn);
+  shareCtx.text="To: "+to+"\nSubject: "+subject+"\n\n"+body;
 }
 function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
@@ -566,17 +576,25 @@ function openShare(id,lat,lng){
   shareCtx={d,l};
   $("#sharedoc").innerHTML=`<b>${esc(d.name)}</b>${l.clinic?esc(l.clinic)+"<br>":""}${esc(l.address)}`;
   $("#shareto").textContent="Your mail app opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
-  $("#pname").value="";shareLinks();
+  $("#pname").value="";$("#sharealt").classList.remove("hl");$("#sharedone").hidden=true;$("#sharedone").textContent="";shareLinks();
   $("#share").hidden=false;setTimeout(()=>$("#pname").focus(),50);
 }
 function closeShare(){$("#share").hidden=true;shareCtx=null;}
 $("#pname").addEventListener("input",shareLinks);
 $("#pname").addEventListener("keydown",e=>{if(e.key==="Enter"&&$("#pname").value.trim()){e.preventDefault();$("#sendapp").click();}});
-["#sendapp"].forEach(s=>$(s).addEventListener("click",e=>{
+function logShare(){if(shareCtx&&!shareCtx.logged){shareCtx.logged=true;const l=shareCtx.l;logRemote({mode:"share",q:shareCtx.d.name,label:shareCtx.d.name+" · "+(l.city||""),user:userName()||"",device:deviceType()});}}
+["#sendapp","#altgmail","#altoutlook"].forEach(s=>$(s).addEventListener("click",e=>{
   if($(s).getAttribute("aria-disabled")==="true"){e.preventDefault();$("#pname").focus();return;}
-  if(shareCtx){const l=shareCtx.l;logRemote({mode:"share",q:shareCtx.d.name,label:shareCtx.d.name+" · "+(l.city||""),user:userName()||"",device:deviceType()});}
-  setTimeout(closeShare,300);
+  logShare();
+  if(s==="#sendapp"){$("#sharealt").classList.add("hl");}
 }));
+$("#altcopy").addEventListener("click",async()=>{
+  if(!shareCtx||!$("#pname").value.trim()){$("#pname").focus();return;}
+  logShare();
+  const done=$("#sharedone");done.hidden=false;
+  try{await navigator.clipboard.writeText(shareCtx.text);done.textContent="Copied. Paste it into a new email to "+((SHARE&&SHARE.officeEmail)||"the office")+".";}
+  catch{done.textContent="Copying isn't allowed here. Select the text below and copy it.";done.insertAdjacentHTML("beforeend",`<textarea readonly style="width:100%;min-height:160px;margin-top:6px">${esc(shareCtx.text)}</textarea>`);}
+});
 $("#shareclose").addEventListener("click",closeShare);
 $("#share").addEventListener("click",e=>{if(e.target.id==="share")closeShare();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#share").hidden)closeShare();});
