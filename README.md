@@ -5,7 +5,7 @@ who has moved. Enter the patient's new postal code, town or address (or a doctor
 ranks the nearest doctors, highlights the top 3, and shows each clinic's address, phone, fax and
 email where published. Filter by city and subspecialty (Glaucoma by default).
 
-- Public site (GitHub Pages): https://ns-pm.github.io/Ophthalmologists-Ontario/ (`index.html`)
+- Public site (GitHub Pages): https://ns-pm.github.io/OphthalFind/ (`index.html`)
 - Claude version: https://claude.ai/artifact/XnRTqYhh6t8kquXMSvFf8Q
 
 Distances are straight-line. Always confirm the referral fax by phone before sending patient information.
