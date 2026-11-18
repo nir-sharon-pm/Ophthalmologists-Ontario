@@ -36,7 +36,7 @@ def lines_of(path):
     m = re.search(r'<main.*?</main>', raw, re.S)
     raw = m.group(0) if m else raw
     raw = re.sub(r'<(script|style|nav|header|footer)[^>]*>.*?</\1>', '', raw, flags=re.S)
-    txt = html.unescape(re.sub(r'<[^>]+>', '\n', raw))
+    txt = html.unescape(re.sub(r'<[^>]+>', '\n', raw)).replace('\xa0', ' ')
     return [l.strip() for l in txt.split('\n') if l.strip()]
 
 def split_name(full):
@@ -100,8 +100,10 @@ if queens != '-':
         if m and len(l) < 60:
             cur = split_name(m.group(1))
             continue
-        if cur and re.match(labels, l):
+        if cur and re.match(labels + r'\s*$', l):
             add(cur[0], cur[1], classify(l), 'https://ophthalmology.queensu.ca/clinic/referrals')
+        elif cur and not re.match(r'^\(', l):
+            cur = None   # the doctor's label list ended; ignore section headings that follow
 
 if uott != '-':
     L = lines_of(uott)

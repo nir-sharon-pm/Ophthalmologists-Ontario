@@ -2,6 +2,7 @@
  {
   "id": "abel-selwyn",
   "name": "Dr. Selwyn Abel",
+  "legal": "Selwyn Leigh Abel",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -26,6 +27,7 @@
  {
   "id": "abo-shasha-rami",
   "name": "Dr. Rami Abo-Shasha",
+  "legal": "Rami Abo-Shasha",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -50,6 +52,7 @@
  {
   "id": "aboobaker-shaheer",
   "name": "Dr. Shaheer Aboobaker",
+  "legal": "Shaheer Aboobaker",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -156,6 +159,7 @@
  {
   "id": "adam-robert",
   "name": "Dr. Robert Adam",
+  "legal": "Robert Saul Adam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -210,6 +214,7 @@
  {
   "id": "afzal-fatima",
   "name": "Dr. Fatima Afzal",
+  "legal": "Fatima Afzal",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -264,6 +269,7 @@
  {
   "id": "agapitos-peter",
   "name": "Dr. Peter Agapitos",
+  "legal": "Peter Panagiotis Agapitos",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -317,6 +323,7 @@
  {
   "id": "ahadian-ali",
   "name": "Dr. Ali Ahadian",
+  "legal": "Ali Ahadian",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -403,6 +410,7 @@
  {
   "id": "ahuja-nina",
   "name": "Dr. Nina Ahuja",
+  "legal": "Nina Ahuja",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -457,6 +465,7 @@
  {
   "id": "akbarikamrani-marjan",
   "name": "Dr. Marjan Akbarikamrani",
+  "legal": "Marjan Akbarikamrani",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -494,6 +503,7 @@
  {
   "id": "al-kaabi-abdullah",
   "name": "Dr. Abdullah Al-Kaabi",
+  "legal": "Abdullah Juma Khalfan Al-Kaabi",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -552,6 +562,7 @@
  {
   "id": "al-karmi-rani",
   "name": "Dr. Rani Al Karmi",
+  "legal": "Rani Nasib Ibrahim Al Karmi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -576,6 +587,7 @@
  {
   "id": "alangh-manreet",
   "name": "Dr. Manreet Alangh",
+  "legal": "Manreet Alangh",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -641,6 +653,7 @@
  {
   "id": "ali-asim",
   "name": "Dr. Asim Ali",
+  "legal": "Asim Ali",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -668,6 +681,7 @@
  {
   "id": "ali-fareed",
   "name": "Dr. Fareed Ali",
+  "legal": "Fareed Ahmad Ali",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -695,6 +709,7 @@
  {
   "id": "ali-ridha-andre",
   "name": "Dr. Andre Ali-Ridha",
+  "legal": "Andre Nihad Ali-Ridha",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -742,6 +757,7 @@
  {
   "id": "alizadeh-ebadi-mahmoud",
   "name": "Dr. Mahmoud Alizadeh-Ebadi",
+  "legal": "Mahmoud Alizadeh-Ebadi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -796,6 +812,7 @@
  {
   "id": "alizadeh-ghavidel-leila",
   "name": "Dr. Leila Alizadeh Ghavidel",
+  "legal": "Leila Alizadeh Ghavidel",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -820,6 +837,7 @@
  {
   "id": "allen-larry",
   "name": "Dr. Larry Allen",
+  "legal": "Larry Hugh Allen",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -844,6 +862,7 @@
  {
   "id": "alotaibi-abdulrahman",
   "name": "Dr. Abdulrahman Alotaibi",
+  "legal": "Abdulrahman S A T D A Alotaibi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -891,6 +910,7 @@
  {
   "id": "altomare-filiberto",
   "name": "Dr. Filiberto Altomare",
+  "legal": "Filiberto Altomare",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -915,6 +935,7 @@
  {
   "id": "amrani-selya",
   "name": "Dr. Selya Amrani",
+  "legal": "Selya Amrani",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -939,6 +960,7 @@
  {
   "id": "anderson-matthew",
   "name": "Dr. Matthew Anderson",
+  "legal": "Matthew Frederick Anderson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -963,6 +985,7 @@
  {
   "id": "anjema-christopher",
   "name": "Dr. Christopher Anjema",
+  "legal": "Christopher Michael Anjema",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1159,6 +1182,7 @@
  {
   "id": "arjmand-parnian",
   "name": "Dr. Parnian Arjmand",
+  "legal": "Parnian Arjmand",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -1187,6 +1211,7 @@
  {
   "id": "armogan-narendra",
   "name": "Dr. Narendra Armogan",
+  "legal": "Narendra Armogan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1211,6 +1236,7 @@
  {
   "id": "arora-vineet",
   "name": "Dr. Vineet Arora",
+  "legal": "Vineet Iqbal Arora",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1265,6 +1291,7 @@
  {
   "id": "arshinoff-steve",
   "name": "Dr. Steve Arshinoff",
+  "legal": "Steve Aaron Arshinoff",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1335,6 +1362,7 @@
  {
   "id": "assaad-david",
   "name": "Dr. David Assaad",
+  "legal": "David Mark Assaad",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1412,6 +1440,7 @@
  {
   "id": "axmith-kenneth",
   "name": "Dr. Kenneth Axmith",
+  "legal": "Kenneth Axmith",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1436,6 +1465,7 @@
  {
   "id": "azadeh-minoo",
   "name": "Dr. Minoo Azadeh",
+  "legal": "Minoo Azadeh",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -1473,6 +1503,7 @@
  {
   "id": "azizi-behrooz",
   "name": "Dr. Behrooz Azizi",
+  "legal": "Behrooz Azizi",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -1500,6 +1531,7 @@
  {
   "id": "baath-jasrajbir",
   "name": "Dr. Jasrajbir Baath",
+  "legal": "Jasrajbir Baath",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1524,6 +1556,7 @@
  {
   "id": "bagheri-mansoureh",
   "name": "Dr. Mansoureh Bagheri",
+  "legal": "Mansoureh Bagheri",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1548,6 +1581,7 @@
  {
   "id": "baig-kashif",
   "name": "Dr. Kashif Baig",
+  "legal": "Kashif Baig",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -1577,6 +1611,7 @@
  {
   "id": "bains-rick",
   "name": "Dr. Rick Bains",
+  "legal": "Rick Amar Bir Singh Bains",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1624,6 +1659,7 @@
  {
   "id": "bakshi-nupura",
   "name": "Dr. Nupura Bakshi",
+  "legal": "Nupura Krishnadev Bakshi",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -1701,6 +1737,7 @@
  {
   "id": "bal-manpartap",
   "name": "Dr. Manpartap Bal",
+  "legal": "Manpartap Singh Bal",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1748,6 +1785,7 @@
  {
   "id": "bali-shveta",
   "name": "Dr. Shveta Bali",
+  "legal": "Shveta Bali",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1772,6 +1810,7 @@
  {
   "id": "bamberger-mark",
   "name": "Dr. Mark Bamberger",
+  "legal": "Mark Douglas Bamberger",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -1799,6 +1838,7 @@
  {
   "id": "baryla-julia",
   "name": "Dr. Julia Baryla",
+  "legal": "Julia Grazyna Baryla",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -1847,6 +1887,7 @@
  {
   "id": "basilious-alfred",
   "name": "Dr. Alfred Basilious",
+  "legal": "Alfred Basilious",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -1898,6 +1939,7 @@
  {
   "id": "bastianelli-francesco",
   "name": "Dr. Francesco Bastianelli",
+  "legal": "Francesco Elio Bastianelli",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -1932,6 +1974,7 @@
  {
   "id": "bastianelli-paul",
   "name": "Dr. Paul Bastianelli",
+  "legal": "Paul Anthony Roy Bastianelli",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -1960,6 +2003,7 @@
  {
   "id": "baxter-stephanie",
   "name": "Dr. Stephanie Baxter",
+  "legal": "Stephanie Anne Baxter",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -1988,6 +2032,7 @@
  {
   "id": "baziuk-natalia",
   "name": "Dr. Natalia Baziuk",
+  "legal": "Natalia Baziuk",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -2015,6 +2060,7 @@
  {
   "id": "bedi-harleen",
   "name": "Dr. Harleen Bedi",
+  "legal": "Harleen Bedi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2078,6 +2124,7 @@
  {
   "id": "beiko-george",
   "name": "Dr. George Beiko",
+  "legal": "George Hutul Hachkowski Beiko",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2102,6 +2149,7 @@
  {
   "id": "belliveau-michel",
   "name": "Dr. Michel Belliveau",
+  "legal": "Michel James-Rheal Belliveau",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -2170,6 +2218,7 @@
  {
   "id": "belovay-graham",
   "name": "Dr. Graham Belovay",
+  "legal": "Graham William Belovay",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2234,6 +2283,7 @@
  {
   "id": "berger-alan",
   "name": "Dr. Alan Berger",
+  "legal": "Alan Richard Berger",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -2281,6 +2331,7 @@
  {
   "id": "bhargava-anuj",
   "name": "Dr. Anuj Bhargava",
+  "legal": "Anuj Bhargava",
   "focus": "Cornea & external disease, Cataract & refractive, Comprehensive",
   "subs": [
    "Cornea & external disease",
@@ -2310,6 +2361,7 @@
  {
   "id": "bhatti-adil",
   "name": "Dr. Adil Bhatti",
+  "legal": "Adil Bhatti",
   "focus": "Cataract & refractive, Comprehensive, Retina",
   "subs": [
    "Cataract & refractive",
@@ -2433,6 +2485,7 @@
  {
   "id": "bin-yameen-tarek",
   "name": "Dr. Tarek Bin Yameen",
+  "legal": "Tarek Abdullah Bin Yameen",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -2460,6 +2513,7 @@
  {
   "id": "bindlish-rajiv",
   "name": "Dr. Rajiv Bindlish",
+  "legal": "Rajiv Bindlish",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2522,6 +2576,7 @@
  {
   "id": "bissada-maurice",
   "name": "Dr. Maurice Bissada",
+  "legal": "Maurice Bissada",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -2575,6 +2630,7 @@
  {
   "id": "blicker-jeffrey",
   "name": "Dr. Jeffrey Blicker",
+  "legal": "Jeffrey Alan Blicker",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2599,6 +2655,7 @@
  {
   "id": "bona-mark",
   "name": "Dr. Mark Bona",
+  "legal": "Mark David Bona",
   "focus": "Comprehensive, Cataract & refractive",
   "subs": [
    "Comprehensive",
@@ -2696,6 +2753,7 @@
  {
   "id": "boyd-shelley",
   "name": "Dr. Shelley Boyd",
+  "legal": "Shelley Romayne Boyd",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2750,6 +2808,7 @@
  {
   "id": "braga-mele-rosa",
   "name": "Dr. Rosa Braga-Mele",
+  "legal": "Rosa Maria Braga-Mele",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -2824,6 +2883,7 @@
  {
   "id": "brent-michael",
   "name": "Dr. Michael Brent",
+  "legal": "Michael Henry Brent",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -2878,6 +2938,7 @@
  {
   "id": "britton-william",
   "name": "Dr. William Britton",
+  "legal": "William Alan Arthur Britton",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -2922,6 +2983,7 @@
  {
   "id": "bruen-robin",
   "name": "Dr. Robin Bruen",
+  "legal": "Robin Patrick John Bruen",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -2992,6 +3054,7 @@
  {
   "id": "budning-andrew",
   "name": "Dr. Andrew Budning",
+  "legal": "Andrew Stewart Budning",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3054,6 +3117,7 @@
  {
   "id": "bursztyn-lulu",
   "name": "Dr. Lulu Bursztyn",
+  "legal": "Lulu Liane Catherine Danielle Bursztyn",
   "focus": "Neuro-ophthalmology",
   "subs": [
    "Neuro-ophthalmology"
@@ -3159,6 +3223,7 @@
  {
   "id": "cabrera-anthony",
   "name": "Dr. Anthony Cabrera",
+  "legal": "Anthony Elmer Cabrera",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3312,6 +3377,7 @@
  {
   "id": "camacho-alex",
   "name": "Dr. Alex Camacho",
+  "legal": "Alex de Oliveira Coronel Camacho",
   "focus": "Cornea & external disease",
   "subs": [
    "Cornea & external disease"
@@ -3368,12 +3434,16 @@
  },
  {
   "id": "cao-ying",
-  "name": "Dr. Ying Cao",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Kathy Cao",
+  "legal": "Ying Kathy Cao",
+  "focus": "Comprehensive",
+  "subs": [
+   "Comprehensive"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=84639"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=84639",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "84639",
@@ -3403,11 +3473,15 @@
  {
   "id": "carrillo-gomez-monica",
   "name": "Dr. Monica Carrillo Gomez",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Monica Maria Carrillo Gomez",
+  "focus": "Glaucoma",
+  "subs": [
+   "Glaucoma"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=77359"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=77359",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "77359",
@@ -3427,6 +3501,7 @@
  {
   "id": "chan-aaron",
   "name": "Dr. Aaron Chan",
+  "legal": "Aaron Tin-Lin Chan",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -3454,6 +3529,7 @@
  {
   "id": "chan-brian",
   "name": "Dr. Brian Chan",
+  "legal": "Brian John Chan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3478,6 +3554,7 @@
  {
   "id": "chan-clara",
   "name": "Dr. Clara Chan",
+  "legal": "Clara Carwei Chan",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -3536,6 +3613,7 @@
  {
   "id": "chan-stephanie",
   "name": "Dr. Stephanie Chan",
+  "legal": "Stephanie Chung Yan Chan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3580,6 +3658,7 @@
  {
   "id": "chan-toby",
   "name": "Dr. Toby Chan",
+  "legal": "Toby Yiu Bong Chan",
   "focus": "Glaucoma",
   "subs": [
    "Glaucoma"
@@ -3673,6 +3752,7 @@
  {
   "id": "chaudhary-varun",
   "name": "Dr. Varun Chaudhary",
+  "legal": "Varun Chaudhary",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3750,6 +3830,7 @@
  {
   "id": "chen-yufeng",
   "name": "Dr. Yufeng Chen",
+  "legal": "Yufeng Chen",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3774,6 +3855,7 @@
  {
   "id": "cheskes-jordan",
   "name": "Dr. Jordan Cheskes",
+  "legal": "Jordan Wesley Cheskes",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3798,6 +3880,7 @@
  {
   "id": "cheung-cindy",
   "name": "Dr. Cindy Cheung",
+  "legal": "Cindy Helen Cheung",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3822,6 +3905,7 @@
  {
   "id": "cheung-crystal",
   "name": "Dr. Crystal Cheung",
+  "legal": "Crystal Sin Yi Cheung",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -3915,6 +3999,7 @@
  {
   "id": "chiu-hannah",
   "name": "Dr. Hannah Chiu",
+  "legal": "Hannah Hiu-Yan Chiu",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -3978,6 +4063,7 @@
  {
   "id": "chow-david",
   "name": "Dr. David Chow",
+  "legal": "David Robert Chow",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4022,6 +4108,7 @@
  {
   "id": "christakis-john",
   "name": "Dr. John Christakis",
+  "legal": "John Theodore Christakis",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4046,6 +4133,7 @@
  {
   "id": "christakis-panos",
   "name": "Dr. Panos Christakis",
+  "legal": "Panos George Christakis",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -4083,6 +4171,7 @@
  {
   "id": "christakis-theodore",
   "name": "Dr. Theodore Christakis",
+  "legal": "Theodore Jonathan Christakis",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4117,6 +4206,7 @@
  {
   "id": "chung-thomas",
   "name": "Dr. Thomas Chung",
+  "legal": "Thomas Chung",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4187,6 +4277,7 @@
  {
   "id": "cohen-mark",
   "name": "Dr. Mark Cohen",
+  "legal": "Mark Jamie Cohen",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -4272,6 +4363,7 @@
  {
   "id": "cote-elie",
   "name": "Dr. Elie Cote",
+  "legal": "Elie Joseph Cote",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4352,6 +4444,7 @@
  {
   "id": "curran-brian",
   "name": "Dr. Brian Curran",
+  "legal": "Brian Michael Curran",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4376,6 +4469,7 @@
  {
   "id": "curtis-rachel",
   "name": "Dr. Rachel Curtis",
+  "legal": "Rachel Amanda Curtis",
   "focus": "Ocular oncology, Cataract & refractive, Comprehensive",
   "subs": [
    "Ocular oncology",
@@ -4405,6 +4499,7 @@
  {
   "id": "dam-olivia",
   "name": "Dr. Olivia Dam",
+  "legal": "Olivia Mayin Dam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4428,12 +4523,16 @@
  },
  {
   "id": "dang-radhika",
-  "name": "Dr. Radhika Dang",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Natasha Dang",
+  "legal": "Radhika Natasha Dang",
+  "focus": "Cataract & refractive",
+  "subs": [
+   "Cataract & refractive"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=88957"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=88957",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "88957",
@@ -4453,6 +4552,7 @@
  {
   "id": "daniel-shanon",
   "name": "Dr. Shanon Daniel",
+  "legal": "Shanon Mary Daniel",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4504,11 +4604,15 @@
  {
   "id": "darvish-zargar-mahshad",
   "name": "Dr. Mahshad Darvish-Zargar",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "focus": "Cornea & external disease",
+  "subs": [
+   "Cornea & external disease"
+  ],
   "tier": "",
   "sources": [
-   "https://www.healthdoc.ca/listing/dr-mahshad-darvish-zargar-11c7d4"
+   "https://www.healthdoc.ca/listing/dr-mahshad-darvish-zargar-11c7d4",
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "locations": [
@@ -4527,6 +4631,7 @@
  {
   "id": "darwich-rami",
   "name": "Dr. Rami Darwich",
+  "legal": "Rami Darwich",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4551,6 +4656,7 @@
  {
   "id": "davidson-joseph",
   "name": "Dr. Joseph Davidson",
+  "legal": "Joseph Kent Davidson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4575,6 +4681,7 @@
  {
   "id": "davies-andrew",
   "name": "Dr. Andrew Davies",
+  "legal": "Andrew Mark Davies",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -4602,6 +4709,7 @@
  {
   "id": "deangelis-dan",
   "name": "Dr. Dan DeAngelis",
+  "legal": "Dan Douglas DeAngelis",
   "focus": "Pediatrics & strabismus, Oculoplastics & orbit",
   "subs": [
    "Pediatrics & strabismus",
@@ -4650,6 +4758,7 @@
  {
   "id": "deans-robin",
   "name": "Dr. Robin Deans",
+  "legal": "Robin Michael Deans",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4674,6 +4783,7 @@
  {
   "id": "delpero-walter",
   "name": "Dr. Walter Delpero",
+  "legal": "Walter Delpero",
   "focus": "Cataract & refractive, Pediatrics & strabismus",
   "subs": [
    "Cataract & refractive",
@@ -4702,6 +4812,7 @@
  {
   "id": "demers-pierre",
   "name": "Dr. Pierre Demers",
+  "legal": "Pierre Demers",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4736,6 +4847,7 @@
  {
   "id": "denstedt-james",
   "name": "Dr. James Denstedt",
+  "legal": "James Taylor Denstedt",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4780,6 +4892,7 @@
  {
   "id": "derzko-dzulynsky-larissa",
   "name": "Dr. Larissa Derzko-Dzulynsky",
+  "legal": "Larissa Anne Derzko-Dzulynsky",
   "focus": "Uveitis",
   "subs": [
    "Uveitis"
@@ -4847,6 +4960,7 @@
  {
   "id": "desai-nimesh",
   "name": "Dr. Nimesh Desai",
+  "legal": "Nimesh Desai",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4904,6 +5018,7 @@
  {
   "id": "devenyi-robert",
   "name": "Dr. Robert Devenyi",
+  "legal": "Robert George Devenyi",
   "focus": "Retina, Cataract & refractive",
   "subs": [
    "Retina",
@@ -4932,6 +5047,7 @@
  {
   "id": "diaconita-vlad",
   "name": "Dr. Vlad Diaconita",
+  "legal": "Vlad Diaconita",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -4956,6 +5072,7 @@
  {
   "id": "dimopoulos-ioannis",
   "name": "Dr. Ioannis Dimopoulos",
+  "legal": "Ioannis Dimopoulos",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -5026,6 +5143,7 @@
  {
   "id": "dollin-michael",
   "name": "Dr. Michael Dollin",
+  "legal": "Michael Leo Elliot Dollin",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -5083,6 +5201,7 @@
  {
   "id": "donaldson-laura",
   "name": "Dr. Laura Donaldson",
+  "legal": "Laura Donaldson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5117,6 +5236,7 @@
  {
   "id": "dorfman-jason",
   "name": "Dr. Jason Dorfman",
+  "legal": "Jason Kevin Dorfman",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5151,6 +5271,7 @@
  {
   "id": "dorrepaal-stephen",
   "name": "Dr. Stephen Dorrepaal",
+  "legal": "Stephen John Dorrepaal",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -5248,7 +5369,8 @@
    }
   ],
   "subs": [
-   "Glaucoma"
+   "Glaucoma",
+   "Comprehensive"
   ],
   "cpso": "271032"
  },
@@ -5303,6 +5425,7 @@
  {
   "id": "dudok-david",
   "name": "Dr. David Dudok",
+  "legal": "David Vladimir Dudok",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5385,6 +5508,7 @@
  {
   "id": "easterbrook-william",
   "name": "Dr. William Easterbrook",
+  "legal": "William Michael Easterbrook",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5409,14 +5533,10 @@
  {
   "id": "edelstein-chaim",
   "name": "Dr. Chaim Edelstein",
-  "focus": "Oculoplastics & orbit, Ocular oncology",
-  "subs": [
-   "Oculoplastics & orbit",
-   "Ocular oncology"
-  ],
+  "focus": "Ophthalmology",
+  "subs": [],
   "tier": "",
   "sources": [
-   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
    "https://www.mcgill.ca/ophthalmology/contact-us/faculty"
   ],
   "note": "",
@@ -5436,6 +5556,7 @@
  {
   "id": "eino-dalia",
   "name": "Dr. Dalia Eino",
+  "legal": "Dalia Mahmoud Eino",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -5463,6 +5584,7 @@
  {
   "id": "el-deeb-mohab",
   "name": "Dr. Mohab El-Deeb",
+  "legal": "Mohab Mohamed Ali El-Deeb",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -5490,6 +5612,7 @@
  {
   "id": "el-defrawy-sherif",
   "name": "Dr. Sherif El-Defrawy",
+  "legal": "Sherif Rashad El-Defrawy",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5514,13 +5637,15 @@
  {
   "id": "el-hadad-christian",
   "name": "Dr. Christian El-Hadad",
-  "focus": "Oculoplastics & orbit",
+  "focus": "Oculoplastics & orbit, Ocular oncology",
   "subs": [
-   "Oculoplastics & orbit"
+   "Oculoplastics & orbit",
+   "Ocular oncology"
   ],
   "tier": "",
   "sources": [
    "https://www.healthdoc.ca/listing/dr-christian-el-hadad-1cc9c6",
+   "https://www.mcgill.ca/ophthalmology/contact-us/faculty",
    "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
@@ -5540,6 +5665,7 @@
  {
   "id": "emara-barry",
   "name": "Dr. Barry Emara",
+  "legal": "Barry Yehia Emara",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5574,6 +5700,7 @@
  {
   "id": "emon-steven",
   "name": "Dr. Steven Emon",
+  "legal": "Steven Joseph Emon",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5598,6 +5725,7 @@
  {
   "id": "eng-kenneth",
   "name": "Dr. Kenneth Eng",
+  "legal": "Kenneth Eng",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5622,6 +5750,7 @@
  {
   "id": "entwistle-catherine",
   "name": "Dr. Catherine Entwistle",
+  "legal": "Catherine Marie Anne Entwistle",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -5659,6 +5788,7 @@
  {
   "id": "eplett-catherine",
   "name": "Dr. Catherine Eplett",
+  "legal": "Catherine Jane Eplett",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5693,6 +5823,7 @@
  {
   "id": "erikitola-ore-oluwa",
   "name": "Dr. Ore-oluwa Erikitola",
+  "legal": "Ore-oluwa Catherine Erikitola",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5737,6 +5868,7 @@
  {
   "id": "erlich-christine",
   "name": "Dr. Christine Erlich",
+  "legal": "Christine Mary Erlich",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5761,6 +5893,7 @@
  {
   "id": "eubanks-barrett",
   "name": "Dr. Barrett Eubanks",
+  "legal": "Barrett Hunter Eubanks",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -5788,6 +5921,7 @@
  {
   "id": "faggioni-anastasia",
   "name": "Dr. Anastasia Faggioni",
+  "legal": "Anastasia Lee Faggioni",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5884,6 +6018,7 @@
  {
   "id": "farmer-james",
   "name": "Dr. James Farmer",
+  "legal": "James Patrick Farmer",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5918,6 +6053,7 @@
  {
   "id": "fava-mark",
   "name": "Dr. Mark Fava",
+  "legal": "Mark Adam Fava",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5942,6 +6078,7 @@
  {
   "id": "fearon-stanley",
   "name": "Dr. Stanley Fearon",
+  "legal": "Stanley Blair Fearon",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5966,6 +6103,7 @@
  {
   "id": "feng-mary",
   "name": "Dr. Mary Feng",
+  "legal": "Mary Mengrui Feng",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -5990,12 +6128,12 @@
  {
   "id": "ferreira-pear",
   "name": "Dr. Pear Ferreira",
-  "focus": "Retina, Comprehensive, Cataract & refractive, Glaucoma",
+  "legal": "Pear Pongsachareonnont Ferreira",
+  "focus": "Comprehensive, Cataract & refractive, Retina",
   "subs": [
-   "Retina",
    "Comprehensive",
    "Cataract & refractive",
-   "Glaucoma"
+   "Retina"
   ],
   "tier": "",
   "sources": [
@@ -6021,6 +6159,7 @@
  {
   "id": "fiander-donald",
   "name": "Dr. Donald Fiander",
+  "legal": "Donald Cecil Fiander",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -6071,6 +6210,7 @@
  {
   "id": "fook-trevor",
   "name": "Dr. Trevor Fook",
+  "legal": "Trevor John Francis Chin Fook",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6154,6 +6294,7 @@
  {
   "id": "fournier-annick",
   "name": "Dr. Annick Fournier",
+  "legal": "Annick Valerie Fournier",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -6191,6 +6332,7 @@
  {
   "id": "french-lauren",
   "name": "Dr. Lauren French",
+  "legal": "Lauren Michelle French",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -6219,6 +6361,7 @@
  {
   "id": "freund-paul",
   "name": "Dr. Paul Freund",
+  "legal": "Paul Richard Freund",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -6266,6 +6409,7 @@
  {
   "id": "furlonge-dexter",
   "name": "Dr. Dexter Furlonge",
+  "legal": "Dexter Andeev Furlonge",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -6346,6 +6490,7 @@
  {
   "id": "gagne-sebastien",
   "name": "Dr. Sebastien Gagne",
+  "legal": "Sebastien Gagne",
   "focus": "Glaucoma",
   "subs": [
    "Glaucoma"
@@ -6409,6 +6554,7 @@
  {
   "id": "gallie-brenda",
   "name": "Dr. Brenda Gallie",
+  "legal": "Brenda Louise Gallie",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6443,6 +6589,7 @@
  {
   "id": "gan-kenman",
   "name": "Dr. Kenman Gan",
+  "legal": "Kenman Dang Gan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6493,6 +6640,7 @@
  {
   "id": "gasser-joseph",
   "name": "Dr. Joseph Gasser",
+  "legal": "Joseph Gasser",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6540,6 +6688,7 @@
  {
   "id": "gelkopf-maxwell",
   "name": "Dr. Maxwell Gelkopf",
+  "legal": "Maxwell Jesse Gelkopf",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6584,6 +6733,7 @@
  {
   "id": "george-matthew",
   "name": "Dr. Matthew George",
+  "legal": "Matthew Maher Adly George",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6608,6 +6758,7 @@
  {
   "id": "giavedoni-luigi",
   "name": "Dr. Luigi Giavedoni",
+  "legal": "Luigi Robert Giavedoni",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6632,6 +6783,7 @@
  {
   "id": "gilani-fatimah",
   "name": "Dr. Fatimah Gilani",
+  "legal": "Fatimah Gilani",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -6689,6 +6841,7 @@
  {
   "id": "gill-harmeet",
   "name": "Dr. Harmeet Gill",
+  "legal": "Harmeet S Gill",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6713,6 +6866,7 @@
  {
   "id": "girschek-peter",
   "name": "Dr. Peter Girschek",
+  "legal": "Peter Karl Girschek",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6747,6 +6901,7 @@
  {
   "id": "goldberg-chaim",
   "name": "Dr. Chaim Goldberg",
+  "legal": "Chaim Joseph Goldberg",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6771,6 +6926,7 @@
  {
   "id": "goldfarb-jeremy",
   "name": "Dr. Jeremy Goldfarb",
+  "legal": "Jeremy Allan Goldfarb",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6795,6 +6951,7 @@
  {
   "id": "goldhar-sheldon",
   "name": "Dr. Sheldon Goldhar",
+  "legal": "Sheldon William Goldhar",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6845,6 +7002,7 @@
  {
   "id": "gonder-john",
   "name": "Dr. John Gonder",
+  "legal": "John Thomas Gonder",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6892,6 +7050,7 @@
  {
   "id": "gorfinkel-john",
   "name": "Dr. John Gorfinkel",
+  "legal": "John Arthur Gorfinkel",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -6916,6 +7075,7 @@
  {
   "id": "gottlieb-chloe",
   "name": "Dr. Chloe Gottlieb",
+  "legal": "Chloe Charmaine Chlebek Gottlieb",
   "focus": "Retina, Cataract & refractive, Uveitis",
   "subs": [
    "Retina",
@@ -6976,6 +7136,7 @@
  {
   "id": "gray-dale",
   "name": "Dr. Dale Gray",
+  "legal": "Dale Ellen Gray",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -7033,6 +7194,7 @@
  {
   "id": "greenwald-yoel",
   "name": "Dr. Yoel Greenwald",
+  "legal": "Yoel Micha Meir Greenwald",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7127,6 +7289,7 @@
  {
   "id": "gulamhusein-husayn",
   "name": "Dr. Husayn Gulamhusein",
+  "legal": "Husayn Gulamhusein",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7161,6 +7324,7 @@
  {
   "id": "gupta-amitabha",
   "name": "Dr. Amitabha Gupta",
+  "legal": "Amitabha Gupta",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -7246,6 +7410,7 @@
  {
   "id": "gupta-ritesh",
   "name": "Dr. Ritesh Gupta",
+  "legal": "Ritesh Gupta",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -7293,6 +7458,7 @@
  {
   "id": "gupta-vasudha",
   "name": "Dr. Vasudha Gupta",
+  "legal": "Vasudha Gupta",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -7365,6 +7531,7 @@
  {
   "id": "hamad-abdualrahman",
   "name": "Dr. Abdualrahman Hamad",
+  "legal": "Abdualrahman Esam Hamad",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7464,6 +7631,7 @@
  {
   "id": "han-sangsu",
   "name": "Dr. Sangsu Han",
+  "legal": "Sangsu Han",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -7538,6 +7706,7 @@
  {
   "id": "harding-peter",
   "name": "Dr. Peter Harding",
+  "legal": "Peter William Harding",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -7614,6 +7783,7 @@
  {
   "id": "hasanee-khalid",
   "name": "Dr. Khalid Hasanee",
+  "legal": "Khalid Hasanee",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7664,6 +7834,7 @@
  {
   "id": "hassanaly-salima",
   "name": "Dr. Salima Hassanaly",
+  "legal": "Salima Isabelle Hassanaly",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7688,6 +7859,7 @@
  {
   "id": "hassanlou-mojgan",
   "name": "Dr. Mojgan Hassanlou",
+  "legal": "Mojgan Hassanlou",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -7747,6 +7919,7 @@
  {
   "id": "hassard-frank",
   "name": "Dr. Frank Hassard",
+  "legal": "Frank Alfred Hassard",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7771,6 +7944,7 @@
  {
   "id": "hebert-melanie",
   "name": "Dr. Mélanie Hébert",
+  "legal": "Mélanie Hébert",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7851,6 +8025,7 @@
  {
   "id": "heede-santa",
   "name": "Dr. Santa Heede",
+  "legal": "Santa Heede",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7885,6 +8060,7 @@
  {
   "id": "henen-raafat",
   "name": "Dr. Raafat Henen",
+  "legal": "Raafat Naguib Ibrahim Henen",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7909,6 +8085,7 @@
  {
   "id": "heon-elise",
   "name": "Dr. Elise Heon",
+  "legal": "Elise Heon",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7933,6 +8110,7 @@
  {
   "id": "heroman-james",
   "name": "Dr. James Heroman",
+  "legal": "James Wesley Heroman",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -7977,6 +8155,7 @@
  {
   "id": "hershenfeld-seymour",
   "name": "Dr. Seymour Hershenfeld",
+  "legal": "Seymour Albert Hershenfeld",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8001,6 +8180,7 @@
  {
   "id": "herzig-sheldon",
   "name": "Dr. Sheldon Herzig",
+  "legal": "Sheldon Herzig",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8048,6 +8228,7 @@
  {
   "id": "hess-tiiu",
   "name": "Dr. Tiiu Hess",
+  "legal": "Tiiu Mai Hess",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -8085,6 +8266,7 @@
  {
   "id": "hillson-tim",
   "name": "Dr. Tim Hillson",
+  "legal": "Tim Richard Hillson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8109,6 +8291,7 @@
  {
   "id": "hinton-patricia",
   "name": "Dr. Patricia Hinton",
+  "legal": "Patricia Victoria Hinton",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8179,6 +8362,7 @@
  {
   "id": "hurley-bernard",
   "name": "Dr. Bernard Hurley",
+  "legal": "Bernard Robert Hurley",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -8206,6 +8390,7 @@
  {
   "id": "hurst-jonathan",
   "name": "Dr. Jonathan Hurst",
+  "legal": "Jonathan David Hurst",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8258,6 +8443,7 @@
  {
   "id": "iizuka-megumi",
   "name": "Dr. Megumi Iizuka",
+  "legal": "Megumi Iizuka",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8312,6 +8498,7 @@
  {
   "id": "ing-edsel",
   "name": "Dr. Edsel Ing",
+  "legal": "Edsel Bill Ing",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8346,6 +8533,7 @@
  {
   "id": "iordanous-yiannis",
   "name": "Dr. Yiannis Iordanous",
+  "legal": "Yiannis Iordanous",
   "focus": "Pediatrics & strabismus, Comprehensive",
   "subs": [
    "Pediatrics & strabismus",
@@ -8374,6 +8562,7 @@
  {
   "id": "iqbal-munir",
   "name": "Dr. Munir Iqbal",
+  "legal": "Munir Muhammad Iqbal",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -8430,6 +8619,7 @@
  {
   "id": "jackson-william",
   "name": "Dr. William Jackson",
+  "legal": "William Bruce Jackson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8453,12 +8643,16 @@
  },
  {
   "id": "jafari-seyed",
-  "name": "Dr. Seyed Jafari",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Esmail Jafari",
+  "legal": "Seyed Esmail Jafari",
+  "focus": "Comprehensive",
+  "subs": [
+   "Comprehensive"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=268597"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=268597",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "268597",
@@ -8488,6 +8682,7 @@
  {
   "id": "jagan-lisa",
   "name": "Dr. Lisa Jagan",
+  "legal": "Lisa Geetanjali Jagan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8512,6 +8707,7 @@
  {
   "id": "javed-ahmed",
   "name": "Dr. Ahmed Javed",
+  "legal": "Ahmed Javed",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8579,6 +8775,7 @@
  {
   "id": "jin-shicheng",
   "name": "Dr. Shicheng Jin",
+  "legal": "Shicheng Jin",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8670,6 +8867,7 @@
  {
   "id": "johnson-david",
   "name": "Dr. David Johnson",
+  "legal": "David Walter Johnson",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8744,11 +8942,16 @@
  {
   "id": "johnson-davin",
   "name": "Dr. Davin Johnson",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Davin Emanuel Johnson",
+  "focus": "Cornea & external disease, Comprehensive",
+  "subs": [
+   "Cornea & external disease",
+   "Comprehensive"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=93208"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=93208",
+   "https://ophthalmology.queensu.ca/clinic/referrals"
   ],
   "note": "",
   "cpso": "93208",
@@ -8828,6 +9031,7 @@
  {
   "id": "jordan-david",
   "name": "Dr. David Jordan",
+  "legal": "David Ronald Jordan",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -8904,6 +9108,7 @@
  {
   "id": "kanda-pushpinder",
   "name": "Dr. Pushpinder Kanda",
+  "legal": "Pushpinder Singh Kanda",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8938,6 +9143,7 @@
  {
   "id": "kansal-vinay",
   "name": "Dr. Vinay Kansal",
+  "legal": "Vinay Kansal",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -8962,6 +9168,7 @@
  {
   "id": "kaplan-alexander",
   "name": "Dr. Alexander Kaplan",
+  "legal": "Alexander Jacques Kaplan",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -8989,6 +9196,7 @@
  {
   "id": "kaplan-henry",
   "name": "Dr. Henry Kaplan",
+  "legal": "Henry Daniel Kaplan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9040,6 +9248,7 @@
  {
   "id": "karanjia-rustum",
   "name": "Dr. Rustum Karanjia",
+  "legal": "Rustum Sarosh Karanjia",
   "focus": "Pediatrics & strabismus, Neuro-ophthalmology",
   "subs": [
    "Pediatrics & strabismus",
@@ -9104,6 +9313,7 @@
  {
   "id": "kates-warren",
   "name": "Dr. Warren Kates",
+  "legal": "Warren Bradley Kates",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9184,6 +9394,7 @@
  {
   "id": "kertes-peter",
   "name": "Dr. Peter Kertes",
+  "legal": "Peter John Kertes",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -9232,6 +9443,7 @@
  {
   "id": "khan-baseer",
   "name": "Dr. Baseer Khan",
+  "legal": "Baseer Uddin Khan",
   "focus": "Glaucoma",
   "subs": [
    "Glaucoma"
@@ -9289,6 +9501,7 @@
  {
   "id": "khan-michelle",
   "name": "Dr. Michelle Khan",
+  "legal": "Michelle Shahid Khan",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -9316,6 +9529,7 @@
  {
   "id": "khan-yasser",
   "name": "Dr. Yasser Khan",
+  "legal": "Yasser Anwar Khan",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -9417,6 +9631,7 @@
  {
   "id": "khimdas-sarit",
   "name": "Dr. Sarit Khimdas",
+  "legal": "Sarit Subhash Khimdas",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9490,6 +9705,7 @@
  {
   "id": "kisilevsky-eli",
   "name": "Dr. Eli Kisilevsky",
+  "legal": "Eli Kisilevsky",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -9547,6 +9763,7 @@
  {
   "id": "klein-thomas",
   "name": "Dr. Thomas Klein",
+  "legal": "Thomas Brian Klein",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9591,6 +9808,7 @@
  {
   "id": "kletke-stephanie",
   "name": "Dr. Stephanie Kletke",
+  "legal": "Stephanie Nicole Kletke",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -9618,6 +9836,7 @@
  {
   "id": "koaik-mona",
   "name": "Dr. Mona Koaik",
+  "legal": "Mona Kassem Koaik",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -9682,6 +9901,7 @@
  {
   "id": "kohly-radha",
   "name": "Dr. Radha Kohly",
+  "legal": "Radha Pyari Kohly",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9726,6 +9946,7 @@
  {
   "id": "kosaric-alan",
   "name": "Dr. Alan Kosaric",
+  "legal": "Alan Kosaric",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9760,6 +9981,7 @@
  {
   "id": "koushan-keyvan",
   "name": "Dr. Keyvan Koushan",
+  "legal": "Keyvan Koushan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9844,6 +10066,7 @@
  {
   "id": "kraft-stephen",
   "name": "Dr. Stephen Kraft",
+  "legal": "Stephen Paul Kraft",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9929,6 +10152,7 @@
  {
   "id": "kratky-vladimir",
   "name": "Dr. Vladimir Kratky",
+  "legal": "Vladimir Kratky",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -9976,6 +10200,7 @@
  {
   "id": "krema-muhammed",
   "name": "Dr. Muhammed Krema",
+  "legal": "Muhammed Hatem Abdel Aleem Krema",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10000,6 +10225,7 @@
  {
   "id": "kwok-jason",
   "name": "Dr. Jason Kwok",
+  "legal": "Jason Mun Yiu Kwok",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10044,6 +10270,7 @@
  {
   "id": "lachapelle-kevin",
   "name": "Dr. Kevin Lachapelle",
+  "legal": "Kevin Robert Lachapelle",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10091,6 +10318,7 @@
  {
   "id": "lam-cindy",
   "name": "Dr. Cindy Lam",
+  "legal": "Cindy Tze Yung Lam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10125,6 +10353,7 @@
  {
   "id": "lam-kay",
   "name": "Dr. Kay Lam",
+  "legal": "Kay Ka Lam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10159,6 +10388,7 @@
  {
   "id": "lam-vincent",
   "name": "Dr. Vincent Lam",
+  "legal": "Vincent Wai-Hung Lam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10233,6 +10463,7 @@
  {
   "id": "lane-david",
   "name": "Dr. David Lane",
+  "legal": "David Peter Pasco Lane",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10257,6 +10488,7 @@
  {
   "id": "lapointe-marie",
   "name": "Dr. Marie Lapointe",
+  "legal": "Marie Louise Lapointe",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -10284,6 +10516,7 @@
  {
   "id": "law-christine",
   "name": "Dr. Christine Law",
+  "legal": "Christine Law",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -10311,6 +10544,7 @@
  {
   "id": "le-kim",
   "name": "Dr. Kim Le",
+  "legal": "Kim Thien Le",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10345,6 +10579,7 @@
  {
   "id": "le-tran",
   "name": "Dr. Tran Le",
+  "legal": "Tran Dao-Bich Le",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -10412,6 +10647,7 @@
  {
   "id": "lee-thomas",
   "name": "Dr. Thomas Lee",
+  "legal": "Thomas Kin Man Lee",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -10439,6 +10675,7 @@
  {
   "id": "lee-ye",
   "name": "Dr. Ye Lee",
+  "legal": "Ye Sl Lee",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10463,6 +10700,7 @@
  {
   "id": "lei-shaobo",
   "name": "Dr. Shaobo Lei",
+  "legal": "Shaobo Lei",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -10500,6 +10738,7 @@
  {
   "id": "leonard-kevin",
   "name": "Dr. Kevin Leonard",
+  "legal": "Kevin Christopher Leonard",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10560,6 +10799,7 @@
  {
   "id": "leung-andrea",
   "name": "Dr. Andrea Leung",
+  "legal": "Andrea Karen Leung",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10584,6 +10824,7 @@
  {
   "id": "leung-christina",
   "name": "Dr. Christina Leung",
+  "legal": "Christina Chi Wai Leung",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10628,6 +10869,7 @@
  {
   "id": "leung-victoria",
   "name": "Dr. Victoria Leung",
+  "legal": "Victoria Christine Wai-Kei Leung",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -10721,6 +10963,7 @@
  {
   "id": "li-bo",
   "name": "Dr. Bo Li",
+  "legal": "Bo Li",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -10748,6 +10991,7 @@
  {
   "id": "li-cody",
   "name": "Dr. Cody Li",
+  "legal": "Cody Xian Li",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10772,6 +11016,7 @@
  {
   "id": "li-daniel",
   "name": "Dr. Daniel Li",
+  "legal": "Daniel Qiushi Li",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -10800,6 +11045,7 @@
  {
   "id": "liao-walter",
   "name": "Dr. Walter Liao",
+  "legal": "Walter Nathan Liao",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10824,6 +11070,7 @@
  {
   "id": "lichter-myrna",
   "name": "Dr. Myrna Lichter",
+  "legal": "Myrna Lichter",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10848,6 +11095,7 @@
  {
   "id": "liu-eugene",
   "name": "Dr. Eugene Liu",
+  "legal": "Eugene Sy Liu",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10882,6 +11130,7 @@
  {
   "id": "liu-henry",
   "name": "Dr. Henry Liu",
+  "legal": "Henry Yuheng Liu",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10926,6 +11175,7 @@
  {
   "id": "lloyd-john",
   "name": "Dr. John Lloyd",
+  "legal": "John Charles Lloyd",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -10973,6 +11223,7 @@
  {
   "id": "low-stephanie",
   "name": "Dr. Stephanie Low",
+  "legal": "Stephanie Alena Wong Low",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -11020,6 +11271,7 @@
  {
   "id": "lu-ying",
   "name": "Dr. Ying Lu",
+  "legal": "Ying Lu",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -11047,6 +11299,7 @@
  {
   "id": "lui-derek",
   "name": "Dr. Derek Lui",
+  "legal": "Derek Pok-Keung Lui",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11071,6 +11324,7 @@
  {
   "id": "lukasik-taylor",
   "name": "Dr. Taylor Lukasik",
+  "legal": "Taylor Henry William Lukasik",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11115,6 +11369,7 @@
  {
   "id": "lutchman-carla",
   "name": "Dr. Carla Lutchman",
+  "legal": "Carla Radica Lutchman",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -11152,6 +11407,7 @@
  {
   "id": "ma-joseph",
   "name": "Dr. Joseph Ma",
+  "legal": "Joseph Jee Keen Ma",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -11190,6 +11446,7 @@
  {
   "id": "maberley-david",
   "name": "Dr. David Maberley",
+  "legal": "David Alan Lambert Maberley",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -11244,6 +11501,7 @@
  {
   "id": "macdonald-alan",
   "name": "Dr. Alan MacDonald",
+  "legal": "Alan Lee MacDonald",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11268,6 +11526,7 @@
  {
   "id": "mah-jeffrey",
   "name": "Dr. Jeffrey Mah",
+  "legal": "Jeffrey Matthew Mah",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11292,6 +11551,7 @@
  {
   "id": "maini-rajiv",
   "name": "Dr. Rajiv Maini",
+  "legal": "Rajiv Maini",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11336,6 +11596,7 @@
  {
   "id": "mainville-norman",
   "name": "Dr. Norman Mainville",
+  "legal": "Norman Patrick Mainville",
   "focus": "Comprehensive, Oculoplastics & orbit",
   "subs": [
    "Comprehensive",
@@ -11384,11 +11645,15 @@
  {
   "id": "makar-abdel-messih-inas",
   "name": "Dr. Inas Makar Abdel Messih",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Inas Helmy Makar Abdel Messih",
+  "focus": "Pediatrics & strabismus",
+  "subs": [
+   "Pediatrics & strabismus"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=69288"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=69288",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html"
   ],
   "note": "",
   "cpso": "69288",
@@ -11408,6 +11673,7 @@
  {
   "id": "maleki-babak",
   "name": "Dr. Babak Maleki",
+  "legal": "Babak Maleki",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -11435,6 +11701,7 @@
  {
   "id": "mallipatna-ashwin",
   "name": "Dr. Ashwin Mallipatna",
+  "legal": "Ashwin Chandrasekhara Mallipatna",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -11462,6 +11729,7 @@
  {
   "id": "mandelcorn-efrem",
   "name": "Dr. Efrem Mandelcorn",
+  "legal": "Efrem Dov Mandelcorn",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -11509,6 +11777,7 @@
  {
   "id": "mandelcorn-mark",
   "name": "Dr. Mark Mandelcorn",
+  "legal": "Mark Samuel Mandelcorn",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -11556,6 +11825,7 @@
  {
   "id": "mandell-mark",
   "name": "Dr. Mark Mandell",
+  "legal": "Mark Aaron Mandell",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11590,6 +11860,7 @@
  {
   "id": "mann-keith",
   "name": "Dr. Keith Mann",
+  "legal": "Keith Douglas Mann",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11614,6 +11885,7 @@
  {
   "id": "margolin-edward",
   "name": "Dr. Edward Margolin",
+  "legal": "Edward Arkadiy Margolin",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11648,6 +11920,7 @@
  {
   "id": "markowitz-samuel",
   "name": "Dr. Samuel Markowitz",
+  "legal": "Samuel Nahman Markowitz",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11751,6 +12024,7 @@
  {
   "id": "martin-james",
   "name": "Dr. James Martin",
+  "legal": "James Andrew Martin",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -11817,6 +12091,7 @@
  {
   "id": "mather-rookaya",
   "name": "Dr. Rookaya Mather",
+  "legal": "Rookaya Mather",
   "focus": "Cornea & external disease, Uveitis",
   "subs": [
    "Cornea & external disease",
@@ -11845,6 +12120,7 @@
  {
   "id": "mathew-benjamin",
   "name": "Dr. Benjamin Mathew",
+  "legal": "Benjamin Mathew",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11869,6 +12145,7 @@
  {
   "id": "mathew-david",
   "name": "Dr. David Mathew",
+  "legal": "David Jose Mathew",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -11926,6 +12203,7 @@
  {
   "id": "mcalister-chryssa",
   "name": "Dr. Chryssa McAlister",
+  "legal": "Chryssa Nuala Gabriella McAlister",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -11953,6 +12231,7 @@
  {
   "id": "mccuaig-bradley",
   "name": "Dr. Bradley McCuaig",
+  "legal": "Bradley Michael McCuaig",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -11980,6 +12259,7 @@
  {
   "id": "mcdonald-heather",
   "name": "Dr. Heather McDonald",
+  "legal": "Heather Margaret McDonald",
   "focus": "Neuro-ophthalmology, Comprehensive",
   "subs": [
    "Neuro-ophthalmology",
@@ -12018,6 +12298,7 @@
  {
   "id": "mcdonald-hector",
   "name": "Dr. Hector McDonald",
+  "legal": "Hector McDonald",
   "focus": "Oculoplastics & orbit, Comprehensive",
   "subs": [
    "Oculoplastics & orbit",
@@ -12047,6 +12328,7 @@
  {
   "id": "mcdonald-john",
   "name": "Dr. John McDonald",
+  "legal": "John Christopher McDonald",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12071,6 +12353,7 @@
  {
   "id": "mcgillivray-daniel",
   "name": "Dr. Daniel McGillivray",
+  "legal": "Daniel Lachlan McGillivray",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -12098,6 +12381,7 @@
  {
   "id": "mcgowan-hugh",
   "name": "Dr. Hugh McGowan",
+  "legal": "Hugh Douglas McGowan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12132,6 +12416,7 @@
  {
   "id": "mcguire-kwesi",
   "name": "Dr. Kwesi McGuire",
+  "legal": "Kwesi Chidi McGuire",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12183,6 +12468,7 @@
  {
   "id": "mcinnis-rachel",
   "name": "Dr. Rachel Mcinnis",
+  "legal": "Rachel Lang Mcinnis",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12227,6 +12513,7 @@
  {
   "id": "mclaughlin-christopher",
   "name": "Dr. Christopher McLaughlin",
+  "legal": "Christopher Ryan McLaughlin",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -12253,12 +12540,16 @@
  },
  {
   "id": "mclaughlin-john",
-  "name": "Dr. John McLaughlin",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Adam McLaughlin",
+  "legal": "John Adam McLaughlin",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=103953"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=103953",
+   "https://www.uottawa.ca/faculty-medicine/ophthalmology/overview/faculty-members-and-roles"
   ],
   "note": "",
   "cpso": "103953",
@@ -12288,6 +12579,7 @@
  {
   "id": "mcmahon-robert",
   "name": "Dr. Robert McMahon",
+  "legal": "Robert George McMahon",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12312,6 +12604,7 @@
  {
   "id": "mcreelis-kylen",
   "name": "Dr. Kylen McReelis",
+  "legal": "Kylen Darby McReelis",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -12349,6 +12642,7 @@
  {
   "id": "meda-oksana",
   "name": "Dr. Oksana Meda",
+  "legal": "Oksana Meda",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12383,6 +12677,7 @@
  {
   "id": "mednick-zale",
   "name": "Dr. Zale Mednick",
+  "legal": "Zale David Mednick",
   "focus": "Cornea & external disease",
   "subs": [
    "Cornea & external disease"
@@ -12433,6 +12728,7 @@
  {
   "id": "mercer-gareth",
   "name": "Dr. Gareth Mercer",
+  "legal": "Gareth David Mercer",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12510,6 +12806,7 @@
  {
   "id": "michaelov-evan",
   "name": "Dr. Evan Michaelov",
+  "legal": "Evan Aaron Michaelov",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12564,6 +12861,7 @@
  {
   "id": "micieli-jonathan",
   "name": "Dr. Jonathan Micieli",
+  "legal": "Jonathan Andrew Micieli",
   "focus": "Neuro-ophthalmology",
   "subs": [
    "Neuro-ophthalmology"
@@ -12611,6 +12909,7 @@
  {
   "id": "mikhail-mikel",
   "name": "Dr. Mikel Mikhail",
+  "legal": "Mikel Mikhail",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12684,6 +12983,7 @@
  {
   "id": "miller-michael",
   "name": "Dr. Michael Miller",
+  "legal": "Michael Miller",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12708,6 +13008,7 @@
  {
   "id": "mills-michael",
   "name": "Dr. Michael Mills",
+  "legal": "Michael David Mills",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12742,6 +13043,7 @@
  {
   "id": "mintsioulis-george",
   "name": "Dr. George Mintsioulis",
+  "legal": "George Mintsioulis",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12766,6 +13068,7 @@
  {
   "id": "mireskandari-kamiar",
   "name": "Dr. Kamiar Mireskandari",
+  "legal": "Kamiar Mireskandari",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12790,6 +13093,7 @@
  {
   "id": "misra-manjula",
   "name": "Dr. Manjula Misra",
+  "legal": "Manjula Misra",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12844,6 +13148,7 @@
  {
   "id": "modabber-milad",
   "name": "Dr. Milad Modabber",
+  "legal": "Milad Modabber",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -12868,6 +13173,7 @@
  {
   "id": "mohammad-syed",
   "name": "Dr. Syed Mohammad",
+  "legal": "Syed Mohammad",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -12905,6 +13211,7 @@
  {
   "id": "moinul-prima",
   "name": "Dr. Prima Moinul",
+  "legal": "Prima Moinul",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -12942,15 +13249,14 @@
  {
   "id": "mollan-susan",
   "name": "Dr. Susan Mollan",
-  "focus": "Neuro-ophthalmology, Oculoplastics & orbit",
+  "legal": "Susan Patricia Mollan",
+  "focus": "Neuro-ophthalmology",
   "subs": [
-   "Neuro-ophthalmology",
-   "Oculoplastics & orbit"
+   "Neuro-ophthalmology"
   ],
   "tier": "",
   "sources": [
    "https://register.cpso.on.ca/physician-info/?cpsonum=273151",
-   "https://ophthalmology.queensu.ca/clinic/referrals",
    "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
@@ -12971,6 +13277,7 @@
  {
   "id": "mostofian-fargol",
   "name": "Dr. Fargol Mostofian",
+  "legal": "Fargol Mostofian",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13065,6 +13372,7 @@
  {
   "id": "moti-farah",
   "name": "Dr. Farah Moti",
+  "legal": "Farah Razack Moti",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -13112,6 +13420,7 @@
  {
   "id": "motolko-michael",
   "name": "Dr. Michael Motolko",
+  "legal": "Michael Motolko",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13185,6 +13494,7 @@
  {
   "id": "mullen-sarah",
   "name": "Dr. Sarah Mullen",
+  "legal": "Sarah Jane Mullen",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -13212,6 +13522,7 @@
  {
   "id": "muni-rajeev",
   "name": "Dr. Rajeev Muni",
+  "legal": "Rajeev Hemant Muni",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13266,6 +13577,7 @@
  {
   "id": "munro-shane",
   "name": "Dr. Shane Munro",
+  "legal": "Shane Matthew Munro",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -13293,6 +13605,7 @@
  {
   "id": "musewe-toylin",
   "name": "Dr. Toylin Musewe",
+  "legal": "Toylin Kudzai Musewe",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13376,6 +13689,7 @@
  {
   "id": "najm-tehrani-nasrin",
   "name": "Dr. Nasrin Najm-Tehrani",
+  "legal": "Nasrin Najm-Tehrani",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13400,6 +13714,7 @@
  {
   "id": "nassrallah-georges",
   "name": "Dr. Georges Nassrallah",
+  "legal": "Georges Bassam Nassrallah",
   "focus": "Pediatrics & strabismus, Oculoplastics & orbit",
   "subs": [
    "Pediatrics & strabismus",
@@ -13449,6 +13764,7 @@
  {
   "id": "nazemi-fariba",
   "name": "Dr. Fariba Nazemi",
+  "legal": "Fariba Nazemi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13503,6 +13819,7 @@
  {
   "id": "neufeld-mark",
   "name": "Dr. Mark Neufeld",
+  "legal": "Mark Victor Neufeld",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -13530,6 +13847,7 @@
  {
   "id": "ng-anita",
   "name": "Dr. Anita Ng",
+  "legal": "Anita Sin Yee Ng",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -13580,6 +13898,7 @@
  {
   "id": "nguyen-michael",
   "name": "Dr. Michael Nguyen",
+  "legal": "Michael Thai Binh Nguyen",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13614,6 +13933,7 @@
  {
   "id": "nia-keon",
   "name": "Dr. Keon Nia",
+  "legal": "Keon Motamedi Nia",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13688,6 +14008,7 @@
  {
   "id": "nianiaris-nicholas",
   "name": "Dr. Nicholas Nianiaris",
+  "legal": "Nicholas Nianiaris",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13732,6 +14053,7 @@
  {
   "id": "nichani-prem",
   "name": "Dr. Prem Nichani",
+  "legal": "Prem Anil H. Nichani",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13756,6 +14078,7 @@
  {
   "id": "nichols-bruce",
   "name": "Dr. Bruce Nichols",
+  "legal": "Bruce David Nichols",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13780,6 +14103,7 @@
  {
   "id": "nido-monica",
   "name": "Dr. Monica Nido",
+  "legal": "Monica Daibert Nido",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13804,6 +14128,7 @@
  {
   "id": "nijhawan-navdeep",
   "name": "Dr. Navdeep Nijhawan",
+  "legal": "Navdeep Nijhawan",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -13841,6 +14166,7 @@
  {
   "id": "nithianandan-harrish",
   "name": "Dr. Harrish Nithianandan",
+  "legal": "Harrish Nithianandan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -13945,6 +14271,7 @@
  {
   "id": "nixon-donald",
   "name": "Dr. Donald Nixon",
+  "legal": "Donald Ray Nixon",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -13972,6 +14299,7 @@
  {
   "id": "noble-jason",
   "name": "Dr. Jason Noble",
+  "legal": "Jason Noble",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -14019,6 +14347,7 @@
  {
   "id": "nofal-nour",
   "name": "Dr. Nour Nofal",
+  "legal": "Nour Nofal",
   "focus": "Cornea & external disease",
   "subs": [
    "Cornea & external disease"
@@ -14076,6 +14405,7 @@
  {
   "id": "noordeh-nima",
   "name": "Dr. Nima Noordeh",
+  "legal": "Nima Noordeh",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14100,6 +14430,7 @@
  {
   "id": "o-connor-michael",
   "name": "Dr. Michael O'Connor",
+  "legal": "Michael David O'Connor",
   "focus": "Pediatrics & strabismus, Comprehensive",
   "subs": [
    "Pediatrics & strabismus",
@@ -14158,6 +14489,7 @@
  {
   "id": "odorcic-silvia",
   "name": "Dr. Silvia Odorcic",
+  "legal": "Silvia Odorcic",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14192,6 +14524,7 @@
  {
   "id": "okudolo-joseph",
   "name": "Dr. Joseph Okudolo",
+  "legal": "Joseph Oghenetega Okudolo",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14246,11 +14579,17 @@
  {
   "id": "oliver-fernandez-alejandro",
   "name": "Dr. Alejandro Oliver Fernandez",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Alejandro Oliver Fernandez",
+  "focus": "Comprehensive, Cataract & refractive, Retina",
+  "subs": [
+   "Comprehensive",
+   "Cataract & refractive",
+   "Retina"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=86738"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=86738",
+   "https://ophthalmology.queensu.ca/clinic/referrals"
   ],
   "note": "",
   "cpso": "86738",
@@ -14306,6 +14645,7 @@
  {
   "id": "onasanya-oluwadara",
   "name": "Dr. Oluwadara Onasanya",
+  "legal": "Oluwadara Emmanuel Onasanya",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14350,6 +14690,7 @@
  {
   "id": "orr-richard",
   "name": "Dr. Richard Orr",
+  "legal": "Richard James Orr",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14374,6 +14715,7 @@
  {
   "id": "park-jong",
   "name": "Dr. Jong Park",
+  "legal": "Jong Geol Park",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14397,12 +14739,16 @@
  },
  {
   "id": "park-sei-young",
-  "name": "Dr. Sei-Young Park",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. John Park",
+  "legal": "Sei-Young John Park",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=112072"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=112072",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html"
   ],
   "note": "",
   "cpso": "112072",
@@ -14422,6 +14768,7 @@
  {
   "id": "patodia-murari",
   "name": "Dr. Murari Patodia",
+  "legal": "Murari Lal Patodia",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -14449,6 +14796,7 @@
  {
   "id": "patodia-yogesh",
   "name": "Dr. Yogesh Patodia",
+  "legal": "Yogesh Patodia",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -14566,6 +14914,7 @@
  {
   "id": "peng-si-liang",
   "name": "Dr. Si-Liang Peng",
+  "legal": "Si-Liang Peng",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14633,6 +14982,7 @@
  {
   "id": "pesin-nataly",
   "name": "Dr. Nataly Pesin",
+  "legal": "Nataly Pesin",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -14670,6 +15020,7 @@
  {
   "id": "piedra-randall",
   "name": "Dr. Randall Piedra",
+  "legal": "Randall Ulate Piedra",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14724,6 +15075,7 @@
  {
   "id": "pinto-ashlyn",
   "name": "Dr. Ashlyn Pinto",
+  "legal": "Ashlyn Marie Pinto",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -14771,6 +15123,7 @@
  {
   "id": "pirbhai-adnan",
   "name": "Dr. Adnan Pirbhai",
+  "legal": "Adnan Pirbhai",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14795,6 +15148,7 @@
  {
   "id": "plemel-david",
   "name": "Dr. David Plemel",
+  "legal": "David James Albert Plemel",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -14902,6 +15256,7 @@
  {
   "id": "poirier-marie-eve",
   "name": "Dr. Marie-Eve Poirier",
+  "legal": "Marie-Eve Poirier",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -14976,6 +15331,7 @@
  {
   "id": "poleski-steven",
   "name": "Dr. Steven Poleski",
+  "legal": "Steven Allan Poleski",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -15004,6 +15360,7 @@
  {
   "id": "proulx-alain",
   "name": "Dr. Alain Proulx",
+  "legal": "Alain Arthur Proulx",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -15054,6 +15411,7 @@
  {
   "id": "qian-jenny",
   "name": "Dr. Jenny Qian",
+  "legal": "Jenny Qian",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15138,6 +15496,7 @@
  {
   "id": "quinn-matthew",
   "name": "Dr. Matthew Quinn",
+  "legal": "Matthew Patrick Quinn",
   "focus": "Cataract & refractive, Pediatrics & strabismus, Neuro-ophthalmology",
   "subs": [
    "Cataract & refractive",
@@ -15168,6 +15527,7 @@
  {
   "id": "rabinovitch-theodore",
   "name": "Dr. Theodore Rabinovitch",
+  "legal": "Theodore Rabinovitch",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -15195,6 +15555,7 @@
  {
   "id": "rahat-feisal",
   "name": "Dr. Feisal Rahat",
+  "legal": "Feisal Rahat",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -15262,6 +15623,7 @@
  {
   "id": "rai-amandeep",
   "name": "Dr. Amandeep Rai",
+  "legal": "Amandeep Singh Rai",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15306,6 +15668,7 @@
  {
   "id": "rai-amrit",
   "name": "Dr. Amrit Rai",
+  "legal": "Amrit Singh Rai",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15340,6 +15703,7 @@
  {
   "id": "rana-sidra",
   "name": "Dr. Sidra Rana",
+  "legal": "Sidra Anwar Rana",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15385,13 +15749,15 @@
    }
   ],
   "subs": [
-   "Glaucoma"
+   "Glaucoma",
+   "Comprehensive"
   ],
   "cpso": "78231"
  },
  {
   "id": "rastikerdar-elham",
   "name": "Dr. Elham Rastikerdar",
+  "legal": "Elham Rastikerdar",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15446,6 +15812,7 @@
  {
   "id": "rathee-rajinder",
   "name": "Dr. Rajinder Rathee",
+  "legal": "Rajinder Singh Rathee",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15480,6 +15847,7 @@
  {
   "id": "rayat-jaspreet",
   "name": "Dr. Jaspreet Rayat",
+  "legal": "Jaspreet Singh Rayat",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15504,6 +15872,7 @@
  {
   "id": "reginald-arunun",
   "name": "Dr. Arunun Reginald",
+  "legal": "Arunun Yohann Reginald",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15584,6 +15953,7 @@
  {
   "id": "rhemtulla-el-karim",
   "name": "Dr. El-Karim Rhemtulla",
+  "legal": "El-Karim Fatehali Jaffer Rhemtulla",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15608,11 +15978,16 @@
  {
   "id": "ribeiro-juncal-verena",
   "name": "Dr. Verena Ribeiro Juncal",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Verena Ribeiro Juncal",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=112361"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=112361",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "112361",
@@ -15632,6 +16007,7 @@
  {
   "id": "ro-athanasius",
   "name": "Dr. Athanasius Ro",
+  "legal": "Athanasius Sang-Ki Ro",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15682,6 +16058,7 @@
  {
   "id": "rodriguez-amadeo",
   "name": "Dr. Amadeo Rodriguez",
+  "legal": "Amadeo Raul Rodriguez",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15706,6 +16083,7 @@
  {
   "id": "rodriguez-sylvia",
   "name": "Dr. Sylvia Rodriguez",
+  "legal": "Sylvia Louise Rodriguez",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15740,6 +16118,7 @@
  {
   "id": "rootman-david",
   "name": "Dr. David Rootman",
+  "legal": "David Samuel Rootman",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -15778,6 +16157,7 @@
  {
   "id": "rosenstock-ted",
   "name": "Dr. Ted Rosenstock",
+  "legal": "Ted Gary Rosenstock",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15802,6 +16182,7 @@
  {
   "id": "ross-ella",
   "name": "Dr. Ella Ross",
+  "legal": "Ella Anna Ross",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -15860,6 +16241,7 @@
  {
   "id": "roy-mili",
   "name": "Dr. Mili Roy",
+  "legal": "Mili Roy",
   "focus": "Uveitis",
   "subs": [
    "Uveitis"
@@ -15887,6 +16269,7 @@
  {
   "id": "rullo-jacob",
   "name": "Dr. Jacob Rullo",
+  "legal": "Jacob Rullo",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -15921,6 +16304,7 @@
  {
   "id": "rutherford-susan",
   "name": "Dr. Susan Rutherford",
+  "legal": "Susan Mildred Rutherford",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -15948,6 +16332,7 @@
  {
   "id": "sabeti-saama",
   "name": "Dr. Saama Sabeti",
+  "legal": "Saama Sabeti",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",
@@ -16006,6 +16391,7 @@
  {
   "id": "sabri-kourosh",
   "name": "Dr. Kourosh Sabri",
+  "legal": "Kourosh Sabri",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16030,6 +16416,7 @@
  {
   "id": "safi-sohail",
   "name": "Dr. Sohail Safi",
+  "legal": "Sohail Safi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16081,6 +16468,7 @@
  {
   "id": "sahebghalam-ramin",
   "name": "Dr. Ramin Sahebghalam",
+  "legal": "Ramin Sahebghalam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16115,6 +16503,7 @@
  {
   "id": "sakamoto-terence",
   "name": "Dr. Terence Sakamoto",
+  "legal": "Terence Keith Sakamoto",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16139,6 +16528,7 @@
  {
   "id": "saleh-solin",
   "name": "Dr. Solin Saleh",
+  "legal": "Solin Saleh",
   "focus": "Pediatrics & strabismus, Comprehensive",
   "subs": [
    "Pediatrics & strabismus",
@@ -16188,6 +16578,7 @@
  {
   "id": "salyani-mohamed",
   "name": "Dr. Mohamed Salyani",
+  "legal": "Mohamed Asif Salyani",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16232,6 +16623,7 @@
  {
   "id": "samet-adam",
   "name": "Dr. Adam Samet",
+  "legal": "Adam Samet",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16256,6 +16648,7 @@
  {
   "id": "samet-saba",
   "name": "Dr. Saba Samet",
+  "legal": "Saba Samet",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16303,6 +16696,7 @@
  {
   "id": "sanghera-gurinder",
   "name": "Dr. Gurinder Sanghera",
+  "legal": "Gurinder Paul Sanghera",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16337,6 +16731,7 @@
  {
   "id": "sayuchchiyadevan-ganeshan",
   "name": "Dr. Ganeshan Sayuchchiyadevan",
+  "legal": "Ganeshan Sayuchchiyadevan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16361,6 +16756,7 @@
  {
   "id": "scanlan-daniel",
   "name": "Dr. Daniel Scanlan",
+  "legal": "Daniel Todd Scanlan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16454,6 +16850,7 @@
  {
   "id": "schulz-david",
   "name": "Dr. David Schulz",
+  "legal": "David Christian Nocent Schulz",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -16527,6 +16924,7 @@
  {
   "id": "seif-gamal",
   "name": "Dr. Gamal Seif",
+  "legal": "Gamal Seif",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16551,6 +16949,7 @@
  {
   "id": "seto-raymond",
   "name": "Dr. Raymond Seto",
+  "legal": "Raymond James Seto",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16585,6 +16984,7 @@
  {
   "id": "seyedian-mohammad",
   "name": "Dr. Mohammad Seyedian",
+  "legal": "Mohammad Amin Seyedian",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16655,6 +17055,7 @@
  {
   "id": "sharan-sapna",
   "name": "Dr. Sapna Sharan",
+  "legal": "Sapna Sharan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16689,6 +17090,7 @@
  {
   "id": "sharda-rajeshvar",
   "name": "Dr. Rajeshvar Sharda",
+  "legal": "Rajeshvar Kumar Sharda",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -16766,6 +17168,7 @@
  {
   "id": "sharma-rahul",
   "name": "Dr. Rahul Sharma",
+  "legal": "Rahul Assa Sharma",
   "focus": "Neuro-ophthalmology",
   "subs": [
    "Neuro-ophthalmology"
@@ -16793,11 +17196,15 @@
  {
   "id": "sharma-sanjay",
   "name": "Dr. Sanjay Sharma",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "legal": "Sanjay Sharma",
+  "focus": "Retina",
+  "subs": [
+   "Retina"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=64253"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=64253",
+   "https://ophthalmology.queensu.ca/clinic/referrals"
   ],
   "note": "",
   "cpso": "64253",
@@ -16856,6 +17263,7 @@
  {
   "id": "sheidow-thomas",
   "name": "Dr. Thomas Sheidow",
+  "legal": "Thomas Gordon Sheidow",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16880,6 +17288,7 @@
  {
   "id": "sheikh-amber",
   "name": "Dr. Amber Sheikh",
+  "legal": "Amber Zia Sheikh",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16904,6 +17313,7 @@
  {
   "id": "shen-carl",
   "name": "Dr. Carl Shen",
+  "legal": "Carl Shen",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -16941,6 +17351,7 @@
  {
   "id": "sherif-hesham",
   "name": "Dr. Hesham Sherif",
+  "legal": "Hesham A Sherif",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16965,6 +17376,7 @@
  {
   "id": "shin-john",
   "name": "Dr. John Shin",
+  "legal": "John Hyunsik Shin",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -16989,6 +17401,7 @@
  {
   "id": "shoughary-ali",
   "name": "Dr. Ali Shoughary",
+  "legal": "Ali Toufic Shoughary",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -17016,6 +17429,7 @@
  {
   "id": "sidiqi-ahmad",
   "name": "Dr. Ahmad Sidiqi",
+  "legal": "Ahmad Mohammad Sidiqi",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17040,6 +17454,7 @@
  {
   "id": "sigesmund-dayle",
   "name": "Dr. Dayle Sigesmund",
+  "legal": "Dayle Anne Sigesmund",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17148,12 +17563,16 @@
  },
  {
   "id": "simpson-ernest",
-  "name": "Dr. Ernest Simpson",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Rand Simpson",
+  "legal": "Ernest Rand Simpson",
+  "focus": "Ocular oncology",
+  "subs": [
+   "Ocular oncology"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=23348"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=23348",
+   "https://ophthalmology.utoronto.ca/faculty/rand-simpson"
   ],
   "note": "",
   "cpso": "23348",
@@ -17183,13 +17602,12 @@
  {
   "id": "simpson-sarah",
   "name": "Dr. Sarah Simpson",
-  "focus": "Oculoplastics & orbit, Uveitis, Comprehensive, Cataract & refractive, Retina",
+  "legal": "Sarah Marie Simpson",
+  "focus": "Oculoplastics & orbit, Comprehensive, Cataract & refractive",
   "subs": [
    "Oculoplastics & orbit",
-   "Uveitis",
    "Comprehensive",
-   "Cataract & refractive",
-   "Retina"
+   "Cataract & refractive"
   ],
   "tier": "",
   "sources": [
@@ -17214,6 +17632,7 @@
  {
   "id": "singal-neera",
   "name": "Dr. Neera Singal",
+  "legal": "Neera Singal",
   "focus": "Cornea & external disease",
   "subs": [
    "Cornea & external disease"
@@ -17241,6 +17660,7 @@
  {
   "id": "singer-robert",
   "name": "Dr. Robert Singer",
+  "legal": "Robert Harry Singer",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17293,6 +17713,7 @@
  {
   "id": "sit-marisa",
   "name": "Dr. Marisa Sit",
+  "legal": "Marisa Sit",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -17320,6 +17741,7 @@
  {
   "id": "sivachandran-nirojini",
   "name": "Dr. Nirojini Sivachandran",
+  "legal": "Nirojini Sivachandran",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -17347,6 +17769,7 @@
  {
   "id": "sivakumar-gayathri",
   "name": "Dr. Gayathri Sivakumar",
+  "legal": "Gayathri Kunnathur Sivakumar",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -17374,6 +17797,7 @@
  {
   "id": "sivakumar-saraswati",
   "name": "Dr. Saraswati Sivakumar",
+  "legal": "Saraswati Sivakumar",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -17401,6 +17825,7 @@
  {
   "id": "skouras-nicholas",
   "name": "Dr. Nicholas Skouras",
+  "legal": "Nicholas Skouras",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17425,6 +17850,7 @@
  {
   "id": "slomovic-allan",
   "name": "Dr. Allan Slomovic",
+  "legal": "Allan Raymond Slomovic",
   "focus": "Cornea & external disease",
   "subs": [
    "Cornea & external disease"
@@ -17462,6 +17888,7 @@
  {
   "id": "smith-david",
   "name": "Dr. David Smith",
+  "legal": "David Royce Smith",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17506,6 +17933,7 @@
  {
   "id": "smith-dean",
   "name": "Dr. Dean Smith",
+  "legal": "Dean Alexander Smith",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17568,6 +17996,7 @@
  {
   "id": "somani-sohel",
   "name": "Dr. Sohel Somani",
+  "legal": "Sohel Somani",
   "focus": "Retina, Cataract & refractive",
   "subs": [
    "Retina",
@@ -17616,6 +18045,7 @@
  {
   "id": "spencer-john",
   "name": "Dr. John Spencer",
+  "legal": "John Alan Spencer",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17640,6 +18070,7 @@
  {
   "id": "squires-william",
   "name": "Dr. William Squires",
+  "legal": "William Gordon Davies Squires",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17664,6 +18095,7 @@
  {
   "id": "stein-raymond",
   "name": "Dr. Raymond Stein",
+  "legal": "Raymond Mark Stein",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17698,6 +18130,7 @@
  {
   "id": "stein-rebecca",
   "name": "Dr. Rebecca Stein",
+  "legal": "Rebecca Leah Stein",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -17725,6 +18158,7 @@
  {
   "id": "stevens-samuel",
   "name": "Dr. Samuel Stevens",
+  "legal": "Samuel Darwin Stevens",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17749,6 +18183,7 @@
  {
   "id": "stippa-nigel",
   "name": "Dr. Nigel Stippa",
+  "legal": "Nigel Alastair Stippa",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17773,6 +18208,7 @@
  {
   "id": "strube-yi",
   "name": "Dr. Yi Strube",
+  "legal": "Yi Ning Johanna Strube",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -17800,6 +18236,7 @@
  {
   "id": "suess-christine",
   "name": "Dr. Christine Suess",
+  "legal": "Christine Josephine Suess",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17903,6 +18340,7 @@
  {
   "id": "sze-amy",
   "name": "Dr. Amy Sze",
+  "legal": "Amy Meiling Sze",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -17927,6 +18365,7 @@
  {
   "id": "taheri-shirazi-maryam",
   "name": "Dr. Maryam Taheri-Shirazi",
+  "legal": "Maryam Taheri-Shirazi",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -17984,6 +18423,7 @@
  {
   "id": "takhar-jaskirat",
   "name": "Dr. Jaskirat Takhar",
+  "legal": "Jaskirat Singh Takhar",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -18037,6 +18477,7 @@
  {
   "id": "tam-alex",
   "name": "Dr. Alex Tam",
+  "legal": "Alex Lai Chi Tam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18061,6 +18502,7 @@
  {
   "id": "tam-diamond",
   "name": "Dr. Diamond Tam",
+  "legal": "Diamond Yat Fai Tam",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18085,6 +18527,7 @@
  {
   "id": "tam-eric",
   "name": "Dr. Eric Tam",
+  "legal": "Eric Siu Lung Tam",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -18152,6 +18595,7 @@
  {
   "id": "tang-tina",
   "name": "Dr. Tina Tang",
+  "legal": "Tina Xinshuo Tang",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18176,6 +18620,7 @@
  {
   "id": "tanzer-herbert",
   "name": "Dr. Herbert Tanzer",
+  "legal": "Herbert Tanzer",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18200,6 +18645,7 @@
  {
   "id": "tayfour-fouad",
   "name": "Dr. Fouad Tayfour",
+  "legal": "Fouad Tayfour",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18234,6 +18680,7 @@
  {
   "id": "teal-patricia",
   "name": "Dr. Patricia Teal",
+  "legal": "Patricia Kathleen Teal",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18258,6 +18705,7 @@
  {
   "id": "teboul-nathalie",
   "name": "Dr. Nathalie Teboul",
+  "legal": "Nathalie Teboul",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -18285,6 +18733,7 @@
  {
   "id": "teichman-joshua",
   "name": "Dr. Joshua Teichman",
+  "legal": "Joshua Cary Teichman",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18339,6 +18788,7 @@
  {
   "id": "ten-hove-martin",
   "name": "Dr. Martin Ten Hove",
+  "legal": "Martin William Ten Hove",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18396,6 +18846,7 @@
  {
   "id": "thomsen-john",
   "name": "Dr. John Thomsen",
+  "legal": "John Eric Thomsen",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18420,6 +18871,7 @@
  {
   "id": "thorpe-john",
   "name": "Dr. John Thorpe",
+  "legal": "John Bruce Thorpe",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18498,6 +18950,7 @@
  {
   "id": "tone-stephan",
   "name": "Dr. Stephan Tone",
+  "legal": "Stephan Ong Tone",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18521,12 +18974,17 @@
  },
  {
   "id": "tong-christine",
-  "name": "Dr. Christine Tong",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Maya Tong",
+  "legal": "Christine Maya Tong",
+  "focus": "Cornea & external disease",
+  "subs": [
+   "Cornea & external disease"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=140717"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=140717",
+   "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html",
+   "https://cos.imiscloud.com/COS_Member_Portal/COS-Member-Portal/Find-an-Ophthalmologist.aspx"
   ],
   "note": "",
   "cpso": "140717",
@@ -18546,6 +19004,7 @@
  {
   "id": "tong-lili",
   "name": "Dr. Lili Tong",
+  "legal": "Lili Tong",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18570,6 +19029,7 @@
  {
   "id": "tong-melissa",
   "name": "Dr. Melissa Tong",
+  "legal": "Melissa Gar Yun Tong",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18604,6 +19064,7 @@
  {
   "id": "trang-nataly",
   "name": "Dr. Nataly Trang",
+  "legal": "Nataly Trang",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18628,6 +19089,7 @@
  {
   "id": "tsang-adrian",
   "name": "Dr. Adrian Tsang",
+  "legal": "Adrian Chiu Kein Tsang",
   "focus": "Cataract & refractive, Uveitis, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -18657,6 +19119,7 @@
  {
   "id": "tucker-nancy",
   "name": "Dr. Nancy Tucker",
+  "legal": "Nancy Audrey Tucker",
   "focus": "Oculoplastics & orbit, Ocular oncology",
   "subs": [
    "Oculoplastics & orbit",
@@ -18686,6 +19149,7 @@
  {
   "id": "tuli-raman",
   "name": "Dr. Raman Tuli",
+  "legal": "Raman Tuli",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -18714,12 +19178,12 @@
  {
   "id": "urton-todd",
   "name": "Dr. Todd Urton",
-  "focus": "Uveitis, Comprehensive, Cataract & refractive, Retina",
+  "legal": "Todd Elliott Urton",
+  "focus": "Uveitis, Comprehensive, Cataract & refractive",
   "subs": [
    "Uveitis",
    "Comprehensive",
-   "Cataract & refractive",
-   "Retina"
+   "Cataract & refractive"
   ],
   "tier": "",
   "sources": [
@@ -18755,6 +19219,7 @@
  {
   "id": "utman-saqib",
   "name": "Dr. Saqib Utman",
+  "legal": "Saqib Ali Khan Utman",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18805,6 +19270,7 @@
  {
   "id": "vahdat-jamie",
   "name": "Dr. Jamie Vahdat",
+  "legal": "Jamie Homayoun Vahdat",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18839,6 +19305,7 @@
  {
   "id": "vanek-irene",
   "name": "Dr. Irene Vanek",
+  "legal": "Irene Vanek",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18902,6 +19369,7 @@
  {
   "id": "velos-pamela",
   "name": "Dr. Pamela Velos",
+  "legal": "Pamela Velos",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18926,6 +19394,7 @@
  {
   "id": "veluri-himabindu",
   "name": "Dr. Himabindu Veluri",
+  "legal": "Himabindu Veluri",
   "focus": "Cataract & refractive, Comprehensive",
   "subs": [
    "Cataract & refractive",
@@ -18954,6 +19423,7 @@
  {
   "id": "ventresca-mario",
   "name": "Dr. Mario Ventresca",
+  "legal": "Mario Robert Ventresca",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -18978,6 +19448,7 @@
  {
   "id": "vettese-antonio",
   "name": "Dr. Antonio Vettese",
+  "legal": "Antonio Vettese",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19002,6 +19473,7 @@
  {
   "id": "vincent-ajoy",
   "name": "Dr. Ajoy Vincent",
+  "legal": "Ajoy Vincent",
   "focus": "Pediatrics & strabismus",
   "subs": [
    "Pediatrics & strabismus"
@@ -19055,6 +19527,7 @@
  {
   "id": "walker-robin",
   "name": "Dr. Robin Walker",
+  "legal": "Robin Michael Cumnor Walker",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -19082,6 +19555,7 @@
  {
   "id": "wallerstein-avi",
   "name": "Dr. Avi Wallerstein",
+  "legal": "Avi Wallerstein",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -19119,6 +19593,7 @@
  {
   "id": "wan-michael",
   "name": "Dr. Michael Wan",
+  "legal": "Michael Jonathan Wan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19166,6 +19641,7 @@
  {
   "id": "wedge-charlotte",
   "name": "Dr. Charlotte Wedge",
+  "legal": "Charlotte Isabel Wedge",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19216,6 +19692,7 @@
  {
   "id": "weinstein-richard",
   "name": "Dr. Richard Weinstein",
+  "legal": "Richard Daryl Weinstein",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19250,6 +19727,7 @@
  {
   "id": "weinstock-david",
   "name": "Dr. David Weinstock",
+  "legal": "David Jacob Weinstock",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19274,6 +19752,7 @@
  {
   "id": "weinstock-victor",
   "name": "Dr. Victor Weinstock",
+  "legal": "Victor Moss Weinstock",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19308,6 +19787,7 @@
  {
   "id": "weisbrod-daniel",
   "name": "Dr. Daniel Weisbrod",
+  "legal": "Daniel Joshua Weisbrod",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19412,6 +19892,7 @@
  {
   "id": "weisbrod-lawrence",
   "name": "Dr. Lawrence Weisbrod",
+  "legal": "Lawrence Weisbrod",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -19469,6 +19950,7 @@
  {
   "id": "weiser-brent",
   "name": "Dr. Brent Weiser",
+  "legal": "Brent Alden Weiser",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19493,6 +19975,7 @@
  {
   "id": "weston-bonnie",
   "name": "Dr. Bonnie Weston",
+  "legal": "Bonnie Cynthia Weston",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -19520,6 +20003,7 @@
  {
   "id": "wilkinson-john",
   "name": "Dr. John Wilkinson",
+  "legal": "John William Wilkinson",
   "focus": "Cataract & refractive",
   "subs": [
    "Cataract & refractive"
@@ -19547,6 +20031,7 @@
  {
   "id": "williams-olayinka",
   "name": "Dr. Olayinka Williams",
+  "legal": "Olayinka Ann-Marie Williams",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19581,6 +20066,7 @@
  {
   "id": "wong-david",
   "name": "Dr. David Wong",
+  "legal": "David Tak Wah Wong",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -19628,6 +20114,7 @@
  {
   "id": "wong-kevin",
   "name": "Dr. Kevin Wong",
+  "legal": "Kevin Wong",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -19664,12 +20151,17 @@
  },
  {
   "id": "wong-ming",
-  "name": "Dr. Ming Wong",
-  "focus": "Ophthalmology",
-  "subs": [],
+  "name": "Dr. Agnes Wong",
+  "legal": "Ming Fong Agnes Wong",
+  "focus": "Pediatrics & strabismus, Neuro-ophthalmology",
+  "subs": [
+   "Pediatrics & strabismus",
+   "Neuro-ophthalmology"
+  ],
   "tier": "",
   "sources": [
-   "https://register.cpso.on.ca/physician-info/?cpsonum=67994"
+   "https://register.cpso.on.ca/physician-info/?cpsonum=67994",
+   "https://ophthalmology.utoronto.ca/faculty/agnes-wong"
   ],
   "note": "",
   "cpso": "67994",
@@ -19689,6 +20181,7 @@
  {
   "id": "woo-elaine",
   "name": "Dr. Elaine Woo",
+  "legal": "Elaine Kin Jen Woo",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19752,6 +20245,7 @@
  {
   "id": "wu-albert",
   "name": "Dr. Albert Wu",
+  "legal": "Albert Ya-Po Wu",
   "focus": "Oculoplastics & orbit",
   "subs": [
    "Oculoplastics & orbit"
@@ -19779,6 +20273,7 @@
  {
   "id": "xu-mark",
   "name": "Dr. Mark Xu",
+  "legal": "Mark Xu",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19861,6 +20356,7 @@
  {
   "id": "yan-peng",
   "name": "Dr. Peng Yan",
+  "legal": "Peng Yan",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19895,6 +20391,7 @@
  {
   "id": "yang-ye",
   "name": "Dr. Ye Yang",
+  "legal": "Ye Lin Yang",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19919,6 +20416,7 @@
  {
   "id": "yassein-hossam",
   "name": "Dr. Hossam Yassein",
+  "legal": "Hossam Yassein",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -19946,6 +20444,7 @@
  {
   "id": "yau-gary",
   "name": "Dr. Gary Yau",
+  "legal": "Gary Lloyd Ka Tao Yau",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -19980,6 +20479,7 @@
  {
   "id": "yepes-restrepo-natasha",
   "name": "Dr. Natasha Yepes Restrepo",
+  "legal": "Natasha Yepes Restrepo",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20004,6 +20504,7 @@
  {
   "id": "yeung-jacky",
   "name": "Dr. Jacky Yeung",
+  "legal": "Jacky Yat-Tung Yeung",
   "focus": "Glaucoma",
   "subs": [
    "Glaucoma"
@@ -20051,6 +20552,7 @@
  {
   "id": "yoganathan-pradeepa",
   "name": "Dr. Pradeepa Yoganathan",
+  "legal": "Pradeepa Yoganathan",
   "focus": "Retina",
   "subs": [
    "Retina"
@@ -20088,6 +20590,7 @@
  {
   "id": "you-jia",
   "name": "Dr. Jia You",
+  "legal": "Jia Yue You",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20135,6 +20638,7 @@
  {
   "id": "youssef-tarek",
   "name": "Dr. Tarek Youssef",
+  "legal": "Tarek Youssef",
   "focus": "Comprehensive",
   "subs": [
    "Comprehensive"
@@ -20162,6 +20666,7 @@
  {
   "id": "yu-weiyang",
   "name": "Dr. Weiyang Yu",
+  "legal": "Weiyang Yu",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20234,6 +20739,7 @@
  {
   "id": "zafar-aftab",
   "name": "Dr. Aftab Zafar",
+  "legal": "Aftab Zafar",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20304,6 +20810,7 @@
  {
   "id": "zaslavsky-kirill",
   "name": "Dr. Kirill Zaslavsky",
+  "legal": "Kirill Zaslavsky",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20328,6 +20835,7 @@
  {
   "id": "zhang-angela",
   "name": "Dr. Angela Zhang",
+  "legal": "Angela Qiao Zhang",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20352,6 +20860,7 @@
  {
   "id": "zhao-lei",
   "name": "Dr. Lei Zhao",
+  "legal": "Lei Di Zhao",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20386,6 +20895,7 @@
  {
   "id": "zhou-alysia",
   "name": "Dr. Alysia Zhou",
+  "legal": "Alysia Weijia Zhou",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20410,6 +20920,7 @@
  {
   "id": "zhou-tianwei",
   "name": "Dr. Tianwei Zhou",
+  "legal": "Tianwei Zhou",
   "focus": "Ophthalmology",
   "subs": [],
   "tier": "",
@@ -20434,6 +20945,7 @@
  {
   "id": "ziai-setareh",
   "name": "Dr. Setareh Ziai",
+  "legal": "Setareh Ziai",
   "focus": "Cornea & external disease, Cataract & refractive",
   "subs": [
    "Cornea & external disease",

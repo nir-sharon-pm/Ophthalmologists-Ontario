@@ -309,7 +309,7 @@ function sanitize(arr){
 }
 function km(a,b){const R=6371,r=Math.PI/180,dl=(b.lat-a.lat)*r,dg=(b.lng-a.lng)*r;const h=Math.sin(dl/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dg/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
 const subOk=d=>filterSub==="All"||subsOf(d).includes(filterSub);
-const nameOk=d=>!nameQuery||fold(d.name).includes(fold(nameQuery));
+const nameOk=d=>!nameQuery||nameHits(nameQuery).includes(d);
 function visibleDoctors(){return searchMode==="name"&&nameQuery?doctors.filter(nameOk):doctors.filter(subOk);}
 function locVisible(l){return filterCity==="All"||l.city===filterCity;}
 
@@ -524,7 +524,7 @@ const PC_RX=/\b[A-Z]\d[A-Z]\s?(\d[A-Z]\d)?\b/i;
 function nameHits(q){
   const toks=fold(q).replace(/\bdr\.?\s*/g," ").split(/[^a-z'-]+/).filter(w=>w.length>1);
   if(!toks.length)return [];
-  return doctors.filter(d=>{const n=fold(d.name);return toks.every(w=>n.includes(w));});
+  return doctors.filter(d=>{const n=fold(d.name+" "+(d.legal||""));return toks.every(w=>n.includes(w));});
 }
 function exactPlace(q){
   const s=norm(q).replace(/\b(ONTARIO|ON|QUEBEC|QC|CANADA)\b/g," ").replace(/\s+/g," ").trim();

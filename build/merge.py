@@ -119,8 +119,18 @@ for r in load(A.cos, []):
     last, _, first = r[12].partition(',')
     add_sub(keyof(first.strip(), last.strip()), [COS_MAP.get(r[0], '')], COS_URL)
 
+def sub_key(first, last):
+    """Match on any given name (many doctors go by a middle name), and on any part of a compound last name."""
+    lasts = [last] + [p for p in re.split(r'[\s-]+', last) if p and p != last]
+    for g in (first or '').split() or ['']:
+        for l in lasts:
+            k = keyof(g, l)
+            if k in SUBS:
+                return k, g
+    return keyof(first, last), ''
+
 def subs_for(first, last, extra=()):
-    k = keyof(first, last)
+    k, _ = sub_key(first, last)
     e = SUBS.get(k, {'subs': [], 'sources': []})
     ordered = []
     for s in list(extra) + e['subs']:
@@ -192,10 +202,13 @@ for cpso, det in details.items():
         out[d['id']] = d
         continue
     subs, ssrc = subs_for(first, last)
+    _, used = sub_key(first, last)
+    if used and first.split() and used != first.split()[0]:
+        display = f'Dr. {used} {last}'   # the name the doctor goes by in faculty/society listings
     did = slug(first, last)
     if did in out or did in curated:
         did += '-' + cpso
-    out[did] = dict(id=did, name=display, focus=', '.join(subs) if subs else 'Ophthalmology', subs=subs, tier='',
+    out[did] = dict(id=did, name=display, legal=f'{first} {last}', focus=', '.join(subs) if subs else 'Ophthalmology', subs=subs, tier='',
                     sources=[src] + ssrc[:2], note='', cpso=cpso, locations=locs)
 
 # curated entries not matched on the register (e.g. Québec) are kept as they are

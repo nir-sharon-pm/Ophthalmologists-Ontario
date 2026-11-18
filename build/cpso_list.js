@@ -1,7 +1,8 @@
 // List active ophthalmologists on the CPSO public register, city by city,
 // using the register's own search form (one search at a time, with pauses).
 // Usage: node build/cpso_list.js <cities.json> <out.json>
-// cities.json: array of city names exactly as in the register's City/Town list.
+// cities.json: array of city names exactly as in the register's City/Town list, and/or
+//   "last:<prefix>" entries to search by last-name prefix across all of Ontario.
 // Output: [{cpso, name, specialties, location, status, url, cities:[...]}]
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -43,7 +44,9 @@ async function readRows(p) {
         if (lang) { [...lang.options].forEach(o => { o.selected = false; }); lang.dispatchEvent(new Event('change', { bubbles: true })); }
         const lh = document.getElementById('languageSelectedHidden'); if (lh) lh.value = '';
         const s = document.getElementById('SpecialistType'); s.value = 'Ophthalmology';
-        const cd = document.getElementById('cityDropDown'); cd.value = c;
+        const cd = document.getElementById('cityDropDown');
+        if (c.startsWith('last:')) { cd.value = '-1'; f.querySelector('[name=lastName]').value = c.slice(5); }
+        else cd.value = c;
         [s, cd].forEach(x => x.dispatchEvent(new Event('change', { bubbles: true })));
         f.querySelector('button.search-button').click();
       }, city);
