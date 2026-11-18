@@ -663,7 +663,7 @@ function shareLinks(){
   app.setAttribute("aria-disabled",pn?"false":"true");
   $("#sharealt").classList.toggle("off",!pn);
   if(pn)$("#pneed").hidden=true;
-  shareCtx.text="To: "+to+"\nSubject: "+subject+"\n\n"+body;
+  shareCtx.text=body;
 }
 function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
