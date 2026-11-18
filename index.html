@@ -921,7 +921,7 @@ a{color:var(--accent)}
 </div>
 <div class="overlay share-dlg" id="share" hidden role="dialog" aria-modal="true" aria-labelledby="sharetitle" aria-describedby="sharesub">
   <div class="drawer">
-    <div class="row"><div><h2 id="sharetitle">Email to office for referral</h2><p class="share-sub" id="sharesub"></p></div><button class="xbtn" type="button" id="shareclose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
+    <div class="row"><div><h2 id="sharetitle">Email office for referral</h2><p class="share-sub" id="sharesub"></p></div><button class="xbtn" type="button" id="shareclose" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
     <div class="fld"><label for="pname">Patient name</label><input id="pname" autocomplete="off" maxlength="80" placeholder="e.g. Jane Doe" aria-describedby="pneed"><p class="share-need" id="pneed" role="alert" hidden>Enter the patient's name first.</p></div>
     <div class="share-actions">
       <a class="btn" id="sendapp" target="_blank" rel="noopener" aria-disabled="true" href="#">Send</a>
@@ -1332,7 +1332,7 @@ function openShare(id,lat,lng){
   const d=doctors.find(x=>x.id===id);if(!d)return;
   const l=d.locations.find(x=>Math.abs(x.lat-lat)<1e-6&&Math.abs(x.lng-lng)<1e-6)||d.locations[0];
   shareCtx={d,l};
-  $("#sharesub").textContent="Send "+d.name+"'s contact details to the office email, so staff can submit them a referral.";
+  $("#sharesub").innerHTML="Send <b>"+esc(d.name)+"</b>'s contact details to the office email, so staff can submit them a referral.";
   $("#shareto").textContent="Outlook opens a new email to the office ("+((SHARE&&SHARE.officeEmail)||"not set")+"). Check it, then press Send.";
   $("#pname").value="";$("#sharealt").classList.remove("hl");$("#sharedone").hidden=true;$("#sharedone").textContent="";shareLinks();
   $("#share").hidden=false;setTimeout(()=>$("#pname").focus(),50);
