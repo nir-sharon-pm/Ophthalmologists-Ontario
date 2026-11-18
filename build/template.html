@@ -155,6 +155,7 @@ a{color:var(--accent)}
 .noresult .sugs{display:flex;flex-wrap:wrap;gap:6px}
 .noresult .sug{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:5px 12px;font-size:13.5px;cursor:pointer;color:var(--ink)}
 .noresult .sug small{color:var(--muted);margin-left:4px}
+.noresult .sug.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
 .noresult .hint{margin:8px 0 0;font-size:12.5px;color:var(--muted)}
 .card .who{padding-right:40px}
 .infobtn{border:0;background:none;color:var(--muted);cursor:pointer;padding:2px;margin-left:auto;display:inline-grid;place-items:center;border-radius:50%}
@@ -316,8 +317,10 @@ function sanitize(arr){
 }
 function km(a,b){const R=6371,r=Math.PI/180,dl=(b.lat-a.lat)*r,dg=(b.lng-a.lng)*r;const h=Math.sin(dl/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dg/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
 const subOk=d=>filterSub==="All"||subsOf(d).includes(filterSub);
-const nameOk=d=>!nameQuery||nameHits(nameQuery).includes(d);
-function visibleDoctors(){return searchMode==="name"&&nameQuery?doctors.filter(nameOk):doctors.filter(subOk);}
+let nameSet=null;
+const nameOk=d=>!nameQuery||(nameSet?nameSet.has(d):nameHits(nameQuery).includes(d));
+const inFilters=d=>subOk(d)&&(filterCity==="All"||d.locations.some(locVisible));
+function visibleDoctors(){return searchMode==="name"&&nameQuery?doctors.filter(d=>nameOk(d)&&inFilters(d)):doctors.filter(subOk);}
 function locVisible(l){return filterCity==="All"||l.city===filterCity;}
 
 /* ---------- map ---------- */
@@ -454,7 +457,7 @@ function renderList(){
   if(searchMode==="name"&&nameQuery){
     const hits=visibleDoctors();
     const rows=[];hits.forEach(d=>{const ls=d.locations.filter(locVisible);(ls.length?ls:d.locations).forEach(l=>rows.push({d,l}));});
-    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. Name search covers every city and subspecialty${filterSub!=="All"&&hits.some(d=>!subsOf(d).includes(filterSub))?`, including doctors outside the ${esc(filterSub)} filter`:""}; clear the search to go back.</p></div>`;
+    head=`<div class="listhead"><h2>${hits.length} doctor${hits.length===1?"":"s"} matching “${esc(nameQuery)}”${rows.length>hits.length?` · ${rows.length} locations`:""}</h2><p class="sub">One card per location. ${filterLabel()?`Showing matches under the current filters (${esc(filterLabel())})`:"Showing matches in every city and subspecialty"}; clear the search to go back.</p></div>`;
     body=rows.slice(0,MAXCARDS).map(r=>card(r.d,r.l,0,null)).join("")||`<p class="msg">No doctor found. Check the spelling or try the last name only.</p>`;
   }else if(ranking){
     head=`<div class="listhead"><h2>Nearest to ${esc(patient.label)}</h2><p class="sub">${esc(filterSub==="All"?"All subspecialties":filterSub)} · straight-line distance. Top 3 are highlighted on the map.</p></div>`;
@@ -565,7 +568,9 @@ function showNoResult(q){
   el._sug=sug;el.hidden=false;$("#clear").hidden=false;
 }
 function hideNoResult(){const el=$("#noresult");el.hidden=true;el.innerHTML="";}
-$("#noresult").addEventListener("click",e=>{const b=e.target.closest("[data-sug]");if(!b)return;const s=$("#noresult")._sug[+b.dataset.sug];if(!s)return;$("#q").value=s.q;runSearch(s.q,true);});
+$("#noresult").addEventListener("click",e=>{
+  if(e.target.closest("#expandbtn")){const q=$("#noresult")._q;filterSub="All";filterCity="All";runName(q);addHistory("name",q,q);return;}
+  const b=e.target.closest("[data-sug]");if(!b)return;const s=$("#noresult")._sug[+b.dataset.sug];if(!s)return;$("#q").value=s.q;runSearch(s.q,true);});
 async function runLocation(q){
   geoMsg="";let g=geocode(q);
   if(!g){geoMsg="Looking up that place…";renderList();g=await askClaude(q);}
@@ -575,7 +580,19 @@ async function runLocation(q){
   return g;
 }
 let altHits=[];
-function runName(q){hideNoResult();altHits=[];searchMode="name";nameQuery=q;patient=null;ranking=null;geoMsg="";$("#clear").hidden=false;refresh();fitVisible();}
+function runName(q){
+  hideNoResult();altHits=[];
+  const all=nameHits(q), inside=all.filter(inFilters);
+  if(all.length&&!inside.length){showExpand(q,all);return;}
+  searchMode="name";nameQuery=q;nameSet=new Set(all);patient=null;ranking=null;geoMsg="";$("#clear").hidden=false;refresh();fitVisible();
+}
+function filterLabel(){return [filterSub!=="All"?filterSub:"",filterCity!=="All"?filterCity:""].filter(Boolean).join(" · ");}
+function showExpand(q,all){
+  const what=filterSub!=="All"&&filterCity!=="All"?"all subspecialties and cities":filterSub!=="All"?"all subspecialties":"all cities";
+  const el=$("#noresult");
+  el.innerHTML=`<p><b>No results for “${esc(q)}” under the current filters (${esc(filterLabel())}).</b> ${all.length} doctor${all.length>1?"s":""} with that name ${all.length>1?"are":"is"} listed elsewhere.</p><div class="sugs"><button type="button" class="sug primary" id="expandbtn">Expand search to ${esc(what)}</button></div>`;
+  el._q=q;el.hidden=false;$("#clear").hidden=false;
+}
 async function runSearch(q,record){
   q=String(q).trim();if(!q)return;
   const looksPostal=PC_RX.test(q)&&!/[a-z]{4,}/i.test(q.replace(PC_RX,""));
@@ -584,7 +601,7 @@ async function runSearch(q,record){
   if(looksPostal||/\d/.test(q)||exactPlace(q))kind="loc";
   else if(hits.length)kind="name";
   else kind="loc";
-  if(kind==="name"){runName(q);if(record)addHistory("name",q,q);return;}
+  if(kind==="name"){runName(q);if(record&&searchMode==="name"&&nameQuery===q)addHistory("name",q,q);return;}
   altHits=hits;
   const g=await runLocation(q);if(g&&record){const s=safeQuery(q,g);addHistory("loc",s.q,s.label);}
 }
@@ -598,7 +615,7 @@ function safeQuery(q,g){
   return {q:q,label:town};
 }
 $("#f").addEventListener("submit",e=>{e.preventDefault();runSearch($("#q").value,true);});
-$("#clear").addEventListener("click",()=>{hideNoResult();altHits=[];patient=null;ranking=null;nameQuery="";searchMode="loc";geoMsg="";$("#q").value="";$("#clear").hidden=true;refresh();map.flyToBounds(VIEW_ALL,{duration:.6});});
+$("#clear").addEventListener("click",()=>{hideNoResult();altHits=[];nameSet=null;patient=null;ranking=null;nameQuery="";searchMode="loc";geoMsg="";$("#q").value="";$("#clear").hidden=true;refresh();map.flyToBounds(VIEW_ALL,{duration:.6});});
 function fillLists(){
   const places=[...CITY_INDEX.values()].sort((a,b)=>b.n-a.n).slice(0,500).map(c=>titleCase(c.name)+", "+c.prov);
   const names=doctors.map(d=>d.name);
