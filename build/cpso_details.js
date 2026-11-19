@@ -57,6 +57,24 @@ async function worker(p, queue) {
       const hz = t.findIndex((l, i) => i > h && l.startsWith('Professional Corporation'));
       const priv = h >= 0 ? t.slice(h + 1, hz > h ? hz : h + 12).filter(l => !/No information/i.test(l)) : [];
       const st = t.find(l => /^(ACTIVE|INACTIVE)/.test(l)) || '';
+      // business addresses of the doctor's active professional corporation(s)
+      const corp = await p.evaluate(() => {
+        const out = [];
+        document.querySelectorAll('[id^=collapseProfCorp]').forEach(box => {
+          let sec = box.parentElement, txt = '';
+          for (let i = 0; i < 4 && sec; i++) { txt = sec.innerText || ''; if (/Certificate of Authorization/i.test(txt)) break; sec = sec.parentElement; }
+          if (/Status:\s*Inactive/i.test(txt)) return;
+          box.querySelectorAll('.scrp-businessaddress-row').forEach(r => {
+            const a = r.querySelector('.scrp-address-value'), ph = r.querySelector('.scrp-phone-value');
+            if (!a) return;
+            const lines = a.innerHTML.split(/<br\s*\/?>/i).map(s => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').trim()).filter(Boolean);
+            out.push({ address: lines, phone: ph ? ph.textContent.trim() : '', fax: '', email: '', corp: true });
+          });
+        });
+        const seen = new Set();
+        return out.filter(o => { const k = o.address.join('|'); if (seen.has(k)) return false; seen.add(k); return true; });
+      });
+      locs.push(...corp);
       out[d.cpso] = { cpso: d.cpso, name: d.name, locations: locs, privileges: priv, status: st, checked: Date.now() };
       console.error('ok', d.cpso, d.name, locs.length);
     } catch (e) {

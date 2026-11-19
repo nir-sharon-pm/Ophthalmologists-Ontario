@@ -182,6 +182,17 @@ for cpso, det in details.items():
         addr = ', '.join(x for x in [street, f'{city}, {prov} {pc}'.strip(', ')] if x)
         locs.append(dict(clinic=clinic, address=addr, city=city or '', lat=round(c[0], 5), lng=round(c[1], 5),
                          phone=phone_fmt(L.get('phone')), fax=phone_fmt(L.get('fax')), email=(L.get('email') or '').strip()))
+    # the same place often appears both as a practice location and as a corporation address:
+    # keep the first (practice entries come first and carry the fax)
+    seen_pc, uniq = set(), []
+    for l in locs:
+        m = re.search(PC_RX, l['address'].upper())
+        k = (m.group(1) + m.group(2)) if m else l['address']
+        if k in seen_pc:
+            continue
+        seen_pc.add(k)
+        uniq.append(l)
+    locs = uniq
     if not locs:
         continue
     cid = curated_match(first, last)
