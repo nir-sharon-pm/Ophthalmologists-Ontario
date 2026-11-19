@@ -146,15 +146,16 @@ for d in curated.values():
     if len(nm) >= 2:
         cur_by_key[keyof(nm[0], nm[-1])] = d['id']
 def curated_match(first, last):
-    k = keyof(first, last)
-    if k in cur_by_key:
-        return cur_by_key[k]
-    f = letters(first.split()[0] if first.split() else '')
     toks = [letters(t) for t in re.split(r'[\s-]+', last) if t]
-    for ck, cid in cur_by_key.items():
-        cl, cf = ck.split('|')
-        if cf == f and (cl in toks or cl == letters(last)):
-            return cid
+    for g in (first or '').split() or ['']:      # any given name: many doctors go by a middle name
+        k = keyof(g, last)
+        if k in cur_by_key:
+            return cur_by_key[k]
+        f = letters(g)
+        for ck, cid in cur_by_key.items():
+            cl, cf = ck.split('|')
+            if cf == f and (cl in toks or cl == letters(last)):
+                return cid
     return None
 
 out = {}
